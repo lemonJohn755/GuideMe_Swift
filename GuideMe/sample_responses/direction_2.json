@@ -1,0 +1,3089 @@
+{
+   "geocoded_waypoints" : 
+   [
+      {
+         "geocoder_status" : "OK",
+         "partial_match" : true,
+         "place_id" : "ChIJwxCJ3FwGBDQRjx7kuiVgka4",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "university"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "partial_match" : true,
+         "place_id" : "ChIJZYmgzdRXATQRShtMRW8ebNU",
+         "types" : 
+         [
+            "establishment",
+            "parking",
+            "point_of_interest"
+         ]
+      }
+   ],
+   "routes" : 
+   [
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 22.3797858,
+               "lng" : 114.2364818
+            },
+            "southwest" : 
+            {
+               "lat" : 22.26398,
+               "lng" : 114.0007344
+            }
+         },
+         "copyrights" : "Map data ©2023",
+         "legs" : 
+         [
+            {
+               "arrival_time" : 
+               {
+                  "text" : "11:33 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696822389
+               },
+               "departure_time" : 
+               {
+                  "text" : "9:08 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696813733
+               },
+               "distance" : 
+               {
+                  "text" : "41.0 km",
+                  "value" : 41038
+               },
+               "duration" : 
+               {
+                  "text" : "2 hours 24 mins",
+                  "value" : 8656
+               },
+               "end_address" : "Mui Wo, Hong Kong",
+               "end_location" : 
+               {
+                  "lat" : 22.2648527,
+                  "lng" : 114.0010188
+               },
+               "start_address" : "Hang Shin Link, Siu Lek Yuen, Hong Kong",
+               "start_location" : 
+               {
+                  "lat" : 22.379783,
+                  "lng" : 114.2116721
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 450
+                     },
+                     "duration" : 
+                     {
+                        "text" : "7 mins",
+                        "value" : 426
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.377212,
+                        "lng" : 114.2126165
+                     },
+                     "html_instructions" : "Walk to Tate's Cairn Tunnel Toll Plaza",
+                     "polyline" : 
+                     {
+                        "points" : "s`rgC}}axTAOTIhBY@?@DBF@@?P?Z?F@D?@@DBBDBJBJ@b@@N?n@GLCHAFCBA@E@C?E@CAICGAGBCHI@C?A@??A?A?A?AAA?ACCAD@HDDFDB@D?H?@A@?@?@A@A@ADGBC?A@?@AJAJ??C?G?AA??AA??@A?@D?@HALWBG@C@E@CBCBCFKX[FGHKHGDC@A@C"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.379783,
+                        "lng" : 114.2116721
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "10 m",
+                              "value" : 10
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 8
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3797858,
+                              "lng" : 114.2117478
+                           },
+                           "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "s`rgC}}axTAO"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.379783,
+                              "lng" : 114.2116721
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.2 km",
+                              "value" : 213
+                           },
+                           "duration" : 
+                           {
+                              "text" : "3 mins",
+                              "value" : 201
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3782852,
+                              "lng" : 114.2114952
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "u`rgCm~axTTIhBY@?@DBF@@?P?Z?F@D?@@DBBDBJBJ@b@@N?n@GLCHA"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3797858,
+                              "lng" : 114.2117478
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "24 m",
+                              "value" : 24
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 22
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.37824,
+                              "lng" : 114.2117592
+                           },
+                           "html_instructions" : "Continue onto \u003cb\u003eHang Shin Link\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "iwqgC{|axTFCBA@E@C?E@CAICGAG"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3782852,
+                              "lng" : 114.2114952
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "28 m",
+                              "value" : 28
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 35
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3781757,
+                              "lng" : 114.2119414
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "_wqgCo~axTBCHI@C?A@??A?A?A?AAA?ACC"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.37824,
+                              "lng" : 114.2117592
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "17 m",
+                              "value" : 17
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 25
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3781109,
+                              "lng" : 114.2117972
+                           },
+                           "html_instructions" : "Sharp \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e",
+                           "maneuver" : "turn-sharp-left",
+                           "polyline" : 
+                           {
+                              "points" : "svqgCs_bxTAD@HDDFD"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3781757,
+                              "lng" : 114.2119414
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "45 m",
+                              "value" : 45
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 43
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3777612,
+                              "lng" : 114.2119176
+                           },
+                           "html_instructions" : "Take the pedestrian overpass",
+                           "polyline" : 
+                           {
+                              "points" : "evqgCw~axTB@D?H?@A@?@?@A@A@ADGBC?A@?@AJAJ?"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3781109,
+                              "lng" : 114.2117972
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 113
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 92
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.377212,
+                              "lng" : 114.2126165
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "_tqgCo_bxT?C?G?AA??AA??@A?@D?@HALWBG@C@E@CBCBCFKX[FGHKHGDC@A@C"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3777612,
+                              "lng" : 114.2119176
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "22.7 km",
+                        "value" : 22665
+                     },
+                     "duration" : 
+                     {
+                        "text" : "41 mins",
+                        "value" : 2460
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.287008,
+                        "lng" : 114.159199
+                     },
+                     "html_instructions" : "Bus towards Hong Kong Station",
+                     "polyline" : 
+                     {
+                        "points" : "gpqgC{cbxTDDFGHGDEDEB?x@WLIlBiAHEn@Yx@[xBi@XIB?`@Gd@ItAKxAGzAGN@b@@f@B^Bx@FvCj@dAPdARbARhBZdAR`@H`@Hb@FjC`@b@F`@HbBVD?jCd@`@HdAPb@F`@HjCd@`@FnDl@b@HrFz@b@F`@Hb@F`@FdAPdANfAP`@FdAPb@F`@FpEr@b@Fb@H`@FVDfInAF@~LfBb@H`@Fb@F`@FH@z@Lb@Hb@F`@FdANb@H`@Fb@FdAPdANrEp@\\FB@dAR`@HnEz@b@HnAVxAd@bBh@`@L`@J`@L`@LfA\\|B~@~@^^N`@P^N^N`@NFBVL|@d@^R\\P^R^PvDnBf@X^Rb@TXPfAj@LFPJXLNFRHHHFDp@XTFVHd@Lh@L\\Bh@Dj@@V?D?b@A^Ch@Cb@Gh@Ip@Op@QNGFCb@O`Bm@bBm@PGPG|Ae@pAe@d@SXGbB_@\\GFA^Ed@AlAAb@@f@BjBDB?^@D@B?dCBR?H?F?J?J?T@n@@L?F@lDDNAH?b@A@?D?ZETALC`@GfAO\\EZAL?Z?XBRBPBTFXFVJf@Tz@^d@T`@LPD`@JNBHBRBL@NBRBVBNBNBfALP@D?\\@Z@J?J?JAb@AF?ZCb@Cb@Et@EvAKb@CtAKb@ENCJC\\INGRIFCJGNIPMd@c@pD}DRSX[v@q@r@k@hC}BVSZW\\WZWXU@?ZYFGb@c@LMHK^m@FIHKHQHKP_@DGJW@GDIBMHWFWDUDSDUDe@BSB_@BoABaC@W@OB]H}@FUDQDQHUJUR_@R_@?AT[V_@`@a@r@u@BCBCJIRUpFkFZ[bC}BZYXYnFkFt@s@r@s@FGROv@u@p@k@p@i@XU\\WtAcA~@q@xAgApA}@JIXUbAs@ZQrDaCXS\\U\\UBCVSFGv@y@JQFIPg@BGFQFUBM?ABMBS@U@W?[AOEe@E]EMI]Oa@GWU[W[W[S]m@{@U]?As@aAQWU_@OS}@sAa@w@MQUq@CKOq@Ge@OkAOiA?A]qCc@_DIo@Eu@AK?CAc@?Y@q@Hu@Pg@Pa@DGPUBCLOFGLKJKHGBCJKJIt@q@VUFEDEFEJIXU@AZWZWJIHIVQDCZWZWx@o@LSr@w@BI@A\\W@?\\UFEhA_Ad@_@LMXYDCNMFIHGLO@??C@A?A@ABE@CBCDCBCBA@AB?@AB?@A@?FAB?B?B?@?l@o@^_@VQd@]f@_@`@YTHXNhAvAx@z@|ArAj@d@ZXZb@BHBVAT^j@n@ZHD@?DDHDJLPXX`@LZBF?LANAJABCFJRp@pAXr@Vh@Rf@LZHVRf@Rf@R^xAjDb@bA`@`AP`@Vj@JTDJHTDH@@HTDHJVN`@Xl@`@bAP`@HRBFLVFNFPP`@lDnI`@bAP^dAfCfCfGlArC\\x@LVFPHNBFBHJVjCjGhHxP@@N^@?@FLVvAfDfBfEbAhC@DLZBD?@|@~Bh@jAJVl@vARXNPPPNDVJNDJ@N@XAPAVELEPKLKTS@W?A@??AHQDODQBM@YAc@EWEOISISMMGIIGIEWMWKQCCAQ?S@S@YFOHEBC@EBKHe@f@a@r@Sb@A@G@i@fAm@nACHuBbE_@n@Wd@GJ{AvBW`@W^Yd@e@~@IJUp@_@bAQv@@f@ARUvAW`BKv@Id@CT]`CEZ?B?Z?H@FBLHRBFHHHFFDFDLFVH@?JDLD\\HB@JDPH`@TXP@@TRd@TCL?LPrAXnBHn@d@lDVpBb@jDJt@BRBTJjADTHv@Jn@Jp@BRJn@Dl@Fh@DRBVPlABVb@nDHv@XdC?J@JBNJ`@DPBDBFBDDFLNHJFH`A|@d@XB@bCpBRTnAjAPNb@\\DBFFHDLFHBNDLDH@NBr@B@?ZAD?RAN?b@?NAzAAbCDh@Ft@DP@nAL@@VBTHPBn@Hh@HpA\\F?F?ZLD@@@DBl@V`@RTP@?VTRNT^l@`AV`@d@z@JPLTFJBBr@lAf@z@V`@NTPZPXd@x@\\h@Xd@`@n@^p@Zj@T^DJL\\FLDNDNFJFLDDFJ@BHFDB@@@@@B@FBL?HSxCa@Ke@MK@IAGAC@C@?@A?A@A@ABABAFADABGVI\\CHWdAENc@hBCRAJB`A?V@f@?@BlADlARt@BNHNDRDRDNl@dC\\hAX~@ZpAb@dBDRRx@Jf@FPDRNr@FXNr@H\\BLDNF\\FR@J@DBHJf@DTNv@@BF^@F?FH^Dl@B`@B^LvCDl@Dl@FhA@J?NFn@?LBZHdCFt@@N@N@PH|AAH?\\@\\B\\AT?xAG~@CpAIhBG~B?dAAZGn@MbC?HANCb@Ez@Et@Cl@GrACv@Ex@Ch@Ed@AVIbAEr@Eh@ETAJOn@[bACHCDGVADMXKTm@`AW\\KRIJQVIRABCFKPCFKRELIVGLQb@CJUfAKd@En@Eb@GZMh@EHEHKHKFGDEB_@JGFEDCFCJCNEV?Pa@jBIl@ETShAMNIH_@V]VEBSNm@d@QNIFEDa@Zi@`@u@h@YPq@d@YTWPs@h@s@j@[TWP[VEBQP[TYRMJIFo@d@WRC@KLMPS`@CDQ^CBKTGJGNa@x@c@|@OIyAaA]l@KLIRYt@GRw@AGCAAAAAEg@eAIKIg@I_AOwAWe@GMU_@KOCKCKAGAGAM?A?I?OF[?CBWFUFMl@iCr@iCT_ACMCMCI?EAE?KAI?G@E?C?E^kBBKFB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.377158,
+                        "lng" : 114.21262
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.287008,
+                              "lng" : 114.159199
+                           },
+                           "name" : "Central Pier 5"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "9:57 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696816620
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.377158,
+                              "lng" : 114.21262
+                           },
+                           "name" : "Tate's Cairn Tunnel Toll Plaza"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "9:16 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696814160
+                        },
+                        "headsign" : "Hong Kong Station",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "Kowloon Motor Bus (KMB)",
+                                 "phone" : "2745 4466",
+                                 "url" : "https://www.kmb.hk/"
+                              }
+                           ],
+                           "color" : "#e70012",
+                           "name" : "Sheung Shui - Central (Hong Kong Station)",
+                           "short_name" : "673",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 11
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 109
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 109
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2871049,
+                        "lng" : 114.1602422
+                     },
+                     "html_instructions" : "Walk to Central Ferry Pier No.6",
+                     "polyline" : 
+                     {
+                        "points" : "u|_gC}uwwTUqE"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.2869875,
+                        "lng" : 114.1591904
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 109
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 109
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2871049,
+                              "lng" : 114.1602422
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "u|_gC}uwwTUqE"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2869875,
+                              "lng" : 114.1591904
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "17.6 km",
+                        "value" : 17597
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 hour 0 mins",
+                        "value" : 3600
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.26503,
+                        "lng" : 114.00213
+                     },
+                     "html_instructions" : "Ferry towards Mui Wo",
+                     "polyline" : 
+                     {
+                        "points" : "s_`gCa}wwTJSmAyAaCYcD\\mEjA}ExCmEnDaD~DwC`FmBdFoAnHoAvJgA`L}A~f@rEhaDjAdRjgB~xD|Nvs@bU~bCfg@lpC~FxeAp@pOOfS}Az]}A`n@Ep@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.287462,
+                        "lng" : 114.16033
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.26503,
+                              "lng" : 114.00213
+                           },
+                           "name" : "Mui Wo Ferry Pier"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "11:30 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696822200
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.287462,
+                              "lng" : 114.16033
+                           },
+                           "name" : "Central Ferry Pier No.6"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "10:30 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696818600
+                        },
+                        "headsign" : "Mui Wo",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "New World First Ferry",
+                                 "phone" : "2131 8181",
+                                 "url" : "https://www.sunferry.com.hk/zh/route-and-fare"
+                              }
+                           ],
+                           "name" : "Central - Mui Wo",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/ferry.png",
+                              "name" : "Ferry",
+                              "type" : "FERRY"
+                           }
+                        },
+                        "num_stops" : 1
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 217
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 187
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2648527,
+                        "lng" : 114.0010188
+                     },
+                     "html_instructions" : "Walk to Mui Wo, Hong Kong",
+                     "polyline" : 
+                     {
+                        "points" : "os{fCi~xvTE@E@GBIDC@GFIJCDMLEFEHGNGNKZAHL@FBNC?L@JD?B@B@D?BB@@B@DD@BNDL?@NXERCAMCU?I?A"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.2650405,
+                        "lng" : 114.0018067
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "92 m",
+                              "value" : 92
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 74
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2656029,
+                              "lng" : 114.0010934
+                           },
+                           "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e on \u003cb\u003eLantau Trail Sec. 1\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "os{fCi~xvTE@E@GBIDC@GFIJCDMLEFEHGNGNKZAH"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2650405,
+                              "lng" : 114.0018067
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "13 m",
+                              "value" : 13
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 13
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2654143,
+                              "lng" : 114.0010811
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eMui Wo Ferry Pier Rd\u003c/b\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "_w{fCyyxvTL@FBNC"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2656029,
+                              "lng" : 114.0010934
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "19 m",
+                              "value" : 19
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 19
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.265399,
+                              "lng" : 114.0009488
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eMui Wo Ferry Pier Rd\u003c/b\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "yu{fCwyxvT?L@J"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2654143,
+                              "lng" : 114.0010811
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "72 m",
+                              "value" : 72
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 64
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2648171,
+                              "lng" : 114.0007753
+                           },
+                           "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit onto \u003cb\u003eMui Wo Ferry Pier Rd\u003c/b\u003e",
+                           "maneuver" : "roundabout-left",
+                           "polyline" : 
+                           {
+                              "points" : "wu{fC}xxvTD?B@B@D?BB@@B@DD@BNDL?@NXERC"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.265399,
+                              "lng" : 114.0009488
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "21 m",
+                              "value" : 21
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 17
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2648527,
+                              "lng" : 114.0010188
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "cr{fC{wxvTAMCU?I?A"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2648171,
+                              "lng" : 114.0007753
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "s`rgC}}axTAOTIjBYDL@v@FPPFn@BvAMNOC[@KJM@CEM?NLJT?RSNCJC?GACA??FH?Ti@fAoARIDDFGNMHEfAa@vBoAhBu@xD{@zBUtDOzBJx@FvCj@jCd@tGlAtFz@dMtB~UzDfo@rJjYhEhCf@rFdAhD|@hEpAhBj@|D~A`C`A~BfA`L~F`CpAfAh@fBp@lB^rBFpCQzAY`AYpFoBrE{A~@[`Cg@f@GrBCzDJtEFpHHt@A`BSdBUh@AzAJnBp@tChAnAVhALxBVjAB|EWtFa@hAYv@_@v@q@dEqEnGwFlB{A~@w@p@q@h@y@d@s@d@gAZgAVeBFs@FqEPcC\\oAr@wAl@{@tAwAf@g@`XmWnFqE`I{FdCeBhGaEzAyAh@kARw@JoAMoBg@eByAqBoDiF_BkCc@cAS}@WqBqA}JQuBA}@JgBh@qArAuAzBoBlCwBvBcB`AkADKdAs@vCgCx@y@TYZIL?lAoA|@o@hAy@n@XbCrChCxBv@|@F`@AT^j@n@ZJDNJ\\f@f@|@BTCZEJ|@dBrA`DdAfCzE`LvAhDzSfg@|Mr[fH~PnAbDvBtE`@b@f@PZFh@?h@G^Qb@_@@YPc@H_@?}@_@oAi@e@eA_@e@@m@H_@Rq@p@a@r@Ud@G@qEdJw@tAcBbCoBfD_@|@q@zB?z@m@xDw@tFEdARp@b@\\nBn@nAr@z@h@CZzA`LjAfJ^nDf@dDzApM^lDX`A`@h@hAfAh@ZxFbFz@n@t@VnAHdACr@A~EB`E\\XDf@LxARxA\\j@Pr@Zv@d@XTh@n@vBpDlArBpErHrBlD`@fAZn@XZFNBVSxCa@Kq@KQCIDUt@k@|Bg@|B@lADnCDlARt@L^~@|DvB`IzA|Gj@hCv@hEp@xL`@dIHvCBjD]zJA`BUrDKxBUnFQ`D[vDq@hC[|@eCdEiAlCYrAQtAM~@Sr@e@`@e@NMLQz@a@|BObAShAMNi@`@eBpAcAx@kDbCoF`EkDjCY^Wf@i@dAi@hAc@|@OIyAaA]l@U`@a@hA_AEm@oASs@YwCaAcBKg@Ai@RmA~BaJKk@Cc@`@{BBKFBQoEgAQJSmAyAaCYcD\\mEjA}ExCmEnDaD~DwC`FmBdFoAnHoAvJgA`L}A~f@rEhaDjAdRjgB~xD|Nvs@bU~bCfg@lpC~FxeAp@pOOfS}Az]}A`n@GpB]LYZa@n@Sj@AHL@V?@XRBNLPHL?@Nl@IEc@?K"
+         },
+         "summary" : "",
+         "warnings" : 
+         [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      },
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 22.3797858,
+               "lng" : 114.2364818
+            },
+            "southwest" : 
+            {
+               "lat" : 22.26398,
+               "lng" : 114.0007344
+            }
+         },
+         "copyrights" : "Map data ©2023",
+         "legs" : 
+         [
+            {
+               "arrival_time" : 
+               {
+                  "text" : "11:33 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696822389
+               },
+               "departure_time" : 
+               {
+                  "text" : "9:18 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696814333
+               },
+               "distance" : 
+               {
+                  "text" : "41.2 km",
+                  "value" : 41191
+               },
+               "duration" : 
+               {
+                  "text" : "2 hours 14 mins",
+                  "value" : 8056
+               },
+               "end_address" : "Mui Wo, Hong Kong",
+               "end_location" : 
+               {
+                  "lat" : 22.2648527,
+                  "lng" : 114.0010188
+               },
+               "start_address" : "Hang Shin Link, Siu Lek Yuen, Hong Kong",
+               "start_location" : 
+               {
+                  "lat" : 22.379783,
+                  "lng" : 114.2116721
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 450
+                     },
+                     "duration" : 
+                     {
+                        "text" : "7 mins",
+                        "value" : 426
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.377212,
+                        "lng" : 114.2126165
+                     },
+                     "html_instructions" : "Walk to Tate's Cairn Tunnel Toll Plaza",
+                     "polyline" : 
+                     {
+                        "points" : "s`rgC}}axTAOTIhBY@?@DBF@@?P?Z?F@D?@@DBBDBJBJ@b@@N?n@GLCHAFCBA@E@C?E@CAICGAGBCHI@C?A@??A?A?A?AAA?ACCAD@HDDFDB@D?H?@A@?@?@A@A@ADGBC?A@?@AJAJ??C?G?AA??AA??@A?@D?@HALWBG@C@E@CBCBCFKX[FGHKHGDC@A@C"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.379783,
+                        "lng" : 114.2116721
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "10 m",
+                              "value" : 10
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 8
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3797858,
+                              "lng" : 114.2117478
+                           },
+                           "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "s`rgC}}axTAO"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.379783,
+                              "lng" : 114.2116721
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.2 km",
+                              "value" : 213
+                           },
+                           "duration" : 
+                           {
+                              "text" : "3 mins",
+                              "value" : 201
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3782852,
+                              "lng" : 114.2114952
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "u`rgCm~axTTIhBY@?@DBF@@?P?Z?F@D?@@DBBDBJBJ@b@@N?n@GLCHA"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3797858,
+                              "lng" : 114.2117478
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "24 m",
+                              "value" : 24
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 22
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.37824,
+                              "lng" : 114.2117592
+                           },
+                           "html_instructions" : "Continue onto \u003cb\u003eHang Shin Link\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "iwqgC{|axTFCBA@E@C?E@CAICGAG"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3782852,
+                              "lng" : 114.2114952
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "28 m",
+                              "value" : 28
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 35
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3781757,
+                              "lng" : 114.2119414
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "_wqgCo~axTBCHI@C?A@??A?A?A?AAA?ACC"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.37824,
+                              "lng" : 114.2117592
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "17 m",
+                              "value" : 17
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 25
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3781109,
+                              "lng" : 114.2117972
+                           },
+                           "html_instructions" : "Sharp \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e",
+                           "maneuver" : "turn-sharp-left",
+                           "polyline" : 
+                           {
+                              "points" : "svqgCs_bxTAD@HDDFD"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3781757,
+                              "lng" : 114.2119414
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "45 m",
+                              "value" : 45
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 43
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3777612,
+                              "lng" : 114.2119176
+                           },
+                           "html_instructions" : "Take the pedestrian overpass",
+                           "polyline" : 
+                           {
+                              "points" : "evqgCw~axTB@D?H?@A@?@?@A@A@ADGBC?A@?@AJAJ?"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3781109,
+                              "lng" : 114.2117972
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 113
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 92
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.377212,
+                              "lng" : 114.2126165
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "_tqgCo_bxT?C?G?AA??AA??@A?@D?@HALWBG@C@E@CBCBCFKX[FGHKHGDC@A@C"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3777612,
+                              "lng" : 114.2119176
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "22.7 km",
+                        "value" : 22701
+                     },
+                     "duration" : 
+                     {
+                        "text" : "48 mins",
+                        "value" : 2880
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.28636,
+                        "lng" : 114.15974
+                     },
+                     "html_instructions" : "Bus towards Central (Ferry Piers)",
+                     "polyline" : 
+                     {
+                        "points" : "gpqgC{cbxTDDFGHGDEDEB?x@WLIlBiAHEn@Yx@[xBi@XIB?`@Gd@ItAKxAGzAGN@b@@f@B^Bx@FvCj@dAPdARbARhBZdAR`@H`@Hb@FjC`@b@F`@HbBVD?jCd@`@HdAPb@F`@HjCd@`@FnDl@b@HrFz@b@F`@Hb@F`@FdAPdANfAP`@FdAPb@F`@FpEr@b@Fb@H`@FVDfInAF@~LfBb@H`@Fb@F`@FH@z@Lb@Hb@F`@FdANb@H`@Fb@FdAPdANrEp@\\FB@dAR`@HnEz@b@HnAVxAd@bBh@`@L`@J`@L`@LfA\\|B~@~@^^N`@P^N^N`@NFBVL|@d@^R\\P^R^PvDnBf@X^Rb@TXPfAj@LFPJXLNFRHHHFDp@XTFVHd@Lh@L\\Bh@Dj@@V?D?b@A^Ch@Cb@Gh@Ip@Op@QNGFCb@O`Bm@bBm@PGPG|Ae@pAe@d@SXGbB_@\\GFA^Ed@AlAAb@@f@BjBDB?^@D@B?dCBR?H?F?J?J?T@n@@L?F@lDDNAH?b@A@?D?ZETALC`@GfAO\\EZAL?Z?XBRBPBTFXFVJf@Tz@^d@T`@LPD`@JNBHBRBL@NBRBVBNBNBfALP@D?\\@Z@J?J?JAb@AF?ZCb@Cb@Et@EvAKb@CtAKb@ENCJC\\INGRIFCJGNIPMd@c@pD}DRSX[v@q@r@k@hC}BVSZW\\WZWXU@?ZYFGb@c@LMHK^m@FIHKHQHKP_@DGJW@GDIBMHWFWDUDSDUDe@BSB_@BoABaC@W@OB]H}@FUDQDQHUJUR_@R_@?AT[V_@`@a@r@u@BCBCJIRUpFkFZ[bC}BZYXYnFkFt@s@r@s@FGROv@u@p@k@p@i@XU\\WtAcA~@q@xAgApA}@JIXUbAs@ZQrDaCXS\\U\\UBCVSFGv@y@JQFIPg@BGFQFUBM?ABMBS@U@W?[AOEe@E]EMI]Oa@GWU[W[W[S]m@{@U]?As@aAQWU_@OS}@sAa@w@MQUq@CKOq@Ge@OkAOiA?A]qCc@_DIo@Eu@AK?CAc@?Y@q@Hu@Pg@Pa@DGPUBCLOFGLKJKHGBCJKJIt@q@VUFEDEFEJIXU@AZWZWJIHIVQDCZWZWx@o@LSr@w@BI@A\\W@?\\UFEhA_Ad@_@LMXYDCNMFIHGLO@??C@A?A@ABE@CBCDCBCBA@AB?@AB?@A@?FAB?B?B?@?l@o@^_@VQd@]f@_@`@YTHXNhAvAx@z@|ArAj@d@ZXZb@BHBVAT^j@n@ZHD@?DDHDJLPXX`@FPHP?LANAJABCFJRp@pAXr@Vh@Rf@LZHVRf@Rf@R^xAjDb@bA`@`AP`@Vj@JTDJHTDH@@HTDHJVN`@Xl@`@bAP`@HRBFLVFNFPP`@lDnI`@bAP^dAfCfCfGlArC\\x@LVFPHNBFBHJVjCjGhHxP@@N^@?@FLVvAfDfBfEbAhC@DLZBD?@|@~Bh@jAJVl@vARXNPPPNDVJNDJ@N@XAPAVELEPKLKTS@W?A@??AHQDODQBM@YAc@EWEOISISMMGIIGIEWMWKQCCAQ?S@S@YFOHEBC@EBKHe@f@AJ?@?@MTKTWl@Sd@Q`@OZGHQ\\MTOXU`@_@n@OXMVCHIJA?K@_@n@Wd@GJ{AvBW`@W^Yd@e@~@IJUp@_@bAQv@]nBg@nCKj@sAzGGTEVU~@O`AMx@Ef@Eh@?T?RAT?`@@Z?TLrAFh@DXJt@?D`@`DB^DV@DDZBVNhAFl@BRBV@LB`@Bb@?j@@rA@v@B\\BZ?DD^Dh@BTHr@BNn@hFRnAJt@H`@H^Ld@J\\FRTh@^r@\\l@JLHNJLNRTTFJFFRPXXZXZXZVZXVV@@ZXXXZX\\ZXVXXZXZXXTDBRPDDLLVTl@f@nAhAvAtAR\\NXp@^HDVLZRZLRHj@LPBx@FtA@F?H?F?F@XBH@VBP@NBLBTFXHFBJFPJPLFDBDJDTVVZHPPZPj@Rx@Nt@P~@PbAFd@Fd@D\\@FBLJ^?D?B?BBJ@FBDDHBFPTj@p@l@r@bAvAl@dANZNZNb@FNJVHZXbAZjAp@hCx@zCBHDHNl@Lb@DTHd@BPBLDVDVDb@Jb@@DDJLh@LVR\\f@z@BNHRZ\\r@rCRtAVvAJl@R~AZlG@R@j@@HPfEHjANpC?FBh@?H@P@T?XEz@?PE~@ALEl@ATC~@C`@CjAGfA?DIjAEPId@Mv@G\\Dj@?DAF?L?B@N@J@JBLF^Ft@@N@b@Fr@@VBN@LBbA?\\Gt@AFEREREJAFO\\GLS^c@v@Wj@Yj@OZSXIPAFABCL?H?F?H?F@FDNDFDHJNJJXXd@d@b@ZXVDFDFLR\\d@GPCHCDQRILCFCHEJCLK`@CLEHCBCDGDEn@Eb@GZMh@EHEHKHKFGDEB_@JGFEDCFCJCNEV?Pa@jBObAShAMNIH_@V]VEBSNm@d@QNIFEDa@Zi@`@u@h@YPq@d@YTQLEBs@h@s@j@[TWP[VEBQP[Tg@^IFo@d@WRC@KLMPS`@CDQ^CBKTGJGNa@x@Wf@KTOIyAaA]l@KLIRYt@GRw@AGCAAAAAEg@eAIKIg@I_AOwAWe@GMU_@KOCKCKAGAGAM?A?I?OF[?CBWFUFMl@iCHYh@oBT_Ar@aDb@qBNq@Nu@No@DQBQCC?CAA?CAA?C?A?C?A?C@C?A@C?A@A@C@A@A@A@ABA@?@AB?BAB?@?@?B@@?B@@?B@@@@@@@@B@@?@@B@@?B?@?B@@?B?@AB?@A@?B?@A@A@?@A@ABA@C@A@A?A@C@A?C@M`@Sv@GXXH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.377158,
+                        "lng" : 114.21262
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.28636,
+                              "lng" : 114.15974
+                           },
+                           "name" : "Central Ferry Piers"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "10:14 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696817640
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.377158,
+                              "lng" : 114.21262
+                           },
+                           "name" : "Tate's Cairn Tunnel Toll Plaza"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "9:26 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696814760
+                        },
+                        "headsign" : "Central (Ferry Piers)",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "Citybus Limited",
+                                 "phone" : "2136 8888",
+                                 "url" : "https://www.bravobus.com.hk/"
+                              }
+                           ],
+                           "color" : "#f2f200",
+                           "name" : "大埔中心 - 中環碼頭／上環",
+                           "short_name" : "307",
+                           "text_color" : "#1f4b7d",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 9,
+                        "trip_short_name" : "307"
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 226
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 194
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2871262,
+                        "lng" : 114.1601771
+                     },
+                     "html_instructions" : "Walk to Central Ferry Pier No.6",
+                     "polyline" : 
+                     {
+                        "points" : "{x_gCkywwT?@BHKXECGCCA?BMCCEGIKCI\\MDSHMC`@mBg@SUG"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.2863782,
+                        "lng" : 114.1597397
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "7 m",
+                              "value" : 7
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 5
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2863563,
+                              "lng" : 114.1596803
+                           },
+                           "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e toward \u003cb\u003eMan Kwong St\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "{x_gCkywwT?@BH"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2863782,
+                              "lng" : 114.1597397
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "15 m",
+                              "value" : 15
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 13
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2864228,
+                              "lng" : 114.1595519
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eMan Kwong St\u003c/b\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "wx_gC_ywwTKX"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2863563,
+                              "lng" : 114.1596803
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "35 m",
+                              "value" : 35
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 32
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2867038,
+                              "lng" : 114.1596994
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eMan Kwong St\u003c/b\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "cy_gCexwwTECGCCA?BMCCEGIKC"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2864228,
+                              "lng" : 114.1595519
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "27 m",
+                              "value" : 27
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 24
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.286751,
+                              "lng" : 114.1595523
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eMan Kwong St\u003c/b\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "{z_gCcywwTI\\"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2867038,
+                              "lng" : 114.1596994
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "32 m",
+                              "value" : 32
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 28
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2869903,
+                              "lng" : 114.1594904
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "e{_gCexwwTMDSHMC"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.286751,
+                              "lng" : 114.1595523
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "69 m",
+                              "value" : 69
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 56
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.286822,
+                              "lng" : 114.1600445
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "u|_gCywwwT`@mB"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2869903,
+                              "lng" : 114.1594904
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "41 m",
+                              "value" : 41
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 36
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2871262,
+                              "lng" : 114.1601771
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "s{_gCg{wwTg@SUG"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.286822,
+                              "lng" : 114.1600445
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "17.6 km",
+                        "value" : 17597
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 hour 0 mins",
+                        "value" : 3600
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.26503,
+                        "lng" : 114.00213
+                     },
+                     "html_instructions" : "Ferry towards Mui Wo",
+                     "polyline" : 
+                     {
+                        "points" : "s_`gCa}wwTJSmAyAaCYcD\\mEjA}ExCmEnDaD~DwC`FmBdFoAnHoAvJgA`L}A~f@rEhaDjAdRjgB~xD|Nvs@bU~bCfg@lpC~FxeAp@pOOfS}Az]}A`n@Ep@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.287462,
+                        "lng" : 114.16033
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.26503,
+                              "lng" : 114.00213
+                           },
+                           "name" : "Mui Wo Ferry Pier"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "11:30 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696822200
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.287462,
+                              "lng" : 114.16033
+                           },
+                           "name" : "Central Ferry Pier No.6"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "10:30 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696818600
+                        },
+                        "headsign" : "Mui Wo",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "New World First Ferry",
+                                 "phone" : "2131 8181",
+                                 "url" : "https://www.sunferry.com.hk/zh/route-and-fare"
+                              }
+                           ],
+                           "name" : "Central - Mui Wo",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/ferry.png",
+                              "name" : "Ferry",
+                              "type" : "FERRY"
+                           }
+                        },
+                        "num_stops" : 1
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 217
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 187
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2648527,
+                        "lng" : 114.0010188
+                     },
+                     "html_instructions" : "Walk to Mui Wo, Hong Kong",
+                     "polyline" : 
+                     {
+                        "points" : "os{fCi~xvTE@E@GBIDC@GFIJCDMLEFEHGNGNKZAHL@FBNC?L@JD?B@B@D?BB@@B@DD@BNDL?@NXERCAMCU?I?A"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.2650405,
+                        "lng" : 114.0018067
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "92 m",
+                              "value" : 92
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 74
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2656029,
+                              "lng" : 114.0010934
+                           },
+                           "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e on \u003cb\u003eLantau Trail Sec. 1\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "os{fCi~xvTE@E@GBIDC@GFIJCDMLEFEHGNGNKZAH"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2650405,
+                              "lng" : 114.0018067
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "13 m",
+                              "value" : 13
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 13
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2654143,
+                              "lng" : 114.0010811
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eMui Wo Ferry Pier Rd\u003c/b\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "_w{fCyyxvTL@FBNC"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2656029,
+                              "lng" : 114.0010934
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "19 m",
+                              "value" : 19
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 19
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.265399,
+                              "lng" : 114.0009488
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eMui Wo Ferry Pier Rd\u003c/b\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "yu{fCwyxvT?L@J"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2654143,
+                              "lng" : 114.0010811
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "72 m",
+                              "value" : 72
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 64
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2648171,
+                              "lng" : 114.0007753
+                           },
+                           "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit onto \u003cb\u003eMui Wo Ferry Pier Rd\u003c/b\u003e",
+                           "maneuver" : "roundabout-left",
+                           "polyline" : 
+                           {
+                              "points" : "wu{fC}xxvTD?B@B@D?BB@@B@DD@BNDL?@NXERC"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.265399,
+                              "lng" : 114.0009488
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "21 m",
+                              "value" : 21
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 17
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2648527,
+                              "lng" : 114.0010188
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "cr{fC{wxvTAMCU?I?A"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2648171,
+                              "lng" : 114.0007753
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "s`rgC}}axTAOTIjBYDL@v@FPPFn@BvAMNOC[@KJM@CEM?NLJT?RSNCJC?GACA??FH?Ti@fAoARIDDFGNMHEfAa@vBoAhBu@xD{@zBUtDOzBJx@FvCj@jCd@tGlAtFz@dMtB~UzDfo@rJjYhEhCf@rFdAhD|@hEpAhBj@|D~A`C`A~BfA`L~F`CpAfAh@fBp@lB^rBFpCQzAY`AYpFoBrE{A~@[`Cg@f@GrBCzDJtEFpHHt@A`BSdBUh@AzAJnBp@tChAnAVhALxBVjAB|EWtFa@hAYv@_@v@q@dEqEnGwFlB{A~@w@p@q@h@y@d@s@d@gAZgAVeBFs@FqEPcC\\oAr@wAl@{@tAwAf@g@`XmWnFqE`I{FdCeBhGaEzAyAh@kARw@JoAMoBg@eByAqBoDiF_BkCc@cAS}@WqBqA}JQuBA}@JgBh@qArAuAzBoBlCwBvBcB`AkADKdAs@vCgCx@y@TYZIL?lAoA|@o@hAy@n@XbCrChCxBv@|@F`@AT^j@n@ZJDNJ~@zAH^CZEJ|@dBrA`DdAfCzE`LvAhDzSfg@|Mr[fH~PnAbDvBtE`@b@f@PZFh@?h@G^Qb@_@@YPc@H_@?}@_@oAi@e@eA_@e@@m@H_@Rq@p@AJYn@mApCkCzEOTK@_@n@_@p@eD~Eo@jAu@tBcBbJaBhIe@`CS`BGhB@|@LhBX~BnAjKLzAFzEd@bFxApKj@vB~AxCz@fAlDdD|HhHlF|Eb@v@z@d@bBx@|@PnCH`@@lAJlAXv@d@l@h@r@hAd@dB`@tBf@lDVvA^l@xAdBpB|Cv@jBjAbEtBxHl@lCl@hDZ`Az@xALb@Z\\r@rCj@lD^lC`@vIr@hOYxHOzDO|AW|AG\\Dj@ALBl@TnBJfBJxBGrAGZ]dAwApCgArBGb@@`@\\p@nCfCRZ\\d@GPGN[`@Qj@Y|@KJKrAUdAKRe@Zg@RILMdAeAxFuAhAyAhAwFbEmKdIwAnCy@`BKTOIyAaA]l@U`@a@hA_AEm@oASs@YwCaAcBKg@Ai@RmAhBaHfDoOGYFWRKV@NR@VGPSLQb@[pATHBJKXECKEM?KOKCI\\a@NMC`@mB}@[aA]JSmAyAaCYcD\\mEjA}ExCmEnDaD~DwC`FmBdFoAnHoAvJgA`L}A~f@rEhaDjAdRjgB~xD|Nvs@bU~bCfg@lpC~FxeAp@pOOfS}Az]}A`n@GpB]LYZa@n@Sj@AHL@V?@XRBNLPHL?@Nl@IEc@?K"
+         },
+         "summary" : "",
+         "warnings" : 
+         [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      },
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 22.3908288,
+               "lng" : 114.2122949
+            },
+            "southwest" : 
+            {
+               "lat" : 22.2375892,
+               "lng" : 113.9333714
+            }
+         },
+         "copyrights" : "Map data ©2023",
+         "legs" : 
+         [
+            {
+               "arrival_time" : 
+               {
+                  "text" : "11:00 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696820446
+               },
+               "departure_time" : 
+               {
+                  "text" : "9:03 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696813406
+               },
+               "distance" : 
+               {
+                  "text" : "50.2 km",
+                  "value" : 50227
+               },
+               "duration" : 
+               {
+                  "text" : "1 hour 57 mins",
+                  "value" : 7040
+               },
+               "end_address" : "Mui Wo, Hong Kong",
+               "end_location" : 
+               {
+                  "lat" : 22.2648527,
+                  "lng" : 114.0010188
+               },
+               "start_address" : "Hang Shin Link, Siu Lek Yuen, Hong Kong",
+               "start_location" : 
+               {
+                  "lat" : 22.379783,
+                  "lng" : 114.2116721
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 117
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 94
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.3804809,
+                        "lng" : 114.2122949
+                     },
+                     "html_instructions" : "Walk to The Hang Seng University of Hong Kong",
+                     "polyline" : 
+                     {
+                        "points" : "s`rgC}}axTAOEMMEOIY]M[CEEAKAWAQA@E"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.379783,
+                        "lng" : 114.2116721
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "10 m",
+                              "value" : 10
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 8
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3798219,
+                              "lng" : 114.2118155
+                           },
+                           "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "s`rgC}}axTAOEM"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.379783,
+                              "lng" : 114.2116721
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 98
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 77
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.38049,
+                              "lng" : 114.212258
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eKwong Sin St\u003c/b\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "{`rgC{~axTMEOIY]M[CEEAKAWAQA"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3798219,
+                              "lng" : 114.2118155
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "9 m",
+                              "value" : 9
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 9
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3804809,
+                              "lng" : 114.2122949
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eKwong Sin St\u003c/b\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "aergCsabxT@E"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.38049,
+                              "lng" : 114.212258
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "2.1 km",
+                        "value" : 2092
+                     },
+                     "duration" : 
+                     {
+                        "text" : "9 mins",
+                        "value" : 540
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.388502,
+                        "lng" : 114.201873
+                     },
+                     "html_instructions" : "Bus towards 沙田市中心總站",
+                     "polyline" : 
+                     {
+                        "points" : "}drgCyabxTIACNUjAc@pA\\bANb@DFNf@FNLZPh@@BBH@BL^Xt@j@tA?@L^JXFP@BXbA?b@AHALCJKTi@f@g@`@KHKRg@b@KJIHUPWNIFsAdAwA`Bw@dAcAfACBWXmApAUVoAnAMJKKOO_CeC_BeBeCkCs@s@[[_BhB]`@_@b@A@m@t@EDSRKLqAvA{A`BMNWZe@j@mArA}@dA[^IZAH?BE^BNVt@Vp@V`@LRJJHI"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.380473,
+                        "lng" : 114.212292
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.388502,
+                              "lng" : 114.201873
+                           },
+                           "name" : "City One Shatin"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "9:14 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696814040
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.380473,
+                              "lng" : 114.212292
+                           },
+                           "name" : "The Hang Seng University of Hong Kong"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "9:05 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696813500
+                        },
+                        "headsign" : "沙田市中心總站",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "Kowloon Motor Bus (KMB)",
+                                 "phone" : "2745 4466",
+                                 "url" : "https://www.kmb.hk/"
+                              }
+                           ],
+                           "color" : "#e70012",
+                           "name" : "Wong Nai Tau - Shatin Central",
+                           "short_name" : "83K",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 5
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "20.8 km",
+                        "value" : 20777
+                     },
+                     "duration" : 
+                     {
+                        "text" : "25 mins",
+                        "value" : 1500
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.33827,
+                        "lng" : 114.04214
+                     },
+                     "html_instructions" : "Bus towards Airport (GTC) Bus Terminus",
+                     "polyline" : 
+                     {
+                        "points" : "cwsgCu``xTIHDFHJ\\\\l@h@p@n@z@|@f@b@v@r@NPMR_@f@UXc@j@s@|@u@~@_@d@SRWVMLYZeAv@UFqBbA}BhAa@RA?QJOH]LCBGDFn@Dn@Jp@Nn@FXJ`@JXJTFRDJHR@@FPRd@\\t@n@|@l@z@jAvAb@f@RVrB~BbAfAlArAVVb@`@JHr@p@@?z@r@l@b@HF|@n@ZRh@\\x@j@t@f@ZR\\Vj@b@RNz@l@n@d@d@`@dAt@rClBJHNH\\XVTxDrCj@^~@j@`@ThAh@lBbA`@VJFB@B@HDTPFFt@n@BDZ`@Xb@NVP\\HVBFPh@DB@BFVPj@Ln@Pp@Nl@n@vCLj@Jj@DNJt@Hp@Bt@?BAf@Ah@Ix@I^Ol@Uf@?@]p@QVW`@[\\kApA}@dAcAhAcBhB{@~@g@n@k@n@UTGFYZ{@~@i@l@OP{@~@W^W^S`@S`@M\\[dAEHI`@I^G`@C`@E^AL?JAXAV?L?J@Z?BB`@@R?DBZ@DPbAJ^v@lCnAfDBFFVBJ@BXdA?@`@jBFZN|@DZLdAb@|Cb@rC@JBLNdAF\\RdAJt@Hd@Hd@BPX|AJd@~@|EBNPx@^nBHb@~@~EJd@^lBDXb@zBt@xD|@tELr@f@lCJd@x@jEDPRhAJd@Hb@Jd@t@xD\\dB`@jCDPHd@Lv@Lx@Fd@Fb@Dd@AH?N@PFb@Bd@Bd@?P?d@?@?t@?V@d@?lA?h@Ab@ElACd@Ad@Gf@Ed@Ed@KjAEf@AJO|@QjAId@Gb@Kj@I\\[fAYhAIZCDMb@O`@Ob@Sj@{@pB_@p@k@`AOTi@|@EFSXCDaAjAA@QPYZ[\\mAjAYVIHONYXy@z@KNMLYZWZKJUVW\\]b@MRGLENO`@Mf@Kl@Gd@E\\AZCz@AN@bA?P@pABlAFr@D`@Ff@@B@FJn@X|@x@lBR^jCbFR`@d@~@d@bAt@tBZ~@JXJ\\Ll@J^@DbAlDLd@Nf@H`@~@bDhAhE\\~AV`Ax@pCdAnDn@zB\\jA\\|@V^Pf@Tr@`AdCTv@HRRh@H?F@H?F@FBF@FBFBVEPGLITWV]X_@NUh@w@`@a@DGHGHIn@g@XSJGPKLGLINIf@S|@[v@SpB]`AKx@A^@`@?h@?b@DL@TDRB`@LLDPHB@\\RB@XN\\R\\T@?|@j@j@\\PH?@^L?@\\P^P@?\\T\\R@?\\P\\R\\R@@FBTRl@h@TLFDDBNFPDXDP?f@?L?b@@R?T?R@^D`@L@@XJB@XPBDVPFDTNHF\\XXT\\TZVHDLLHL\\b@T\\@@FPDP@HFXBHBNDPFTVpAFX@BH^Rz@DPJVDJVl@HTRj@Vt@x@rBZx@DHT^j@|@NXt@bARRx@lAPXHNRf@JZ?@FN?@DNFP@BFTBJBL@FN`A?BBRBPBR@PBRBPDf@BXFp@BR@FBZRrBDb@Fb@BV@BNrAFh@VfCBR@RBR@VFh@@J?L@LBd@?@Bb@BXNvALrA@JBRP~@F`@Dd@Bd@Bd@Bv@?r@?X?b@Cz@C`@CZAHKlAUrA]zAW`AWz@Mb@Y~@aAhCa@tAQfAEj@Eb@C^Ab@@\\Bb@N~ABRFf@F`@Ff@XlBHz@?PArB?`@?t@?l@?j@?l@@vGB`CAlF?vBDvH?^?D?XEbEDrD?f@?b@@f@?T@r@Bh@?BJhA@BB`@Fd@Dd@@??BF`@J~APhAL|@Pn@Xl@FJPPVRNJPJHD@?RHNFJBD??@D@NBB?F@@?N@L?ZDTEXCb@Kl@MdA_@p@Sn@g@t@o@f@i@x@_ALKVWPWHALIb@UPINGFAHCJALANCL?LAVBZDXHND`@Pb@V^`@NPLTLTJZHZH^H\\@LLpBDl@Dr@Fr@Lv@VpBFh@H`@H\\@T?F?@CHHf@Hd@Hf@Jd@Hf@BJb@nCTfAb@xBRlA?DF^RhAp@fDRdA^xBXpAP|@\\lBHb@?@BPJx@Pz@h@rCj@nCz@dFRdAZzAVzAl@hDPv@^hB^vBHb@RlAJb@DR^pB?@n@nDJh@D\\Hb@@?Hb@?@Hb@RhANp@RdARbAJd@Hd@Jb@Jd@Jb@Jd@FXJ`@@@HXV|@f@xAf@xA`@bA\\n@d@z@NZ@BR^R^~@`BVd@RZ?@@?R^Xh@Xd@T`@xChF|@zArA`Cv@zALVBBHLFJ@BRZDHJPHLLRFJJRHLHNJNR^HLNTBFT`@BFXh@PZL\\h@`Ad@fAL\\L\\H`@Hb@BTLx@Db@Bd@B\\Db@B`@D`@FxAFpB@T@\\@XBd@@f@Bd@@NBTBZDf@Hh@BVDTF`@F\\JZF\\BHTHFDJRLXPXR^d@x@h@`APXr@hAx@`BZ|@Lb@@@^|@Rf@HNFV?@BFDA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.388502,
+                        "lng" : 114.201873
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.33827,
+                              "lng" : 114.04214
+                           },
+                           "name" : "Lantau Link Interchange"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "9:43 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696815780
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.388502,
+                              "lng" : 114.201873
+                           },
+                           "name" : "City One Shatin"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "9:18 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696814280
+                        },
+                        "headsign" : "Airport (GTC) Bus Terminus",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "Long Win Bus",
+                                 "phone" : "2261 2791",
+                                 "url" : "http://www.lwb.hk/"
+                              }
+                           ],
+                           "color" : "#f2ab30",
+                           "name" : "Wu Kai Sha Station - Airport (Ground Transportation Centre)",
+                           "short_name" : "A41P",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 1
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.3381122,
+                        "lng" : 114.0415018
+                     },
+                     "html_instructions" : "Walk to Lantau Link Bus-Bus Interchange",
+                     "polyline" : 
+                     {
+                        "points" : "e|igCkv`wT"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3381122,
+                        "lng" : 114.0415018
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "1 m",
+                              "value" : 0
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 0
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3381122,
+                              "lng" : 114.0415018
+                           },
+                           "html_instructions" : "Head\u003cdiv style=\"font-size:0.9em\"\u003eRestricted usage road\u003c/div\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "e|igCkv`wT"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3381122,
+                              "lng" : 114.0415018
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "12.5 km",
+                        "value" : 12480
+                     },
+                     "duration" : 
+                     {
+                        "text" : "14 mins",
+                        "value" : 840
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.28616,
+                        "lng" : 113.94103
+                     },
+                     "html_instructions" : "Bus towards AsiaWorld-Expo",
+                     "polyline" : 
+                     {
+                        "points" : "}|igCiy`wTC@DR?@Jd@@HF\\?X?J?FG`@Xn@d@lAf@hAb@zAb@bB^vBXzB^`DZpBVfARt@^jAJZd@jANb@Rh@Tf@^t@Xh@Vb@x@rAVZ^f@PRRXRTh@n@\\^VXlArAlBhB`CdClApAVX@?XZ|BdC@?lArAbDlDzB~B|A`BBBPNlArAdAjA@?dAjAdAnArAhBJPT\\T^T\\DHJVj@jARh@x@zBl@rBf@pB^pB@FD\\Dd@PzARxCHtB@rBCnBKbCGzBEbBE~BAF?\\?fDFdBDhANlAJvAJdAPvAV~ALt@Jb@\\nAb@vA`ClHNd@tAbErB~FNb@^bANb@r@rBjA`DN`@Ph@\\|@Pb@N`@N`@Nb@N`@P`@Nb@N`@`AxBZj@JRFJT\\T\\JNv@hAbApAh@l@h@l@rAfAJFt@f@rAz@jCtAvBfA~@j@\\R@@ZP\\R~B~Ax@r@l@h@rBpBdBfB~@rAt@dAb@l@TZ?@j@|@PXBB@BN\\@@P\\tBjENXpB`E~DjI@BR`@PZnDpH|AxCP^@BVf@|AvC@@P\\@@nA`Cj@fAVd@tDbHjA|BFJd@v@xBfEvAnCrAdCh@hAR^R`@P^P`@@@N^d@`AlCrGbBfEjBxE^~@|ApE`AbDDRLb@Jb@Jb@Lf@`@lBHb@Lx@Lt@Fd@fAjH?BF`@Fd@Hd@Fd@Fd@Fd@@HFZz@fGFd@Hb@Fd@Fd@Hd@PjA?@~@pHf@xDPdAZpBj@hD^hBVlAXdAd@|Ad@tAFNNb@LZn@zAj@hAh@fAj@~@h@z@HNJNT\\LRn@|@DFXZJNz@bAp@t@t@x@JHx@t@`BzAn@j@xAxAx@|@VZ`@f@h@t@r@lA^\\FHFLHJLRb@|@j@tAb@dAj@rBT|@^tALJJHDBBBHLBJDP@F?B@NCPABEHCFb@`AJXp@rAV\\DFPRV\\HHh@j@XXTX|@t@t@p@z@v@ZXRNZV^XXRZTFDjCfBPLxA`ARLa@j@]^YZYXYZABYZq@v@EDg@f@_AhAGHNL"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.33823,
+                        "lng" : 114.04197
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.28616,
+                              "lng" : 113.94103
+                           },
+                           "name" : "Tung Chung Fire Station; Shun Tung Road"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "10:02 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696816920
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.33823,
+                              "lng" : 114.04197
+                           },
+                           "name" : "Lantau Link Bus-Bus Interchange"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "9:48 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696816080
+                        },
+                        "headsign" : "AsiaWorld-Expo",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "Citybus Limited",
+                                 "phone" : "2136 8888",
+                                 "url" : "https://www.bravobus.com.hk/"
+                              }
+                           ],
+                           "color" : "#f2f200",
+                           "name" : "藍田 (平田街) - 機場博覽館",
+                           "short_name" : "E22",
+                           "text_color" : "#1f4b7d",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 1,
+                        "trip_short_name" : "E22"
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 192
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 175
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2861883,
+                        "lng" : 113.9413505
+                     },
+                     "html_instructions" : "Walk to Yu Tung Court",
+                     "polyline" : 
+                     {
+                        "points" : "yw_gCubmvTUZU\\g@r@IIGCKGj@y@NUx@_A"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.2862095,
+                        "lng" : 113.941073
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "77 m",
+                              "value" : 77
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 59
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2866291,
+                              "lng" : 113.9405186
+                           },
+                           "html_instructions" : "Head \u003cb\u003enorthwest\u003c/b\u003e on \u003cb\u003eShun Tung Rd\u003c/b\u003e toward \u003cb\u003eTat Tung Rd\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "yw_gCubmvTUZU\\g@r@"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2862095,
+                              "lng" : 113.941073
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 115
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 116
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2861883,
+                              "lng" : 113.9413505
+                           },
+                           "html_instructions" : "Cross the road\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "mz_gCg_mvTIIGCKGj@y@NUx@_A"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2866291,
+                              "lng" : 113.9405186
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "14.4 km",
+                        "value" : 14382
+                     },
+                     "duration" : 
+                     {
+                        "text" : "41 mins",
+                        "value" : 2460
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.266042,
+                        "lng" : 114.000346
+                     },
+                     "html_instructions" : "Bus towards Mui Wo Ferry Pier",
+                     "polyline" : 
+                     {
+                        "points" : "yw_gCsdmvTHJFILQV[V]V[PSV[X]XYX[NOf@g@^k@RLDDpAz@z@j@pCpBr@f@ZTxCtB|ApAd@d@VZBDJLf@p@VZf@a@p@o@XWJKZWp@k@TRPTf@r@Vf@@DHVDR@H@H@H?HDh@?B?VDrAD~@?ZBx@DvA?DBp@B^H|A@NNtAB`@Bd@Dh@?FFVHh@BF?@@B@B?BP\\@DLLDD@@DDFDNH\\TRLdAn@ZTFFNLZZb@`@DFj@f@DDDBDBNFRDB@TBL@@?H?JAFA@?DAFCHELGHC@AJK^c@PUBAh@s@PO^SFCNG\\GRE`@AR@Z@z@D|AFJ@TFPFHDl@^FBHBH@H@F?D?H?H?VCH?DAZ?L?H?N@JATC`@I`@IJAV?b@@T?L?B?PAJCb@Ip@O@?fASn@O?A?A?A?A@??A?A@??A@??A@?@??A@?@?@?@??@@?@??@@??@@??@?@?@@?PEJAJCD?TAD?HAF@F?D@PDLB?@~Ar@FBFBJ@LBJ?D?RAHCNGDCZQDCZWVQDCXSBAVSBCZWTQ\\a@TWBC?AXYV[RUNQ~@eAJO`@e@BCj@k@HG?ANINMLGBABCDCPI@?VKTIhA[LEr@QRGh@ODA^KZMBANG?AJEDCNKZOTG^MTIVCVCXAh@@REXE`@GZ?D?`@BlALT@@?TCb@Gz@MRCHANG^Ih@Wh@SXQPO`Ay@j@k@DEPSR[FIV[RWZONITKRIJCFCHATCVAFA^@H@H@RBN@PBT?LAJ?JAJAREPEb@Qn@WJE^It@EZ@p@Ll@XPJLFHFDBFBNFRB\\@VAXGLEHEJEFC@ADCHIPWRYVe@R_@LQDG@ABCBELILIPIJCLEH?B?HAJ?J?J@RDD@D@XLNJ\\PZNJDHBJ?H?H?N?PAJCDALEJCDEFCJGFG@AFELS@AHOJ[HUH[DIDGLS@AFGHKHEROHCLGPE@?LERCRCNCPCPE`@OFCt@_@BAXS\\UTMFGf@e@JML[DMHYDOFQHUPY@C@ATUDGXWLKRKRMBA@?HGPKn@_@\\QPQLQ?CJU@CJ]DMBMP]PU|@s@hAy@DEZUFGHKJO@EFMBKBMNe@Ri@RUVSp@YLALAj@?jBAb@?B?@?J?PAB?VAPCZGRKFENMJKRWBI@AXo@Zk@R[\\]^[DE^a@l@w@NYRe@Lc@Nw@D{@?EDe@Ji@Pc@PYFMV[LKTOd@_@f@c@FKJWHUDW@Y@_EBcA?[PsD?K@_@?G?SAI?E?IEQGQQ[a@m@IMGQM_@AI?AAK?KAK@KBYTkANq@DODQFYHYDSHe@DOR{@Le@Vg@LQLO\\[R[R_@Pk@Jm@He@FWTi@Ve@LYJ[BQB[?K?[CKEc@A[Em@C}@@i@?C@S@U@GLW@A@EPULOJI@Cb@]BGBCBCPMFC@A?A?A?A?A?A@??A@A?A@?@AGaB?G?K@GG]Ei@?EASAY@G@e@N{B@s@AKCOAKCOCOQa@CEOWo@q@OC]AK?}@Jm@DEAUGUIIESKGIACEMAI?GAC?G?ABUBSJi@@K?C@S?O?UAQGa@IWIOCGAAAAAQAK@UBQ@C?OAKAE?CACCIGKEEKEq@Kk@?cC@[DGBGDIDONEHGFGDYLWFQ?MAMC]OEECCIOEKAKCS?QCe@?KEYGe@O{@UmAGa@AOAM?O?Q?A@]@QFc@@W?E?G?ECOIMEGEECCEE_@O_@M[KMIKKUWMSKUOYGMCOCQ?S@s@F_@HS@CNU^W@CBCBIBG@M?MAWEKGMKWMa@COCOAI?IAU?W?e@?Y?s@?M?]@MC[?uAAg@?c@AM@_@AYGw@_@kA_@gAW]]c@gAeAEEKGOK]Uc@So@USG[Ig@OKC]KMEe@Q_@OMGYQEAo@_@gAk@CAi@c@WWCC_@_@AAMKWYGGS[AEAE?E?M@SF]DM@W?GCKAEIQAEKSk@cAa@s@GMU_@OYGEKIUQ[MWKQECAKCI?MBWFSDUFA?E?C?EAIIEECEMQKKGEGCGAK@YDiAX[DY@MAK?OCICIEIKOa@IUe@k@MOQQMMSS[i@CGM_@Uc@QUOMICMAG?G@QBORGNELANAD?DA\\CLKLGFULC?E@O@E?KAICGGCCCKCQAOAQKa@MWECEEEEICa@Gk@Gu@IeAOaBUe@GOEKCIIEGCIAECO?Q@EDOLYHQBS?C?A?C?IAKIUISYo@Q_@Sa@AEKUAC?AGMEICIESCM?IAM?A@ODYL[@GBGFW@K@]AGEWEOEIMUACUUw@_@o@[WMOGUUIIEGCGGUAGEs@IoAEm@Kc@IQa@k@Ya@i@i@MI[Ms@SaA[A?YSIIQ_@K]Gg@@eA?U?O?A?{@?YE]A?Ic@IQg@s@e@c@_@k@IMCGAIAG?G?G?KBQDO@E@CJWb@}@FS@E?M?MG_@OSIIMIICQEEAI?MBSF[LOF{@d@IDe@XGDQFA@C@A@MBKDE@C?G@G?a@AQC]MAAYQCC]Y}AiB[a@GGSa@IYGUAKGi@CMCMIKIKQGu@WSKSQGKCIIUW}@Ka@?ACQ?M?EAG?I@M@g@D[@[AGAGEUEGCCGGIGQGGAWCa@CM@SCi@COASCQAQEE@C?C?C?C?CACACACAAACCACQ@e@HI@GBMDEDEDBB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.286213,
+                        "lng" : 113.94138
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.266042,
+                              "lng" : 114.000346
+                           },
+                           "name" : "Mui Wo Cooked Food Market"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "10:58 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696820280
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.286213,
+                              "lng" : 113.94138
+                           },
+                           "name" : "Yu Tung Court"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "10:17 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696817820
+                        },
+                        "headsign" : "Mui Wo Ferry Pier",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "New Lantao Bus",
+                                 "phone" : "2984 9848",
+                                 "url" : "https://www.nlb.com.hk/"
+                              }
+                           ],
+                           "name" : "Mui Wo - Tung Chung Town Centre",
+                           "short_name" : "3M",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 24
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 187
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 165
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2648527,
+                        "lng" : 114.0010188
+                     },
+                     "html_instructions" : "Walk to Mui Wo, Hong Kong",
+                     "polyline" : 
+                     {
+                        "points" : "yy{fCauxvT@ADEDEJEFAFAAOh@_@?E@C?A@GJSDCBABABALAD?B@B@D?BB@@B@DD@BNDL?@NXERCAMCU?I?A"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.266046,
+                        "lng" : 114.0003328
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "60 m",
+                              "value" : 60
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 52
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2656383,
+                              "lng" : 114.0006893
+                           },
+                           "html_instructions" : "Head \u003cb\u003esoutheast\u003c/b\u003e on \u003cb\u003eNgan Kwong Wan Rd\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "yy{fCauxvT@ADEDEJEFAFAAOh@_@"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.266046,
+                              "lng" : 114.0003328
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 106
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 96
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2648171,
+                              "lng" : 114.0007753
+                           },
+                           "html_instructions" : "At the roundabout, take the \u003cb\u003e3rd\u003c/b\u003e exit onto \u003cb\u003eMui Wo Ferry Pier Rd\u003c/b\u003e",
+                           "maneuver" : "roundabout-left",
+                           "polyline" : 
+                           {
+                              "points" : "gw{fCiwxvT?E@C?A@GJSDCBABABALAD?B@B@D?BB@@B@DD@BNDL?@NXERC"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2656383,
+                              "lng" : 114.0006893
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "21 m",
+                              "value" : 21
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 17
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2648527,
+                              "lng" : 114.0010188
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "cr{fC{wxvTAMCU?I?A"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2648171,
+                              "lng" : 114.0007753
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "s`rgC}}axTwAoBs@Ka@xAc@pA\\bATj@v@|BhB~Ef@zDsDvDcJbJkErEY?oCuCuHaI_DpDgHbImEdFQhAr@vBz@v@b@z@bEzDfAdAm@z@cDbEyA~AgF~CmFjCtAlHbC`FnMfOvGlFtUlPxPpKtB`B|BhEhCzKh@dGe@pDeArBiMzNuGhHqCrG_@vDDlCvDzMfFtZpWpuA`AdOSbKkAzJoBdIuFjLkKdLeD~DgAtFNvKVbBrFnLvE`MbGpTxHhWnDxIzA@vDwEvCsBtBy@dH_AfER~CxAxHhE|DjCpC\\~Dd@~BbBhDfDf@tBhGtRpFfIt@xBjAfJlEzc@ChIyChN{BrIIdCrArL@`t@n@~Qr@hGdAzBhBbAt@L`G{@~DuCpB{BzB{@vCPtB|Ap@bBdAjKp@dGjHfa@`SzfAhEzRzEbLnDnGhNjVxD|GlChHn@~GjApR^`Bv@|@pGxLtAtDHD^~BW}A@TJf@HlAv@fDnC`KlBvM~DtKhErGd\\r]jM`NxFhIfDdJnAhGt@pKUbNMhG\\dL`AtIzA`GnMv_@lEvLrDnInBtCjFtFxNjIzN|LpF`I|MtX~Wfh@|MhW`JbTvInWdD~RtDvWrGja@vFpNdErGpJzJzJhLfEdKfBjEEtArDpGxHhHpJxGMx@w@z@oAtA_DnDFV_@RoAbAhBwCtB_CdBoBv@w@r@]dH~EfIdGlAtA~@lAxAqArBgBfBdC\\bCfAjVX~AfAnAvIjGjA?hB}A~AyAhAYlGXvBx@jBEbJw@xBi@FIJ?v@AzAHzCbAdF{CjIeJlIwCpB{@zEw@vF?dDg@lCgAdC{BzCsCfCYxBJ|DiApDb@n@^rCCbBqBlAyAzAUnCfAbBBbAg@fAcCnAkAxBc@bEsB~AoCbAeBpBsAlBuAX{@l@oAhDiC~@wBpBmBrDEtBGlBwAzEqGxAmHtDgEb@qAFyHPuGcBwDnBeLxCsFhBcGM}DRwDzB_C?oBEmLi@oAiBw@gCF{@e@GgAPyCg@sB@uA]a@}FCyAdAeA@q@i@]oDq@kFLaCcBsA}BkCLaD~@cBs@uCAwEEsGgAkEcCmCeFuBkDsAcFoDeAiBJqBsCkF_CgAeBXcA_AgEd@{BmCiC_Eo@Sq@h@c@jBsABo@aCaIoAwAs@^{BaAuCu@eBHaCBaC{DkCi@o@YaD}@oCmBcBqCcAo@oBEaFqCyEHkAx@mBEaAaBo@yFdCwCeAuCuD[eB[s@oB}@}@mDFiBc@}A}Fc@i@OoAh@pAgA\\o@j@DZP|@DEo@"
+         },
+         "summary" : "",
+         "warnings" : 
+         [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      },
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 22.3797858,
+               "lng" : 114.2364818
+            },
+            "southwest" : 
+            {
+               "lat" : 22.26398,
+               "lng" : 114.0007344
+            }
+         },
+         "copyrights" : "Map data ©2023",
+         "legs" : 
+         [
+            {
+               "arrival_time" : 
+               {
+                  "text" : "11:53 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696823589
+               },
+               "departure_time" : 
+               {
+                  "text" : "10:08 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696817333
+               },
+               "distance" : 
+               {
+                  "text" : "41.0 km",
+                  "value" : 41038
+               },
+               "duration" : 
+               {
+                  "text" : "1 hour 44 mins",
+                  "value" : 6256
+               },
+               "end_address" : "Mui Wo, Hong Kong",
+               "end_location" : 
+               {
+                  "lat" : 22.2648527,
+                  "lng" : 114.0010188
+               },
+               "start_address" : "Hang Shin Link, Siu Lek Yuen, Hong Kong",
+               "start_location" : 
+               {
+                  "lat" : 22.379783,
+                  "lng" : 114.2116721
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 450
+                     },
+                     "duration" : 
+                     {
+                        "text" : "7 mins",
+                        "value" : 426
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.377212,
+                        "lng" : 114.2126165
+                     },
+                     "html_instructions" : "Walk to Tate's Cairn Tunnel Toll Plaza",
+                     "polyline" : 
+                     {
+                        "points" : "s`rgC}}axTAOTIhBY@?@DBF@@?P?Z?F@D?@@DBBDBJBJ@b@@N?n@GLCHAFCBA@E@C?E@CAICGAGBCHI@C?A@??A?A?A?AAA?ACCAD@HDDFDB@D?H?@A@?@?@A@A@ADGBC?A@?@AJAJ??C?G?AA??AA??@A?@D?@HALWBG@C@E@CBCBCFKX[FGHKHGDC@A@C"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.379783,
+                        "lng" : 114.2116721
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "10 m",
+                              "value" : 10
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 8
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3797858,
+                              "lng" : 114.2117478
+                           },
+                           "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "s`rgC}}axTAO"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.379783,
+                              "lng" : 114.2116721
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.2 km",
+                              "value" : 213
+                           },
+                           "duration" : 
+                           {
+                              "text" : "3 mins",
+                              "value" : 201
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3782852,
+                              "lng" : 114.2114952
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "u`rgCm~axTTIhBY@?@DBF@@?P?Z?F@D?@@DBBDBJBJ@b@@N?n@GLCHA"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3797858,
+                              "lng" : 114.2117478
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "24 m",
+                              "value" : 24
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 22
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.37824,
+                              "lng" : 114.2117592
+                           },
+                           "html_instructions" : "Continue onto \u003cb\u003eHang Shin Link\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "iwqgC{|axTFCBA@E@C?E@CAICGAG"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3782852,
+                              "lng" : 114.2114952
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "28 m",
+                              "value" : 28
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 35
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3781757,
+                              "lng" : 114.2119414
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "_wqgCo~axTBCHI@C?A@??A?A?A?AAA?ACC"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.37824,
+                              "lng" : 114.2117592
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "17 m",
+                              "value" : 17
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 25
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3781109,
+                              "lng" : 114.2117972
+                           },
+                           "html_instructions" : "Sharp \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e",
+                           "maneuver" : "turn-sharp-left",
+                           "polyline" : 
+                           {
+                              "points" : "svqgCs_bxTAD@HDDFD"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3781757,
+                              "lng" : 114.2119414
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "45 m",
+                              "value" : 45
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 43
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3777612,
+                              "lng" : 114.2119176
+                           },
+                           "html_instructions" : "Take the pedestrian overpass",
+                           "polyline" : 
+                           {
+                              "points" : "evqgCw~axTB@D?H?@A@?@?@A@A@ADGBC?A@?@AJAJ?"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3781109,
+                              "lng" : 114.2117972
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 113
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 92
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.377212,
+                              "lng" : 114.2126165
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "_tqgCo_bxT?C?G?AA??AA??@A?@D?@HALWBG@C@E@CBCBCFKX[FGHKHGDC@A@C"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3777612,
+                              "lng" : 114.2119176
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "22.7 km",
+                        "value" : 22665
+                     },
+                     "duration" : 
+                     {
+                        "text" : "41 mins",
+                        "value" : 2460
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.287008,
+                        "lng" : 114.159199
+                     },
+                     "html_instructions" : "Bus towards Hong Kong Station",
+                     "polyline" : 
+                     {
+                        "points" : "gpqgC{cbxTDDFGHGDEDEB?x@WLIlBiAHEn@Yx@[xBi@XIB?`@Gd@ItAKxAGzAGN@b@@f@B^Bx@FvCj@dAPdARbARhBZdAR`@H`@Hb@FjC`@b@F`@HbBVD?jCd@`@HdAPb@F`@HjCd@`@FnDl@b@HrFz@b@F`@Hb@F`@FdAPdANfAP`@FdAPb@F`@FpEr@b@Fb@H`@FVDfInAF@~LfBb@H`@Fb@F`@FH@z@Lb@Hb@F`@FdANb@H`@Fb@FdAPdANrEp@\\FB@dAR`@HnEz@b@HnAVxAd@bBh@`@L`@J`@L`@LfA\\|B~@~@^^N`@P^N^N`@NFBVL|@d@^R\\P^R^PvDnBf@X^Rb@TXPfAj@LFPJXLNFRHHHFDp@XTFVHd@Lh@L\\Bh@Dj@@V?D?b@A^Ch@Cb@Gh@Ip@Op@QNGFCb@O`Bm@bBm@PGPG|Ae@pAe@d@SXGbB_@\\GFA^Ed@AlAAb@@f@BjBDB?^@D@B?dCBR?H?F?J?J?T@n@@L?F@lDDNAH?b@A@?D?ZETALC`@GfAO\\EZAL?Z?XBRBPBTFXFVJf@Tz@^d@T`@LPD`@JNBHBRBL@NBRBVBNBNBfALP@D?\\@Z@J?J?JAb@AF?ZCb@Cb@Et@EvAKb@CtAKb@ENCJC\\INGRIFCJGNIPMd@c@pD}DRSX[v@q@r@k@hC}BVSZW\\WZWXU@?ZYFGb@c@LMHK^m@FIHKHQHKP_@DGJW@GDIBMHWFWDUDSDUDe@BSB_@BoABaC@W@OB]H}@FUDQDQHUJUR_@R_@?AT[V_@`@a@r@u@BCBCJIRUpFkFZ[bC}BZYXYnFkFt@s@r@s@FGROv@u@p@k@p@i@XU\\WtAcA~@q@xAgApA}@JIXUbAs@ZQrDaCXS\\U\\UBCVSFGv@y@JQFIPg@BGFQFUBM?ABMBS@U@W?[AOEe@E]EMI]Oa@GWU[W[W[S]m@{@U]?As@aAQWU_@OS}@sAa@w@MQUq@CKOq@Ge@OkAOiA?A]qCc@_DIo@Eu@AK?CAc@?Y@q@Hu@Pg@Pa@DGPUBCLOFGLKJKHGBCJKJIt@q@VUFEDEFEJIXU@AZWZWJIHIVQDCZWZWx@o@LSr@w@BI@A\\W@?\\UFEhA_Ad@_@LMXYDCNMFIHGLO@??C@A?A@ABE@CBCDCBCBA@AB?@AB?@A@?FAB?B?B?@?l@o@^_@VQd@]f@_@`@YTHXNhAvAx@z@|ArAj@d@ZXZb@BHBVAT^j@n@ZHD@?DDHDJLPXX`@LZBF?LANAJABCFJRp@pAXr@Vh@Rf@LZHVRf@Rf@R^xAjDb@bA`@`AP`@Vj@JTDJHTDH@@HTDHJVN`@Xl@`@bAP`@HRBFLVFNFPP`@lDnI`@bAP^dAfCfCfGlArC\\x@LVFPHNBFBHJVjCjGhHxP@@N^@?@FLVvAfDfBfEbAhC@DLZBD?@|@~Bh@jAJVl@vARXNPPPNDVJNDJ@N@XAPAVELEPKLKTS@W?A@??AHQDODQBM@YAc@EWEOISISMMGIIGIEWMWKQCCAQ?S@S@YFOHEBC@EBKHe@f@a@r@Sb@A@G@i@fAm@nACHuBbE_@n@Wd@GJ{AvBW`@W^Yd@e@~@IJUp@_@bAQv@@f@ARUvAW`BKv@Id@CT]`CEZ?B?Z?H@FBLHRBFHHHFFDFDLFVH@?JDLD\\HB@JDPH`@TXP@@TRd@TCL?LPrAXnBHn@d@lDVpBb@jDJt@BRBTJjADTHv@Jn@Jp@BRJn@Dl@Fh@DRBVPlABVb@nDHv@XdC?J@JBNJ`@DPBDBFBDDFLNHJFH`A|@d@XB@bCpBRTnAjAPNb@\\DBFFHDLFHBNDLDH@NBr@B@?ZAD?RAN?b@?NAzAAbCDh@Ft@DP@nAL@@VBTHPBn@Hh@HpA\\F?F?ZLD@@@DBl@V`@RTP@?VTRNT^l@`AV`@d@z@JPLTFJBBr@lAf@z@V`@NTPZPXd@x@\\h@Xd@`@n@^p@Zj@T^DJL\\FLDNDNFJFLDDFJ@BHFDB@@@@@B@FBL?HSxCa@Ke@MK@IAGAC@C@?@A?A@A@ABABAFADABGVI\\CHWdAENc@hBCRAJB`A?V@f@?@BlADlARt@BNHNDRDRDNl@dC\\hAX~@ZpAb@dBDRRx@Jf@FPDRNr@FXNr@H\\BLDNF\\FR@J@DBHJf@DTNv@@BF^@F?FH^Dl@B`@B^LvCDl@Dl@FhA@J?NFn@?LBZHdCFt@@N@N@PH|AAH?\\@\\B\\AT?xAG~@CpAIhBG~B?dAAZGn@MbC?HANCb@Ez@Et@Cl@GrACv@Ex@Ch@Ed@AVIbAEr@Eh@ETAJOn@[bACHCDGVADMXKTm@`AW\\KRIJQVIRABCFKPCFKRELIVGLQb@CJUfAKd@En@Eb@GZMh@EHEHKHKFGDEB_@JGFEDCFCJCNEV?Pa@jBIl@ETShAMNIH_@V]VEBSNm@d@QNIFEDa@Zi@`@u@h@YPq@d@YTWPs@h@s@j@[TWP[VEBQP[TYRMJIFo@d@WRC@KLMPS`@CDQ^CBKTGJGNa@x@c@|@OIyAaA]l@KLIRYt@GRw@AGCAAAAAEg@eAIKIg@I_AOwAWe@GMU_@KOCKCKAGAGAM?A?I?OF[?CBWFUFMl@iCr@iCT_ACMCMCI?EAE?KAI?G@E?C?E^kBBKFB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.377158,
+                        "lng" : 114.21262
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.287008,
+                              "lng" : 114.159199
+                           },
+                           "name" : "Central Pier 5"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "10:57 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696820220
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.377158,
+                              "lng" : 114.21262
+                           },
+                           "name" : "Tate's Cairn Tunnel Toll Plaza"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "10:16 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696817760
+                        },
+                        "headsign" : "Hong Kong Station",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "Kowloon Motor Bus (KMB)",
+                                 "phone" : "2745 4466",
+                                 "url" : "https://www.kmb.hk/"
+                              }
+                           ],
+                           "color" : "#e70012",
+                           "name" : "Sheung Shui - Central (Hong Kong Station)",
+                           "short_name" : "673",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 11
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 109
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 109
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2871049,
+                        "lng" : 114.1602422
+                     },
+                     "html_instructions" : "Walk to Central Ferry Pier No.6",
+                     "polyline" : 
+                     {
+                        "points" : "u|_gC}uwwTUqE"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.2869875,
+                        "lng" : 114.1591904
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 109
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 109
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2871049,
+                              "lng" : 114.1602422
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "u|_gC}uwwTUqE"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2869875,
+                              "lng" : 114.1591904
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "17.6 km",
+                        "value" : 17597
+                     },
+                     "duration" : 
+                     {
+                        "text" : "40 mins",
+                        "value" : 2400
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.26503,
+                        "lng" : 114.00213
+                     },
+                     "html_instructions" : "Ferry towards Mui Wo",
+                     "polyline" : 
+                     {
+                        "points" : "s_`gCa}wwTJSmAyAaCYcD\\mEjA}ExCmEnDaD~DwC`FmBdFoAnHoAvJgA`L}A~f@rEhaDjAdRjgB~xD|Nvs@bU~bCfg@lpC~FxeAp@pOOfS}Az]}A`n@Ep@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.287462,
+                        "lng" : 114.16033
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.26503,
+                              "lng" : 114.00213
+                           },
+                           "name" : "Mui Wo Ferry Pier"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "11:50 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696823400
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.287462,
+                              "lng" : 114.16033
+                           },
+                           "name" : "Central Ferry Pier No.6"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "11:10 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696821000
+                        },
+                        "headsign" : "Mui Wo",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "New World First Ferry",
+                                 "phone" : "2131 8181",
+                                 "url" : "https://www.sunferry.com.hk/zh/route-and-fare"
+                              }
+                           ],
+                           "name" : "Central - Mui Wo",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/ferry.png",
+                              "name" : "Ferry",
+                              "type" : "FERRY"
+                           }
+                        },
+                        "num_stops" : 1
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 217
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 187
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2648527,
+                        "lng" : 114.0010188
+                     },
+                     "html_instructions" : "Walk to Mui Wo, Hong Kong",
+                     "polyline" : 
+                     {
+                        "points" : "os{fCi~xvTE@E@GBIDC@GFIJCDMLEFEHGNGNKZAHL@FBNC?L@JD?B@B@D?BB@@B@DD@BNDL?@NXERCAMCU?I?A"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.2650405,
+                        "lng" : 114.0018067
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "92 m",
+                              "value" : 92
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 74
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2656029,
+                              "lng" : 114.0010934
+                           },
+                           "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e on \u003cb\u003eLantau Trail Sec. 1\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "os{fCi~xvTE@E@GBIDC@GFIJCDMLEFEHGNGNKZAH"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2650405,
+                              "lng" : 114.0018067
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "13 m",
+                              "value" : 13
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 13
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2654143,
+                              "lng" : 114.0010811
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eMui Wo Ferry Pier Rd\u003c/b\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "_w{fCyyxvTL@FBNC"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2656029,
+                              "lng" : 114.0010934
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "19 m",
+                              "value" : 19
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 19
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.265399,
+                              "lng" : 114.0009488
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eMui Wo Ferry Pier Rd\u003c/b\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "yu{fCwyxvT?L@J"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2654143,
+                              "lng" : 114.0010811
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "72 m",
+                              "value" : 72
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 64
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2648171,
+                              "lng" : 114.0007753
+                           },
+                           "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit onto \u003cb\u003eMui Wo Ferry Pier Rd\u003c/b\u003e",
+                           "maneuver" : "roundabout-left",
+                           "polyline" : 
+                           {
+                              "points" : "wu{fC}xxvTD?B@B@D?BB@@B@DD@BNDL?@NXERC"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.265399,
+                              "lng" : 114.0009488
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "21 m",
+                              "value" : 21
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 17
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2648527,
+                              "lng" : 114.0010188
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "cr{fC{wxvTAMCU?I?A"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2648171,
+                              "lng" : 114.0007753
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "s`rgC}}axTAOTIjBYDL@v@FPPFn@BvAMNOC[@KJM@CEM?NLJT?RSNCJC?GACA??FH?Ti@fAoARIDDFGNMHEfAa@vBoAhBu@xD{@zBUtDOzBJx@FvCj@jCd@tGlAtFz@dMtB~UzDfo@rJjYhEhCf@rFdAhD|@hEpAhBj@|D~A`C`A~BfA`L~F`CpAfAh@fBp@lB^rBFpCQzAY`AYpFoBrE{A~@[`Cg@f@GrBCzDJtEFpHHt@A`BSdBUh@AzAJnBp@tChAnAVhALxBVjAB|EWtFa@hAYv@_@v@q@dEqEnGwFlB{A~@w@p@q@h@y@d@s@d@gAZgAVeBFs@FqEPcC\\oAr@wAl@{@tAwAf@g@`XmWnFqE`I{FdCeBhGaEzAyAh@kARw@JoAMoBg@eByAqBoDiF_BkCc@cAS}@WqBqA}JQuBA}@JgBh@qArAuAzBoBlCwBvBcB`AkADKdAs@vCgCx@y@TYZIL?lAoA|@o@hAy@n@XbCrChCxBv@|@F`@AT^j@n@ZJDNJ\\f@f@|@BTCZEJ|@dBrA`DdAfCzE`LvAhDzSfg@|Mr[fH~PnAbDvBtE`@b@f@PZFh@?h@G^Qb@_@@YPc@H_@?}@_@oAi@e@eA_@e@@m@H_@Rq@p@a@r@Ud@G@qEdJw@tAcBbCoBfD_@|@q@zB?z@m@xDw@tFEdARp@b@\\nBn@nAr@z@h@CZzA`LjAfJ^nDf@dDzApM^lDX`A`@h@hAfAh@ZxFbFz@n@t@VnAHdACr@A~EB`E\\XDf@LxARxA\\j@Pr@Zv@d@XTh@n@vBpDlArBpErHrBlD`@fAZn@XZFNBVSxCa@Kq@KQCIDUt@k@|Bg@|B@lADnCDlARt@L^~@|DvB`IzA|Gj@hCv@hEp@xL`@dIHvCBjD]zJA`BUrDKxBUnFQ`D[vDq@hC[|@eCdEiAlCYrAQtAM~@Sr@e@`@e@NMLQz@a@|BObAShAMNi@`@eBpAcAx@kDbCoF`EkDjCY^Wf@i@dAi@hAc@|@OIyAaA]l@U`@a@hA_AEm@oASs@YwCaAcBKg@Ai@RmA~BaJKk@Cc@`@{BBKFBQoEgAQJSmAyAaCYcD\\mEjA}ExCmEnDaD~DwC`FmBdFoAnHoAvJgA`L}A~f@rEhaDjAdRjgB~xD|Nvs@bU~bCfg@lpC~FxeAp@pOOfS}Az]}A`n@GpB]LYZa@n@Sj@AHL@V?@XRBNLPHL?@Nl@IEc@?K"
+         },
+         "summary" : "",
+         "warnings" : 
+         [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

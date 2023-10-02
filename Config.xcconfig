@@ -1,0 +1,12 @@
+//
+//  Config.xcconfig
+//  GuideMe
+//
+//  Created by John Chan on 3/10/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Google Direction API key
+DIRECTION_API = "Your_Google_Direction_API_key"

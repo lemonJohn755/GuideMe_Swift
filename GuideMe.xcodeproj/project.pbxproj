@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77123F602AB49E86006926A7 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77123F5F2AB49E86006926A7 /* Direction.swift */; };
+		77123F622AB49EB6006926A7 /* GetRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77123F612AB49EB6006926A7 /* GetRoutes.swift */; };
+		7742278A2AC1E8FC0025D6FE /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774227892AC1E8FC0025D6FE /* Pin.swift */; };
+		774C1E6D2AAB52EF00FC75F3 /* DirectionSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774C1E6C2AAB52EF00FC75F3 /* DirectionSearchView.swift */; };
+		776568BD2ACB1A20003587D8 /* sample_responses in Resources */ = {isa = PBXBuildFile; fileRef = 776568BC2ACB1A20003587D8 /* sample_responses */; };
 		778B6BA72AA9F39600260C8F /* GuideMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B6BA62AA9F39600260C8F /* GuideMeApp.swift */; };
 		778B6BA92AA9F39600260C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B6BA82AA9F39600260C8F /* ContentView.swift */; };
 		778B6BAB2AA9F39700260C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778B6BAA2AA9F39700260C8F /* Assets.xcassets */; };
@@ -14,6 +19,12 @@
 		778B6BB82AA9F39700260C8F /* GuideMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B6BB72AA9F39700260C8F /* GuideMeTests.swift */; };
 		778B6BC22AA9F39700260C8F /* GuideMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B6BC12AA9F39700260C8F /* GuideMeUITests.swift */; };
 		778B6BC42AA9F39700260C8F /* GuideMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B6BC32AA9F39700260C8F /* GuideMeUITestsLaunchTests.swift */; };
+		778B6BD12AA9FD4D00260C8F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B6BD02AA9FD4D00260C8F /* LocationManager.swift */; };
+		778FD0EC2AB090A100BF12EC /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FD0EB2AB090A100BF12EC /* Destination.swift */; };
+		77941C3A2AAA11D000A4AF40 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77941C392AAA11D000A4AF40 /* Place.swift */; };
+		77941C3C2AAA152900A4AF40 /* SearchPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77941C3B2AAA152900A4AF40 /* SearchPlace.swift */; };
+		77E400792ABF40D600E12253 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E400782ABF40D600E12253 /* Color.swift */; };
+		77E4007B2ABF434100E12253 /* RouteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4007A2ABF434100E12253 /* RouteRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77123F5F2AB49E86006926A7 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		77123F612AB49EB6006926A7 /* GetRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRoutes.swift; sourceTree = "<group>"; };
+		774227892AC1E8FC0025D6FE /* Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
+		774C1E6C2AAB52EF00FC75F3 /* DirectionSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionSearchView.swift; sourceTree = "<group>"; };
+		776568BC2ACB1A20003587D8 /* sample_responses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sample_responses; sourceTree = "<group>"; };
+		776568C22ACB2581003587D8 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		778B6BA32AA9F39600260C8F /* GuideMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuideMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B6BA62AA9F39600260C8F /* GuideMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideMeApp.swift; sourceTree = "<group>"; };
 		778B6BA82AA9F39600260C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +61,13 @@
 		778B6BBD2AA9F39700260C8F /* GuideMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuideMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B6BC12AA9F39700260C8F /* GuideMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideMeUITests.swift; sourceTree = "<group>"; };
 		778B6BC32AA9F39700260C8F /* GuideMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		778B6BD02AA9FD4D00260C8F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		778FD0EB2AB090A100BF12EC /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		77941C392AAA11D000A4AF40 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		77941C3B2AAA152900A4AF40 /* SearchPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlace.swift; sourceTree = "<group>"; };
+		77941C3D2AAA21BA00A4AF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		77E400782ABF40D600E12253 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		77E4007A2ABF434100E12253 /* RouteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +95,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		774C1E6B2AAB528200FC75F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				778B6BA82AA9F39600260C8F /* ContentView.swift */,
+				774C1E6C2AAB52EF00FC75F3 /* DirectionSearchView.swift */,
+				77E4007A2ABF434100E12253 /* RouteRowView.swift */,
+				77E400782ABF40D600E12253 /* Color.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		778B6B9A2AA9F39600260C8F = {
 			isa = PBXGroup;
 			children = (
+				776568C22ACB2581003587D8 /* Config.xcconfig */,
 				778B6BA52AA9F39600260C8F /* GuideMe */,
 				778B6BB62AA9F39700260C8F /* GuideMeTests */,
 				778B6BC02AA9F39700260C8F /* GuideMeUITests */,
@@ -94,8 +130,12 @@
 		778B6BA52AA9F39600260C8F /* GuideMe */ = {
 			isa = PBXGroup;
 			children = (
+				776568BC2ACB1A20003587D8 /* sample_responses */,
+				77941C3D2AAA21BA00A4AF40 /* Info.plist */,
+				77941C382AAA11BD00A4AF40 /* Model */,
+				77941C372AAA0A5200A4AF40 /* ViewModel */,
 				778B6BA62AA9F39600260C8F /* GuideMeApp.swift */,
-				778B6BA82AA9F39600260C8F /* ContentView.swift */,
+				774C1E6B2AAB528200FC75F3 /* View */,
 				778B6BAA2AA9F39700260C8F /* Assets.xcassets */,
 				778B6BAC2AA9F39700260C8F /* Preview Content */,
 			);
@@ -125,6 +165,27 @@
 				778B6BC32AA9F39700260C8F /* GuideMeUITestsLaunchTests.swift */,
 			);
 			path = GuideMeUITests;
+			sourceTree = "<group>";
+		};
+		77941C372AAA0A5200A4AF40 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				778B6BD02AA9FD4D00260C8F /* LocationManager.swift */,
+				77941C3B2AAA152900A4AF40 /* SearchPlace.swift */,
+				77123F612AB49EB6006926A7 /* GetRoutes.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		77941C382AAA11BD00A4AF40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77941C392AAA11D000A4AF40 /* Place.swift */,
+				778FD0EB2AB090A100BF12EC /* Destination.swift */,
+				77123F5F2AB49E86006926A7 /* Direction.swift */,
+				774227892AC1E8FC0025D6FE /* Pin.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				778B6BAE2AA9F39700260C8F /* Preview Assets.xcassets in Resources */,
+				776568BD2ACB1A20003587D8 /* sample_responses in Resources */,
 				778B6BAB2AA9F39700260C8F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +321,16 @@
 			files = (
 				778B6BA92AA9F39600260C8F /* ContentView.swift in Sources */,
 				778B6BA72AA9F39600260C8F /* GuideMeApp.swift in Sources */,
+				77E400792ABF40D600E12253 /* Color.swift in Sources */,
+				7742278A2AC1E8FC0025D6FE /* Pin.swift in Sources */,
+				774C1E6D2AAB52EF00FC75F3 /* DirectionSearchView.swift in Sources */,
+				77E4007B2ABF434100E12253 /* RouteRowView.swift in Sources */,
+				778B6BD12AA9FD4D00260C8F /* LocationManager.swift in Sources */,
+				77941C3A2AAA11D000A4AF40 /* Place.swift in Sources */,
+				77941C3C2AAA152900A4AF40 /* SearchPlace.swift in Sources */,
+				778FD0EC2AB090A100BF12EC /* Destination.swift in Sources */,
+				77123F622AB49EB6006926A7 /* GetRoutes.swift in Sources */,
+				77123F602AB49E86006926A7 /* Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +369,7 @@
 /* Begin XCBuildConfiguration section */
 		778B6BC52AA9F39700260C8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776568C22ACB2581003587D8 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -420,6 +493,9 @@
 				DEVELOPMENT_TEAM = PWYS8P735A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuideMe/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Alway allow acess location while in use";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access location while usage";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +525,9 @@
 				DEVELOPMENT_TEAM = PWYS8P735A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuideMe/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Alway allow acess location while in use";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access location while usage";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

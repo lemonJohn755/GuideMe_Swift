@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct GuideMeApp: App {
+        
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(SearchPlace())
+                .environmentObject(LocationManager())
+                .environmentObject(GetRoutes(destination: Destination(), origin: Origin()))
+                
         }
     }
 }

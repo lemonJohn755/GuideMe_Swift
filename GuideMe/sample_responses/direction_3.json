@@ -1,0 +1,2173 @@
+{
+   "geocoded_waypoints" : 
+   [
+      {
+         "geocoder_status" : "OK",
+         "partial_match" : true,
+         "place_id" : "ChIJS7igya0HBDQRBV4qY2_GzEk",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "partial_match" : true,
+         "place_id" : "ChIJv81dAgMABDQRIMc9D2xaK3s",
+         "types" : 
+         [
+            "establishment",
+            "park",
+            "point_of_interest"
+         ]
+      }
+   ],
+   "routes" : 
+   [
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 22.3824588,
+               "lng" : 114.187282
+            },
+            "southwest" : 
+            {
+               "lat" : 22.2468878,
+               "lng" : 114.155255
+            }
+         },
+         "copyrights" : "Map data ©2023",
+         "legs" : 
+         [
+            {
+               "arrival_time" : 
+               {
+                  "text" : "9:53 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696816410
+               },
+               "departure_time" : 
+               {
+                  "text" : "9:04 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696813451
+               },
+               "distance" : 
+               {
+                  "text" : "22.6 km",
+                  "value" : 22636
+               },
+               "duration" : 
+               {
+                  "text" : "49 mins",
+                  "value" : 2959
+               },
+               "end_address" : "Aberdeen Promenade, Aberdeen Praya Rd, Aberdeen, Hong Kong",
+               "end_location" : 
+               {
+                  "lat" : 22.2471682,
+                  "lng" : 114.155255
+               },
+               "start_address" : "Hong Kong, Sha Tin, 沙田站",
+               "start_location" : 
+               {
+                  "lat" : 22.3821251,
+                  "lng" : 114.1867188
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 134
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 169
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.3818236,
+                        "lng" : 114.1869874
+                     },
+                     "html_instructions" : "Walk to Sha Tin Station",
+                     "polyline" : 
+                     {
+                        "points" : "iorgC_b}wTA?A?A?A?C?C?C?A?CAGECACAAACECCKEAABEVc@@A?CAC?AAA?CA?RSrAx@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3821251,
+                        "lng" : 114.1867188
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "43 m",
+                              "value" : 43
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 68
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3824588,
+                              "lng" : 114.186881
+                           },
+                           "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "iorgC_b}wTA?A?A?A?C?C?C?A?CAGECACAAACECCKEAA"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3821251,
+                              "lng" : 114.1867188
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "36 m",
+                              "value" : 36
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 45
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3823369,
+                              "lng" : 114.1871785
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eSha Tin Station Circuit\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "kqrgC_c}wTBEVc@@A?CAC?AAA?CA?"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3824588,
+                              "lng" : 114.186881
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "55 m",
+                              "value" : 55
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 56
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3818236,
+                              "lng" : 114.1869874
+                           },
+                           "html_instructions" : "Take entrance \u003cspan class=\"location\"\u003eSha Tin Station Exit A4\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "_prgCoe}wTrAx@"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.382245,
+                              "lng" : 114.187282
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "14.2 km",
+                        "value" : 14228
+                     },
+                     "duration" : 
+                     {
+                        "text" : "20 mins",
+                        "value" : 1200
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.27868,
+                        "lng" : 114.16623
+                     },
+                     "html_instructions" : "Subway towards Admiralty",
+                     "polyline" : 
+                     {
+                        "points" : "kmrgCuc}wTYf@JF|@h@tAr@r@`@jAj@vAx@`Al@v@p@NNn@b@|@p@TTx@t@jCfClAx@n@TtA`Ap@b@ZRlAbA|@|@|AtBp@`ANVr@dAb@t@T^fC`EHJ~AfC|@q@nEnI`DlHhDvFxBpBbC`BtEbClGfDtEbCrDdCrDlAxCJnDSbCQpJu@`LoA`LkAtAO|Gy@lO_BnSwBvLgA|Gs@~Fm@~C[|B_@|Bq@fBs@hCqAnDgBvAw@vAq@dAa@?Gb@SvAi@v@WREnA[lB]lBWlAMdAE|@Cf@Ad@@tA@rAF`AHfAHjANRBd@Ht@Ph@LB@d@LtAd@HBFBFBpAh@l@X~At@^N`CdA`DrAf@RPHPF|Al@B@~@`@|An@l@VXNZLd@N|Bv@b@LjA^jB^v@J@?dAJZ??BdBA`BIpC_@dAW|Ae@xC}@lBk@dC{@hC_AfEqAzBu@hDeAxAe@dAc@lBcA`@U`BaAzBcCtAyAbDsCdBiBpAsAjEcFzAaBrBaB~AmAn@QjCe@nFu@`CKrFVV@jERpDXfHf@bDHpCG|CUrZwEt`@oFnFo@hD@tBZvBr@rBfAfCvBrB`CrAhBb@xARbBBhCE|BOpPFdFATAT[dGGtERjEXxCb@dDr@hDnArElAtB|@`AlCzC~BtB@@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3818236,
+                        "lng" : 114.1869874
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.27868,
+                              "lng" : 114.16623
+                           },
+                           "name" : "Admiralty Station"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "9:27 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696814820
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.3818236,
+                              "lng" : 114.1869874
+                           },
+                           "name" : "Sha Tin Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "9:07 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696813620
+                        },
+                        "headsign" : "Admiralty",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "MTR",
+                                 "phone" : "2881 8888",
+                                 "url" : "http://www.mtr.com.hk/"
+                              }
+                           ],
+                           "color" : "#5eb6e4",
+                           "name" : "East Rail Line",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                              "local_icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/hk-metro.png",
+                              "name" : "Subway",
+                              "type" : "SUBWAY"
+                           }
+                        },
+                        "num_stops" : 6
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "62 m",
+                        "value" : 62
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 63
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.27864,
+                        "lng" : 114.16564
+                     },
+                     "html_instructions" : "Walk to Admiralty Station",
+                     "polyline" : 
+                     {
+                        "points" : "wh~fC}aywTKp@RbA"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.27868,
+                        "lng" : 114.16623
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "26 m",
+                              "value" : 26
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 27
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.27874,
+                              "lng" : 114.16598
+                           },
+                           "html_instructions" : "Take exit \u003cspan class=\"location\"\u003eAdmiralty Station Exit F\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "wh~fC}aywTKp@"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.27868,
+                              "lng" : 114.16623
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "36 m",
+                              "value" : 36
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 36
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.27864,
+                              "lng" : 114.16564
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "ci~fCk`ywTRbA"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.27874,
+                              "lng" : 114.16598
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "8.1 km",
+                        "value" : 8120
+                     },
+                     "duration" : 
+                     {
+                        "text" : "18 mins",
+                        "value" : 1080
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2468921,
+                        "lng" : 114.1560001
+                     },
+                     "html_instructions" : "Bus towards Shek Pai Wan",
+                     "polyline" : 
+                     {
+                        "points" : "oh~fCg~xwTHe@QCSDA@?@A@A?EF@ZAJ?BCNANKjAEPCJCNWh@U^EDEBG@IBQBMI_Ak@EAI?KAYj@OZSXIPAFK?M?IAECEEAGAK@[h@y@p@eANUNUPYBCFGBCDCLa@BMBKBMDSBWDq@?GA[Au@E_AIy@M_BAi@?Q?I?_@@]FaAPqADWHcCV_E?CBk@NkABc@By@?k@Cm@CW?_@?CEy@CUAG?CA]GICGCG?GAOC[C_@AQCOCUEKCEEGEEECCAC?EAGAI@OBiBFc@D?EAI?[h@EjBKb@C`@?@?T@N?L?JA@?B@D?LCLAt@IB?XARAF?B?NAPA`@Cz@GTANAl@Eb@EL?@AJ?TAB?\\ENQ`@R@@f@ZXRLHRNBBHFv@j@JHl@ZJBH?H?@?^?b@AXAdAG@_A@c@?iAAMAC?EC]OKQUOQCCGOGSEOEQCCAC]sCEOEUO}@AQAKAO@]@_@Hg@FUVkAJk@PgAD[Fa@Di@Pm@BKBGNVDBPDLB`@BJ@J?PAFAh@CHE@?v@S`@MdBc@`@KnBg@f@MFAPEBA^IB?B?N?HAXIFCb@GLCl@I`@Gx@G`@CVAL?v@AhAB\\@lAD`@@J?V@b@@b@?b@@B?^@r@@|BBvAB`DFb@@b@@b@@b@@^@B?`@@b@@b@?b@@dDFrABjBBb@@b@@N?H?F?b@@fA?fA@jB?`@?b@@b@?b@?`IBnC@hB@x@?tADjBFdBNlAP\\H^Jp@XnAf@`@Nh@^XRVPj@`@fAx@h@\\RLjDzBTRPNZ^Z^NVDFPXJRRf@JXFPFb@Fd@Fd@DXBb@@J?\\?X@H?|@ARATGl@ANEn@AHGd@]vC?@[nCI|@G^CVGv@ANA~@@v@HjAHv@D\\DP@FJb@@@FN\\bARh@^dABFt@`BP`@b@`ABPBHB\\l@xA\\z@HVJV@BJTBJHPFRFTBHDP@LF`@BVFj@?B@X?j@Al@E^E`@Ej@Eh@En@Iv@Et@El@MfBCn@A`@?X@J?HDXB^Jd@\\hAJTZv@Nd@HRHTBJBHDLBJFTFNBLBFh@pBNn@BDd@pB\\rALj@T`ABx@@^Er@ARCNCPIb@VF"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.27864,
+                        "lng" : 114.16564
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.2468921,
+                              "lng" : 114.1560001
+                           },
+                           "name" : "Aberdeen Promenade"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "9:52 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696816320
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.27864,
+                              "lng" : 114.16564
+                           },
+                           "name" : "Admiralty Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "9:34 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696815240
+                        },
+                        "headsign" : "Shek Pai Wan",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "Citybus Limited",
+                                 "phone" : "2136 8888",
+                                 "url" : "https://www.bravobus.com.hk/"
+                              }
+                           ],
+                           "color" : "#f2f200",
+                           "name" : "石排灣 (經:香港仔) - 中環 (交易廣場)",
+                           "short_name" : "70P",
+                           "text_color" : "#1f4b7d",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 7,
+                        "trip_short_name" : "70P"
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "92 m",
+                        "value" : 92
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 90
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2471682,
+                        "lng" : 114.155255
+                     },
+                     "html_instructions" : "Walk to Aberdeen Promenade, Aberdeen Praya Rd, Aberdeen, Hong Kong",
+                     "polyline" : 
+                     {
+                        "points" : "abxfC_bwwTG`@?BCPEPGDGDQr@CH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.2468914,
+                        "lng" : 114.1559999
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "20 m",
+                              "value" : 20
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 26
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2469255,
+                              "lng" : 114.1558081
+                           },
+                           "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "abxfC_bwwTG`@?B"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2468914,
+                              "lng" : 114.1559999
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "72 m",
+                              "value" : 72
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 64
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2471682,
+                              "lng" : 114.155255
+                           },
+                           "html_instructions" : "Take the pedestrian tunnel",
+                           "polyline" : 
+                           {
+                              "points" : "ibxfCy`wwTCPEPGDGDQr@CH"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2469255,
+                              "lng" : 114.1558081
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "iorgC_b}wTU?SKIKMGZi@?KAEPSrAx@Yf@hAp@hCtAjAj@vAx@`Al@v@p@~@r@rAfAdE|DlAx@n@TfCdBhBvA|@|@|AtB`AxAvAzBfGtJ|@q@nEnI`DlHhDvFxBpBbC`BbNjHtEbCrDdCrDlAxCJrHe@pJu@`LoAvN{A|Gy@lO_BnSwBvLgA|OaB~C[|B_@|Bq@fBs@xHyDnDiBdAa@?GzB}@jA]nA[lB]zDe@bCIlA?hDHhCR~ARhCj@lCz@fF|BjJ|DdC`AdFxB`A\\`DdAjA^jB^x@J`BJ?BdBA`BIpC_@bD}@fGiBnG{BfQsFdAc@lBcAbCwApE}EbDsCdBiBpAsAjEcFzAaBrBaB~AmAn@QjCe@nFu@`CKrFVbFTxM`AbDHpCG|CUrZwEt`@oFnFo@hD@tBZvBr@rBfAfCvBrB`CrAhBb@xARbBBhCUnTDzF]zGGtERjEXxCb@dDr@hDnArElAtB|@`AlCzC~BtBIr@RbAHe@QCSDABC@EF@ZANE^KjAEPGZm@hA]NQBMIeAm@UAi@fA]j@AFK?WAKICS@[h@y@`A{A`@o@TSXiAHk@Dy@CqAOyBOiC?[@}@XsCN{CVcEBk@NkAF}AGqCK{AAa@KQE_@M}AIa@IMOKIAQ?yBJc@D?EAe@tCQfAC~@?XA`BMtDSvCQ\\ENQb@TbBhApA`Ax@^R?~ACdAG@_A@mBGu@a@a@SU[eAEGc@cDYqB?m@JgA^aB\\sBL}@Di@Pm@FSTZ^Hl@DnAGdBg@|IyB`@AdAUz@MzAOx@EdAAvELjBBvOVdV`@pKD~QFnCDjBFdBNjBZ^Jp@XpBv@bAr@tDjC~DhCf@b@lA~A\\l@^`ANt@NjAH|@@h@?tBQbCg@hEq@dGIfA?vBRbCJn@Nl@x@|Bb@lAfAbCb@`ABPFf@`BdEZv@XdATrB@\\AxAWvC[jEQvCA`@@d@Db@NdAh@~A~@fCPn@Vz@bBxGj@~BT`ABx@CrAEb@Mt@VFGd@Ib@OJU|@"
+         },
+         "summary" : "",
+         "warnings" : 
+         [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      },
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 22.3824588,
+               "lng" : 114.187282
+            },
+            "southwest" : 
+            {
+               "lat" : 22.2462172,
+               "lng" : 114.1582695
+            }
+         },
+         "copyrights" : "Map data ©2023",
+         "legs" : 
+         [
+            {
+               "arrival_time" : 
+               {
+                  "text" : "9:55 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696816505
+               },
+               "departure_time" : 
+               {
+                  "text" : "9:07 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696813631
+               },
+               "distance" : 
+               {
+                  "text" : "20.1 km",
+                  "value" : 20064
+               },
+               "duration" : 
+               {
+                  "text" : "48 mins",
+                  "value" : 2874
+               },
+               "end_address" : "Aberdeen Promenade, Aberdeen Praya Rd, Aberdeen, Hong Kong",
+               "end_location" : 
+               {
+                  "lat" : 22.2470432,
+                  "lng" : 114.1582695
+               },
+               "start_address" : "Hong Kong, Sha Tin, 沙田站",
+               "start_location" : 
+               {
+                  "lat" : 22.3821251,
+                  "lng" : 114.1867188
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 134
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 169
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.3818236,
+                        "lng" : 114.1869874
+                     },
+                     "html_instructions" : "Walk to Sha Tin Station",
+                     "polyline" : 
+                     {
+                        "points" : "iorgC_b}wTA?A?A?A?C?C?C?A?CAGECACAAACECCKEAABEVc@@A?CAC?AAA?CA?RSrAx@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3821251,
+                        "lng" : 114.1867188
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "43 m",
+                              "value" : 43
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 68
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3824588,
+                              "lng" : 114.186881
+                           },
+                           "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "iorgC_b}wTA?A?A?A?C?C?C?A?CAGECACAAACECCKEAA"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3821251,
+                              "lng" : 114.1867188
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "36 m",
+                              "value" : 36
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 45
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3823369,
+                              "lng" : 114.1871785
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eSha Tin Station Circuit\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "kqrgC_c}wTBEVc@@A?CAC?AAA?CA?"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3824588,
+                              "lng" : 114.186881
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "55 m",
+                              "value" : 55
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 56
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3818236,
+                              "lng" : 114.1869874
+                           },
+                           "html_instructions" : "Take entrance \u003cspan class=\"location\"\u003eSha Tin Station Exit A4\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "_prgCoe}wTrAx@"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.382245,
+                              "lng" : 114.187282
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "14.2 km",
+                        "value" : 14228
+                     },
+                     "duration" : 
+                     {
+                        "text" : "20 mins",
+                        "value" : 1200
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.27868,
+                        "lng" : 114.16623
+                     },
+                     "html_instructions" : "Subway towards Admiralty",
+                     "polyline" : 
+                     {
+                        "points" : "kmrgCuc}wTYf@JF|@h@tAr@r@`@jAj@vAx@`Al@v@p@NNn@b@|@p@TTx@t@jCfClAx@n@TtA`Ap@b@ZRlAbA|@|@|AtBp@`ANVr@dAb@t@T^fC`EHJ~AfC|@q@nEnI`DlHhDvFxBpBbC`BtEbClGfDtEbCrDdCrDlAxCJnDSbCQpJu@`LoA`LkAtAO|Gy@lO_BnSwBvLgA|Gs@~Fm@~C[|B_@|Bq@fBs@hCqAnDgBvAw@vAq@dAa@?Gb@SvAi@v@WREnA[lB]lBWlAMdAE|@Cf@Ad@@tA@rAF`AHfAHjANRBd@Ht@Ph@LB@d@LtAd@HBFBFBpAh@l@X~At@^N`CdA`DrAf@RPHPF|Al@B@~@`@|An@l@VXNZLd@N|Bv@b@LjA^jB^v@J@?dAJZ??BdBA`BIpC_@dAW|Ae@xC}@lBk@dC{@hC_AfEqAzBu@hDeAxAe@dAc@lBcA`@U`BaAzBcCtAyAbDsCdBiBpAsArDeErBaCtBaBhA{@f@Wd@MdBWxCg@~B]rF?pBHZ@v@DtCVdCR|CTdBH`CJlB?pC@|CUrZwEt`@oFnFo@hD@tBZvBr@rBfAfCvBrB`CrAhBb@xARbBBhCE|BOpPFdFATAT[dGGtERjEXxCb@dDr@hD~@xDjAxBvAbBdCnC~BtB@@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3818236,
+                        "lng" : 114.1869874
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.27868,
+                              "lng" : 114.16623
+                           },
+                           "name" : "Admiralty Station"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "9:30 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696815000
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.3818236,
+                              "lng" : 114.1869874
+                           },
+                           "name" : "Sha Tin Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "9:10 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696813800
+                        },
+                        "headsign" : "Admiralty",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "MTR",
+                                 "phone" : "2881 8888",
+                                 "url" : "http://www.mtr.com.hk/"
+                              }
+                           ],
+                           "color" : "#5eb6e4",
+                           "name" : "East Rail Line",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                              "local_icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/hk-metro.png",
+                              "name" : "Subway",
+                              "type" : "SUBWAY"
+                           }
+                        },
+                        "num_stops" : 6
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "4.6 km",
+                        "value" : 4606
+                     },
+                     "duration" : 
+                     {
+                        "text" : "6 mins",
+                        "value" : 330
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.247979,
+                        "lng" : 114.168024
+                     },
+                     "html_instructions" : "Subway towards South Horizons",
+                     "polyline" : 
+                     {
+                        "points" : "wh~fC}aywTLF~DnD~AvApA`AdAz@t@f@^X^Rb@Td@P`@NZJf@H`@Hh@D`@@Z@h@Ch@Ch@E^El@M|@Yj@WbB_AvBqA~A_AjAo@f@YnCaBbDkBpI}E`JiFvNoI|P}JrJ{F|J}FvCeBpDyBfCwAtAu@x@i@z@_@v@S`@Ih@Gl@Cn@A^Bf@Dx@Jd@HVDp@Vv@b@n@^`@\\h@l@n@r@j@n@l@|@l@pA`@~@DJHPb@lAL`@Ld@BHBVBl@@XAZKnBOlBErACbA?`ABd@RpDBd@p@|EJt@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.27868,
+                        "lng" : 114.16623
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.247979,
+                              "lng" : 114.168024
+                           },
+                           "name" : "Wong Chuk Hang Station"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "9:40 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696815600
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.27868,
+                              "lng" : 114.16623
+                           },
+                           "name" : "Admiralty Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "9:34 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696815270
+                        },
+                        "headsign" : "South Horizons",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "MTR",
+                                 "phone" : "2881 8888",
+                                 "url" : "http://www.mtr.com.hk/"
+                              }
+                           ],
+                           "color" : "#b5bd00",
+                           "name" : "South Island Line",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                              "local_icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/hk-metro.png",
+                              "name" : "Subway",
+                              "type" : "SUBWAY"
+                           }
+                        },
+                        "num_stops" : 2
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.1 km",
+                        "value" : 1096
+                     },
+                     "duration" : 
+                     {
+                        "text" : "15 mins",
+                        "value" : 905
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2470432,
+                        "lng" : 114.1582695
+                     },
+                     "html_instructions" : "Walk to Aberdeen Promenade, Aberdeen Praya Rd, Aberdeen, Hong Kong",
+                     "polyline" : 
+                     {
+                        "points" : "{hxfCcmywTp@fFE@@HBLL@B@Ht@JfA@PHz@HzA@|ADdB@d@?B@d@?`CBdB?t@@f@Bl@Bf@DZDRH\\HPNXFNFNPRRLv@r@NPLPHJLN@B?@?@?@?@EDABGFY`@GHU^IJ[`@@F?B?BADABCDEHEPOp@S~@AHEP?B?B?D@B@D@B?F@H"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.247979,
+                        "lng" : 114.168024
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 122
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 123
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.24773,
+                              "lng" : 114.16686
+                           },
+                           "html_instructions" : "Take exit \u003cspan class=\"location\"\u003eWong Chuk Hang Station Exit B\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "{hxfCcmywTp@fF"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.247979,
+                              "lng" : 114.168024
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "9 m",
+                              "value" : 9
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 7
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2477327,
+                              "lng" : 114.1667294
+                           },
+                           "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eHeung Yip Rd\u003c/b\u003e toward \u003cb\u003eNam Long Shan Rd\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "ogxfCyeywT@HBL"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2477596,
+                              "lng" : 114.166853
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "15 m",
+                              "value" : 15
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 15
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2476383,
+                              "lng" : 114.1667086
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eNam Long Shan Rd\u003c/b\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "igxfCaeywTL@B@"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2477327,
+                              "lng" : 114.1667294
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.8 km",
+                              "value" : 816
+                           },
+                           "duration" : 
+                           {
+                              "text" : "11 mins",
+                              "value" : 653
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2467705,
+                              "lng" : 114.1595092
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eHeung Yip Path\u003c/b\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "wfxfC}dywTHt@JfA@PHz@HzA@|ADdB@d@?B@d@?`CBdB?t@@f@Bl@Bf@DZDRH\\HPNXFNFNPRRLv@r@NPLPHJLN@B?@?@?@?@EDABGFY`@GHU^IJ[`@"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2476383,
+                              "lng" : 114.1667086
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 134
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 107
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2470432,
+                              "lng" : 114.1582695
+                           },
+                           "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e",
+                           "maneuver" : "turn-slight-left",
+                           "polyline" : 
+                           {
+                              "points" : "iaxfC}wwwT@F?B?BADABCDEHEPOp@S~@AHEP?B?B?D@B@D@B?F@H"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2467705,
+                              "lng" : 114.1595092
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "iorgC_b}wTU?SKIKMGZi@?KAEPSrAx@Yf@hAp@hCtAjAj@vAx@`Al@v@p@~@r@rAfAdE|DlAx@n@TfCdBhBvA|@|@|AtB`AxAvAzBfGtJ|@q@nEnI`DlHhDvFxBpBbC`BbNjHtEbCrDdCrDlAxCJrHe@pJu@`LoAvN{A|Gy@lO_BnSwBvLgA|OaB~C[|B_@|Bq@fBs@xHyDnDiBdAa@?GzB}@jA]nA[lB]zDe@bCIlA?hDHhCR~ARhCj@lCz@fF|BjJ|DdC`AdFxB`A\\`DdAjA^jB^x@J`BJ?BdBA`BIpC_@bD}@fGiBnG{BfQsFdAc@lBcAbCwApE}EbDsCdBiBdGyGrBaCtBaBhA{@f@Wd@MdBWxGeArF?pBHrAFzGj@bG^`CJlB?pC@|CUrZwEt`@oFnFo@hD@tBZvBr@rBfAfCvBrB`CrAhBb@xARbBBhCE|BOpPFdFCj@[dGGtERjEXxCb@dDr@hD~@xDjAxB|ErF`CvBLF~DnD~AvApA`AzBbB~@l@hAf@|@ZhARjAFdAArAIlAShBq@fKaGlTeMxYyPp\\yRnYuPnC_Bz@_@v@SjAQ|AEfAH~ATVDp@VfBbAjAjAzAbBl@|@l@pAf@jAl@~AZfAF`@DfAMjCOlBErACdCVvEBd@p@|EJt@p@fFE@@HBLL@B@Ht@LxARvCHlFDbIDtAHbANp@Xj@N^PRRLfAdAV\\NVq@`A_@j@[`@@F?FCHINUbA[~AFh@"
+         },
+         "summary" : "",
+         "warnings" : 
+         [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      },
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 22.3824588,
+               "lng" : 114.187282
+            },
+            "southwest" : 
+            {
+               "lat" : 22.2453951,
+               "lng" : 114.155255
+            }
+         },
+         "copyrights" : "Map data ©2023",
+         "legs" : 
+         [
+            {
+               "arrival_time" : 
+               {
+                  "text" : "9:56 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696816590
+               },
+               "departure_time" : 
+               {
+                  "text" : "9:07 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696813631
+               },
+               "distance" : 
+               {
+                  "text" : "21.7 km",
+                  "value" : 21666
+               },
+               "duration" : 
+               {
+                  "text" : "49 mins",
+                  "value" : 2959
+               },
+               "end_address" : "Aberdeen Promenade, Aberdeen Praya Rd, Aberdeen, Hong Kong",
+               "end_location" : 
+               {
+                  "lat" : 22.2471682,
+                  "lng" : 114.155255
+               },
+               "start_address" : "Hong Kong, Sha Tin, 沙田站",
+               "start_location" : 
+               {
+                  "lat" : 22.3821251,
+                  "lng" : 114.1867188
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 134
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 169
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.3818236,
+                        "lng" : 114.1869874
+                     },
+                     "html_instructions" : "Walk to Sha Tin Station",
+                     "polyline" : 
+                     {
+                        "points" : "iorgC_b}wTA?A?A?A?C?C?C?A?CAGECACAAACECCKEAABEVc@@A?CAC?AAA?CA?RSrAx@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3821251,
+                        "lng" : 114.1867188
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "43 m",
+                              "value" : 43
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 68
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3824588,
+                              "lng" : 114.186881
+                           },
+                           "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "iorgC_b}wTA?A?A?A?C?C?C?A?CAGECACAAACECCKEAA"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3821251,
+                              "lng" : 114.1867188
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "36 m",
+                              "value" : 36
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 45
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3823369,
+                              "lng" : 114.1871785
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eSha Tin Station Circuit\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "kqrgC_c}wTBEVc@@A?CAC?AAA?CA?"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3824588,
+                              "lng" : 114.186881
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "55 m",
+                              "value" : 55
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 56
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3818236,
+                              "lng" : 114.1869874
+                           },
+                           "html_instructions" : "Take entrance \u003cspan class=\"location\"\u003eSha Tin Station Exit A4\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "_prgCoe}wTrAx@"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.382245,
+                              "lng" : 114.187282
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "10.1 km",
+                        "value" : 10055
+                     },
+                     "duration" : 
+                     {
+                        "text" : "12 mins",
+                        "value" : 720
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.30289,
+                        "lng" : 114.1821
+                     },
+                     "html_instructions" : "Subway towards Admiralty",
+                     "polyline" : 
+                     {
+                        "points" : "kmrgCuc}wTYf@JF|@h@tAr@r@`@jAj@vAx@`Al@v@p@NNn@b@|@p@TTx@t@jCfClAx@n@TtA`Ap@b@ZRlAbA|@|@|AtBp@`ANVr@dAb@t@T^fC`EHJ~AfC|@q@nEnI`DlHhDvFxBpBbC`BtEbClGfDtEbCrDdCrDlAxCJnDSbCQpJu@`LoA`LkAtAO|Gy@lO_BnSwBvLgA|Gs@~Fm@~C[|B_@|Bq@fBs@hCqAnDgBvAw@vAq@dAa@?Gb@SvAi@v@WREnA[lB]lBWlAMdAE|@Cf@Ad@@tA@rAF`AHfAHjANRBd@Ht@Ph@LB@d@LtAd@HBFBFBpAh@l@X~At@^N`CdA`DrAf@RPHPF|Al@B@~@`@|An@l@VXNZLd@N|Bv@b@LjA^jB^v@J@?dAJZ??BdBA`BIpC_@dAW|Ae@xC}@lBk@dC{@hC_AfEqAzBu@hDeAxAe@dAc@lBcA`@U`BaAzBcCtAyAbDsCdBiBpAsArDeErBaCtBaBhA{@f@Wd@MdBWxCg@~B]rF?pBHZ@Cd@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3818236,
+                        "lng" : 114.1869874
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.30289,
+                              "lng" : 114.1821
+                           },
+                           "name" : "Hung Hom Station"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "9:22 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696814520
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.3818236,
+                              "lng" : 114.1869874
+                           },
+                           "name" : "Sha Tin Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "9:10 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696813800
+                        },
+                        "headsign" : "Admiralty",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "MTR",
+                                 "phone" : "2881 8888",
+                                 "url" : "http://www.mtr.com.hk/"
+                              }
+                           ],
+                           "color" : "#5eb6e4",
+                           "name" : "East Rail Line",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                              "local_icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/hk-metro.png",
+                              "name" : "Subway",
+                              "type" : "SUBWAY"
+                           }
+                        },
+                        "num_stops" : 4
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 237
+                     },
+                     "duration" : 
+                     {
+                        "text" : "4 mins",
+                        "value" : 246
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.3026755,
+                        "lng" : 114.1807173
+                     },
+                     "html_instructions" : "Walk to Cross Harbour Tunnel Bus-Bus Interchange",
+                     "polyline" : 
+                     {
+                        "points" : "a`cgCce|wTsBtD@?AP?R?J?JF@H@F?F@NDN@@?D?F@z@LF??@@?D?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.30289,
+                        "lng" : 114.1821
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 113
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 114
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.30347,
+                              "lng" : 114.18119
+                           },
+                           "html_instructions" : "Take exit \u003cspan class=\"location\"\u003eHung Hom Station Exit A1\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "a`cgCce|wTsBtD"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.30289,
+                              "lng" : 114.1821
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "32 m",
+                              "value" : 32
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 35
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3034748,
+                              "lng" : 114.1808778
+                           },
+                           "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "sccgCm_|wTAP?R?J?J"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3034622,
+                              "lng" : 114.1811896
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "92 m",
+                              "value" : 92
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 97
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3026755,
+                              "lng" : 114.1807173
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "uccgCo}{wTF@H@F?F@NDN@@?D?F@z@LF??@@?D?"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3034748,
+                              "lng" : 114.1808778
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "11.1 km",
+                        "value" : 11148
+                     },
+                     "duration" : 
+                     {
+                        "text" : "23 mins",
+                        "value" : 1380
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2468921,
+                        "lng" : 114.1560001
+                     },
+                     "html_instructions" : "Bus towards Wah Kwai Estate",
+                     "polyline" : 
+                     {
+                        "points" : "w~bgCa|{wTCJ@?LDJBJBD?F@NARBP@X@Z?\\BXAJBZ?D?F?n@AXCtD]pBQlEc@~Hu@b@Eb@EzQgB`@EfAKpNuA`J{@xFk@lCWrEc@DAhAItAM\\CTAXAD?`@B^Fr@Rr@\\RNTNf@`@j@t@?@~@dA\\^NPLLLJNFRHTDNFPJD@XNVRX^BDDJP`@Pv@b@vAJb@@DDJLh@LVR\\f@z@BNHRNv@DP?@@@`@xA@R?LALADCH?DA@?@CFCFGFMHWNiAV]DWFEB[FcBh@KDE@C?e@NW@a@sC_@sBEYNEPGn@QXI\\KHCDGB?DAZM@AFCjA_@|@[NE`@M`@K?A`@Mz@YFAHENA^KVIDACMACK_@U}@m@}BOe@Qo@CKGQI]k@uBOi@GUEOSw@?ACMCOAO?O?e@C_Bo@@q@Ba@@W?G@A?C@C@EBQH]PEB]Rh@lBLd@HZFTFX@H@D?D@B@BB@DH@DBH@B@D@@?F@B?B@B?BBF@FBDBJ@DDLFTFNJXDPFJDNFHHLDDFBD?L?FALCNEVG\\K\\IHCJChBi@DANCRCNCB?\\AV@`@@lAD|BBd@?d@@lABn@F@?p@JNF`@Ll@ZPNHHj@l@XXp@p@j@f@@@`@ZJD`@RJBTDRFf@Fp@@h@Gb@GVI~GiB`@I`@KZKb@QHAXIFCb@GLCl@I`@Gx@G`@CVAL?v@AhAB\\@lAD`@@J?V@b@@b@?b@@B?^@r@@|BBvAB`DFb@@b@@b@@b@@^@B?`@@b@@b@?b@@dDFrABjBBb@@b@@N?H?F?b@@fA?fA@jB?`@?b@@b@?b@?`IBnC@hB@x@?tADjBFdBNlAP\\H^Jp@XnAf@`@Nh@^XRVPj@`@fAx@h@\\RLjDzBTRPNZ^Z^NVDFPXJRRf@JXFPFb@Fd@Fd@DXBb@@J?\\?X@H?|@ARATGl@ANEn@AHGd@]vC?@[nCI|@G^CVGv@ANJ^FLFFBBB@BB@?LB@?`@Bl@@zABB?RLTFPGj@U@A?A?A@A?A@A?A@A@A@A@A@?@A@?@A@?@?@?@?@?@?B?@?@??@@?DBBDBB@F@HADADCDCDXpFFHNTJLFJrAz@b@TTJd@JTBdA?D?j@EVC~@GB?JBHBJDFDFBDFDFDF`@bAFPBN@DBPHj@BbAAH?DAJGRENABCBCHCDEH_@z@EBEDKPGHONYRID_@TKDU@K@K?KAOC[Is@OcB}@E?GAK@g@PI?G@MD[L[LC@Tn@J\\?@FTBNF^Dj@Dt@@J?XCt@Cb@GRCDADCBCBC@A@C?Ej@Eh@En@Iv@Et@El@MfBCn@A`@?X@J?HDXB^Jd@\\hAJTZv@Nd@HRHTBJBHDLBJFTFNBLBFh@pBNn@BDd@pB\\rALj@T`ABx@@^Er@ARCNCPIb@VF"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.30268,
+                        "lng" : 114.18065
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.2468921,
+                              "lng" : 114.1560001
+                           },
+                           "name" : "Aberdeen Promenade"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "9:55 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696816500
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.30268,
+                              "lng" : 114.18065
+                           },
+                           "name" : "Cross Harbour Tunnel Bus-Bus Interchange"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "9:32 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696815120
+                        },
+                        "headsign" : "Wah Kwai Estate",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "Citybus Limited",
+                                 "phone" : "2136 8888",
+                                 "url" : "https://www.bravobus.com.hk/"
+                              }
+                           ],
+                           "color" : "#f2f200",
+                           "name" : "華貴邨 - 九龍灣",
+                           "short_name" : "107",
+                           "text_color" : "#1f4b7d",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 8,
+                        "trip_short_name" : "107"
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "92 m",
+                        "value" : 92
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 90
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2471682,
+                        "lng" : 114.155255
+                     },
+                     "html_instructions" : "Walk to Aberdeen Promenade, Aberdeen Praya Rd, Aberdeen, Hong Kong",
+                     "polyline" : 
+                     {
+                        "points" : "abxfC_bwwTG`@?BCPEPGDGDQr@CH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.2468914,
+                        "lng" : 114.1559999
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "20 m",
+                              "value" : 20
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 26
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2469255,
+                              "lng" : 114.1558081
+                           },
+                           "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "abxfC_bwwTG`@?B"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2468914,
+                              "lng" : 114.1559999
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "72 m",
+                              "value" : 72
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 64
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2471682,
+                              "lng" : 114.155255
+                           },
+                           "html_instructions" : "Take the pedestrian tunnel",
+                           "polyline" : 
+                           {
+                              "points" : "ibxfCy`wwTCPEPGDGDQr@CH"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2469255,
+                              "lng" : 114.1558081
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "iorgC_b}wTU?SKIKMGZi@?KAEPSrAx@Yf@hAp@hCtAjAj@vAx@`Al@v@p@~@r@rAfAdE|DlAx@n@TfCdBhBvA|@|@|AtB`AxAvAzBfGtJ|@q@nEnI`DlHhDvFxBpBbC`BbNjHtEbCrDdCrDlAxCJrHe@pJu@`LoAvN{A|Gy@lO_BnSwBvLgA|OaB~C[|B_@|Bq@fBs@xHyDnDiBdAa@?GzB}@jA]nA[lB]zDe@bCIlA?hDHhCR~ARhCj@lCz@fF|BjJ|DdC`AdFxB`A\\`DdAjA^jB^x@J`BJ?BdBA`BIpC_@bD}@fGiBnG{BfQsFdAc@lBcAbCwApE}EbDsCdBiBdGyGrBaCtBaBhA{@f@Wd@MdBWxGeArF?pBHZ@Cd@qBtDA|@`@D^FF?bANN@CXNDd@HnAD~ADxAArn@aG~o@mGrE]^A`AJr@Rr@\\h@^f@`@j@t@~@fAl@p@ZXb@Pd@LVLp@b@\\d@Vl@t@nCLh@Rt@`@t@f@z@BNXjAh@nB@`@CRERGNUPWNiAVu@LqCz@I@e@NW@aAgGEYNE`AYv@UNKHApBs@vFgBpA]DAEQ_BaGg@kBiAeEWgAE_@?u@C_Bo@@sADa@@_@Pc@T]Rh@lBV`ANn@DXLTLh@\\nA`@fALXNRLBTArA]|C{@x@M`@Ax@BjEHjA@|BJr@Jp@T~@j@`CbCl@h@l@`@l@Vh@Lf@Fp@@lAOzJiCbBi@x@OnAQzAKd@A`C@xCHxILd]l@hb@N`ELrD`@|@T`C`A`@Nh@^p@d@rBzA|@j@`EnCl@n@j@v@V`@^z@Rj@\\hCDfBApBQvBaAnI]lDANJ^NTLHNBnAD~ABRLTF|@]@CBGDGJEN?HDFHBPCJGJXpFFHZb@FJrAz@x@`@z@NjA?fCQTFRJXZh@tADTL|@@lAOt@MVe@dAKHSZi@b@u@`@a@BWAk@Ms@OcB}@MAK@g@PQ@i@R_@N`@lARfAJ`B@d@GxAKXMNE@KtA[jEQvCA`@@d@Db@NdAh@~A~@fCPn@Vz@bBxGj@~BT`ABx@CrAEb@Mt@VFGd@Ib@OJU|@"
+         },
+         "summary" : "",
+         "warnings" : 
+         [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      },
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 22.3824588,
+               "lng" : 114.187282
+            },
+            "southwest" : 
+            {
+               "lat" : 22.2462178,
+               "lng" : 114.1582695
+            }
+         },
+         "copyrights" : "Map data ©2023",
+         "legs" : 
+         [
+            {
+               "arrival_time" : 
+               {
+                  "text" : "9:59 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696816775
+               },
+               "departure_time" : 
+               {
+                  "text" : "9:11 AM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696813871
+               },
+               "distance" : 
+               {
+                  "text" : "20.1 km",
+                  "value" : 20064
+               },
+               "duration" : 
+               {
+                  "text" : "48 mins",
+                  "value" : 2904
+               },
+               "end_address" : "Aberdeen Promenade, Aberdeen Praya Rd, Aberdeen, Hong Kong",
+               "end_location" : 
+               {
+                  "lat" : 22.2470432,
+                  "lng" : 114.1582695
+               },
+               "start_address" : "Hong Kong, Sha Tin, 沙田站",
+               "start_location" : 
+               {
+                  "lat" : 22.3821251,
+                  "lng" : 114.1867188
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 134
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 169
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.3818236,
+                        "lng" : 114.1869874
+                     },
+                     "html_instructions" : "Walk to Sha Tin Station",
+                     "polyline" : 
+                     {
+                        "points" : "iorgC_b}wTA?A?A?A?C?C?C?A?CAGECACAAACECCKEAABEVc@@A?CAC?AAA?CA?RSrAx@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3821251,
+                        "lng" : 114.1867188
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "43 m",
+                              "value" : 43
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 68
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3824588,
+                              "lng" : 114.186881
+                           },
+                           "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "iorgC_b}wTA?A?A?A?C?C?C?A?CAGECACAAACECCKEAA"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3821251,
+                              "lng" : 114.1867188
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "36 m",
+                              "value" : 36
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 45
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3823369,
+                              "lng" : 114.1871785
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eSha Tin Station Circuit\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "kqrgC_c}wTBEVc@@A?CAC?AAA?CA?"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3824588,
+                              "lng" : 114.186881
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "55 m",
+                              "value" : 55
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 56
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3818236,
+                              "lng" : 114.1869874
+                           },
+                           "html_instructions" : "Take entrance \u003cspan class=\"location\"\u003eSha Tin Station Exit A4\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "_prgCoe}wTrAx@"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.382245,
+                              "lng" : 114.187282
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "14.2 km",
+                        "value" : 14228
+                     },
+                     "duration" : 
+                     {
+                        "text" : "20 mins",
+                        "value" : 1200
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.27868,
+                        "lng" : 114.16623
+                     },
+                     "html_instructions" : "Subway towards Admiralty",
+                     "polyline" : 
+                     {
+                        "points" : "kmrgCuc}wTYf@JF|@h@tAr@r@`@jAj@vAx@`Al@v@p@NNn@b@|@p@TTx@t@jCfClAx@n@TtA`Ap@b@ZRlAbA|@|@|AtBp@`ANVr@dAb@t@T^fC`EHJ~AfC|@q@nEnI`DlHhDvFxBpBbC`BtEbClGfDtEbCrDdCrDlAxCJnDSbCQpJu@`LoA`LkAtAO|Gy@lO_BnSwBvLgA|Gs@~Fm@~C[|B_@|Bq@fBs@hCqAnDgBvAw@vAq@dAa@?Gb@SvAi@v@WREnA[lB]lBWlAMdAE|@Cf@Ad@@tA@rAF`AHfAHjANRBd@Ht@Ph@LB@d@LtAd@HBFBFBpAh@l@X~At@^N`CdA`DrAf@RPHPF|Al@B@~@`@|An@l@VXNZLd@N|Bv@b@LjA^jB^v@J@?dAJZ??BdBA`BIpC_@dAW|Ae@xC}@lBk@dC{@hC_AfEqAzBu@hDeAxAe@dAc@lBcA`@U`BaAzBcCtAyAbDsCdBiBpAsAjEcFzAaBrBaB~AmAn@QjCe@nFu@`CKrFVV@jERpDXfHf@bDHpCG|CUrZwEt`@oFnFo@hD@tBZvBr@rBfAfCvBrB`CrAhBb@xARbBBhCE|BOpPFdFATAT[dGGtERjEXxCb@dDr@hDnArElAtB|@`AlCzC~BtB@@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3818236,
+                        "lng" : 114.1869874
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.27868,
+                              "lng" : 114.16623
+                           },
+                           "name" : "Admiralty Station"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "9:34 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696815240
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.3818236,
+                              "lng" : 114.1869874
+                           },
+                           "name" : "Sha Tin Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "9:14 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696814040
+                        },
+                        "headsign" : "Admiralty",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "MTR",
+                                 "phone" : "2881 8888",
+                                 "url" : "http://www.mtr.com.hk/"
+                              }
+                           ],
+                           "color" : "#5eb6e4",
+                           "name" : "East Rail Line",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                              "local_icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/hk-metro.png",
+                              "name" : "Subway",
+                              "type" : "SUBWAY"
+                           }
+                        },
+                        "num_stops" : 6
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "4.6 km",
+                        "value" : 4606
+                     },
+                     "duration" : 
+                     {
+                        "text" : "6 mins",
+                        "value" : 330
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.247979,
+                        "lng" : 114.168024
+                     },
+                     "html_instructions" : "Subway towards South Horizons",
+                     "polyline" : 
+                     {
+                        "points" : "wh~fC}aywTLF~DnD~AvApA`AdAz@t@f@^X^Rb@Td@P`@NZJf@H`@Hh@D`@@Z@h@Ch@Ch@E^El@M|@Yj@WbB_AvBqA~A_AjAo@f@YnCaBbDkBpI}E`JiFvNoI|P}JrJ{F|J}FvCeBpDyBfCwAtAu@x@i@z@_@v@S`@Ih@Gl@Cn@A^Bf@Dx@Jd@HVDp@Vv@b@n@^`@\\h@l@n@r@j@n@l@|@l@pA`@~@DJHPb@lAL`@Ld@BHBVBl@@XAZKnBOlBErACbA?`ABd@RpDBd@p@|EJt@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.27868,
+                        "lng" : 114.16623
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.247979,
+                              "lng" : 114.168024
+                           },
+                           "name" : "Wong Chuk Hang Station"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "9:44 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696815870
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.27868,
+                              "lng" : 114.16623
+                           },
+                           "name" : "Admiralty Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "9:39 AM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696815540
+                        },
+                        "headsign" : "South Horizons",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "MTR",
+                                 "phone" : "2881 8888",
+                                 "url" : "http://www.mtr.com.hk/"
+                              }
+                           ],
+                           "color" : "#b5bd00",
+                           "name" : "South Island Line",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                              "local_icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/hk-metro.png",
+                              "name" : "Subway",
+                              "type" : "SUBWAY"
+                           }
+                        },
+                        "num_stops" : 2
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.1 km",
+                        "value" : 1096
+                     },
+                     "duration" : 
+                     {
+                        "text" : "15 mins",
+                        "value" : 905
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2470432,
+                        "lng" : 114.1582695
+                     },
+                     "html_instructions" : "Walk to Aberdeen Promenade, Aberdeen Praya Rd, Aberdeen, Hong Kong",
+                     "polyline" : 
+                     {
+                        "points" : "{hxfCcmywTp@fFE@@HBLL@B@Ht@JfA@PHz@HzA@|ADdB@d@?B@d@?`CBdB?t@@f@Bl@Bf@DZDRH\\HPNXFNFNPRRLv@r@NPLPHJLN@B?@?@?@?@EDABGFY`@GHU^IJ[`@@F?B?BADABCDEHEPOp@S~@AHEP?B?B?D@B@D@B?F@H"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.247979,
+                        "lng" : 114.168024
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 122
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 123
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.24773,
+                              "lng" : 114.16686
+                           },
+                           "html_instructions" : "Take exit \u003cspan class=\"location\"\u003eWong Chuk Hang Station Exit B\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "{hxfCcmywTp@fF"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.247979,
+                              "lng" : 114.168024
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "9 m",
+                              "value" : 9
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 7
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2477327,
+                              "lng" : 114.1667294
+                           },
+                           "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eHeung Yip Rd\u003c/b\u003e toward \u003cb\u003eNam Long Shan Rd\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "ogxfCyeywT@HBL"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2477596,
+                              "lng" : 114.166853
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "15 m",
+                              "value" : 15
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 15
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2476383,
+                              "lng" : 114.1667086
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eNam Long Shan Rd\u003c/b\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : 
+                           {
+                              "points" : "igxfCaeywTL@B@"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2477327,
+                              "lng" : 114.1667294
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.8 km",
+                              "value" : 816
+                           },
+                           "duration" : 
+                           {
+                              "text" : "11 mins",
+                              "value" : 653
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2467705,
+                              "lng" : 114.1595092
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eHeung Yip Path\u003c/b\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : 
+                           {
+                              "points" : "wfxfC}dywTHt@JfA@PHz@HzA@|ADdB@d@?B@d@?`CBdB?t@@f@Bl@Bf@DZDRH\\HPNXFNFNPRRLv@r@NPLPHJLN@B?@?@?@?@EDABGFY`@GHU^IJ[`@"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2476383,
+                              "lng" : 114.1667086
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 134
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 107
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2470432,
+                              "lng" : 114.1582695
+                           },
+                           "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e",
+                           "maneuver" : "turn-slight-left",
+                           "polyline" : 
+                           {
+                              "points" : "iaxfC}wwwT@F?B?BADABCDEHEPOp@S~@AHEP?B?B?D@B@D@B?F@H"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2467705,
+                              "lng" : 114.1595092
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "iorgC_b}wTU?SKIKMGZi@?KAEPSrAx@Yf@hAp@hCtAjAj@vAx@`Al@v@p@~@r@rAfAdE|DlAx@n@TfCdBhBvA|@|@|AtB`AxAvAzBfGtJ|@q@nEnI`DlHhDvFxBpBbC`BbNjHtEbCrDdCrDlAxCJrHe@pJu@`LoAvN{A|Gy@lO_BnSwBvLgA|OaB~C[|B_@|Bq@fBs@xHyDnDiBdAa@?GzB}@jA]nA[lB]zDe@bCIlA?hDHhCR~ARhCj@lCz@fF|BjJ|DdC`AdFxB`A\\`DdAjA^jB^x@J`BJ?BdBA`BIpC_@bD}@fGiBnG{BfQsFdAc@lBcAbCwApE}EbDsCdBiBpAsAjEcFzAaBrBaB~AmAn@QjCe@nFu@`CKrFVbFTxM`AbDHpCG|CUrZwEt`@oFnFo@hD@tBZvBr@rBfAfCvBrB`CrAhBb@xARbBBhCUnTDzF]zGGtERjEXxCb@dDr@hDnArElAtB|@`AlCzC~BtBNH~GfGvC|BtA`AbAh@fA`@bATjAN|@BrAGhAKjBg@nCwAvEqCrBiArHmErTgMt`@mUpVyNhI_F|EmCx@i@z@_@xA]vAKn@A^B`BP|@Np@Vv@b@n@^`@\\xA`Bj@n@l@|@nApCN\\p@nBPn@FdA?t@[|EIvCBfBVvE|@rGp@fFE@DVPBT|BJlAHzA@|AFjC@h@DdIFtAJn@Rn@Vh@Xb@jA`At@~@@HGJ_ArAe@l@@JGRKZc@pBGb@DR@P"
+         },
+         "summary" : "",
+         "warnings" : 
+         [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
