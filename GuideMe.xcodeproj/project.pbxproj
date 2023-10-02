@@ -50,7 +50,7 @@
 		774227892AC1E8FC0025D6FE /* Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
 		774C1E6C2AAB52EF00FC75F3 /* DirectionSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionSearchView.swift; sourceTree = "<group>"; };
 		776568BC2ACB1A20003587D8 /* sample_responses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sample_responses; sourceTree = "<group>"; };
-		776568C22ACB2581003587D8 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		776568C32ACB2BEF003587D8 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		778B6BA32AA9F39600260C8F /* GuideMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuideMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B6BA62AA9F39600260C8F /* GuideMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideMeApp.swift; sourceTree = "<group>"; };
 		778B6BA82AA9F39600260C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 		778B6B9A2AA9F39600260C8F = {
 			isa = PBXGroup;
 			children = (
-				776568C22ACB2581003587D8 /* Config.xcconfig */,
+				776568C32ACB2BEF003587D8 /* Config.xcconfig */,
 				778B6BA52AA9F39600260C8F /* GuideMe */,
 				778B6BB62AA9F39700260C8F /* GuideMeTests */,
 				778B6BC02AA9F39700260C8F /* GuideMeUITests */,
@@ -369,7 +369,7 @@
 /* Begin XCBuildConfiguration section */
 		778B6BC52AA9F39700260C8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 776568C22ACB2581003587D8 /* Config.xcconfig */;
+			baseConfigurationReference = 776568C32ACB2BEF003587D8 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;

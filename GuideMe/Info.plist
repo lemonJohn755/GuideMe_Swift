@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>DIRECTION_API</key>
-	<string>$(DIRECTION_API)</string>
+	<key>DIRECTION_API_KEY</key>
+	<string>$(DIRECTION_API_KEY)</string>
 </dict>
 </plist>

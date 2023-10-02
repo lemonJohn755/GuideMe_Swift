@@ -18,7 +18,8 @@ class GetRoutes: ObservableObject{
     
     var destination : Destination
     var origin : Origin
-    let apiKey : String = Bundle.main.infoDictionary!["DIRECTION_API"] as! String
+    
+    let APIKey : String = Bundle.main.infoDictionary?["DIRECTION_API_KEY"] as! String
 
     init(destination : Destination, origin : Origin){
         self.destination = destination
@@ -26,16 +27,15 @@ class GetRoutes: ObservableObject{
     }
     
     func fetchDemo(destination: Destination, origin: Origin) {
-        print(apiKey)
         
-        let query = "https://maps.googleapis.com/maps/api/directions/json?origin=\(origin.lat),\(origin.long) &destination=\(destination.lat),\(destination.long)&mode=transit&region=HK&alternatives=true&key=\(apiKey)"
+        let query = "https://maps.googleapis.com/maps/api/directions/json?origin=\(origin.lat),\(origin.long) &destination=\(destination.lat),\(destination.long)&mode=transit&region=HK&alternatives=true&key=\(APIKey)"
 
         print("URL\n\(query)")
     }
     
     func fetch(destination: Destination, origin: Origin) {
 
-        let query = "https://maps.googleapis.com/maps/api/directions/json?origin=\(origin.lat),\(origin.long) &destination=\(destination.lat),\(destination.long)&mode=transit&key=AIzaSyCu1CcGnhc0zLJuFpzOWhpF-kJH14BVDcY&region=HK&alternatives=true"
+        let query = "https://maps.googleapis.com/maps/api/directions/json?origin=\(origin.lat),\(origin.long) &destination=\(destination.lat),\(destination.long)&mode=transit&region=HK&alternatives=true&key=\(APIKey)"
         
         print("URL\n\(query)")
         guard let url = URL(string: query.addingPercentEncoding(withAllowedCharacters:NSCharacterSet.urlQueryAllowed) ?? "") else { fatalError("Missing URL") }
