@@ -15,6 +15,14 @@ struct RouteRowView: View{
         
         HStack{
             // Summary
+//            let rows = [
+//                GridItem(.fixed(50)),
+//                GridItem(.fixed(50))
+//            ]
+//            
+//            LazyHGrid(rows: rows, alignment: .center) {
+//            }
+            
             ForEach(route.legs[0].steps){step in
                 VStack{
                     if (step.travel_mode == TravelMode.TRANSIT){
@@ -49,6 +57,7 @@ struct RouteRowView: View{
                             Image(systemName: "car")
                         case .SUBWAY:
                             Image(systemName: "tram.fill.tunnel")
+                                .foregroundColor(Color(hex: step.transit_details?.line?.color ?? ""))
                         case .TRAM:
                             Image(systemName: "tram")
                         case .TROLLEYBUS:
@@ -56,10 +65,12 @@ struct RouteRowView: View{
                         case .none:
                             Image(systemName: "questionmark.circle")
                         }
+                        
                         Text(((step.transit_details?.line?.short_name ?? step.transit_details?.line?.name) ?? "") )
-                            .font(.caption)
+                            .font(.caption2)
+                        
                     }else if (step.travel_mode == TravelMode.BICLYING){
-                        Image(systemName: "bickcle")
+                        Image(systemName: "bicycle")
                     }
                     else if (step.travel_mode == TravelMode.DRIVING){
                         Image(systemName: "car")
@@ -82,16 +93,21 @@ struct RouteRowView: View{
             .font(.callout)
             .lineLimit(1)
             
-            Image(systemName: "chevron.right")
+            //            Image(systemName: "chevron.right")
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .font(.title2)
         .padding()
+        .foregroundColor(Color(.black))
+
+        Divider()
+        
     }
 }
 
 //struct RouteRowView_Previews: PreviewProvider {
 //    static var previews: some View {
+//
 //        RouteRowView(route: route)
 //    }
 //}

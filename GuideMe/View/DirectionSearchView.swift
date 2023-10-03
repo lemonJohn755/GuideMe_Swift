@@ -15,19 +15,19 @@ struct DirectionSearchView: View {
     
     @State var region = MKCoordinateRegion()
     @State var pins : [Pin] = []
-
+    
     var destination : Destination
-//    var origin : Origin
+    //    var origin : Origin
     
     var body: some View {
         
         NavigationView{
             GeometryReader { proxy in
-                VStack{
+                ScrollView{
                     ZStack (alignment: .topTrailing){
                         Map(coordinateRegion: $region, showsUserLocation: true, annotationItems: pins){
                             MapMarker(coordinate: $0.coordinate)
-                        }        
+                        }
                         .task {
                             let lat = locationManager.region.center.latitude
                             let long = locationManager.region.center.longitude
@@ -38,7 +38,7 @@ struct DirectionSearchView: View {
                             
                             region = fitPinsRegion(pins: pins)
                         }
-
+                        
                         LocationButton(.currentLocation) {
                             print("Location btn tapped")
                             locationManager.requestAllowOnceLocationPermission()
@@ -53,82 +53,87 @@ struct DirectionSearchView: View {
                         .padding(.vertical, 10)
                         .padding(.horizontal, 10)
                     }
-                    .frame(height: proxy.size.height * 0.5)
+                    .frame(height: proxy.size.height * 0.4)
                     
-                    ScrollView{
+                    VStack{
                         VStack{
-                            Spacer()
-                            VStack{
-                                HStack{
-                                    VStack{
-                                        Label("Start", systemImage: "location.fill")
-                                            .labelStyle(.iconOnly)
-                                            .font(.title)
-                                        Text("Start")
-                                            .font(.callout)
-                                    }
-                                    VStack{
-                                        Label("Your location", systemImage: "pin.circle")
-                                            .frame( maxWidth: .infinity ,alignment: .leading)
-                                            .foregroundStyle(Color.blue)
-                                        Text(String(format: "%.5f", locationManager.region.center.latitude)+", "+String(format: "%.5f", locationManager.region.center.longitude))
-                                            .textSelection(.enabled)
-                                            .font(.caption)
-                                            .foregroundStyle(Color.gray)
-                                            .frame( maxWidth: .infinity ,alignment: .leading)
-                                    }
-
+                            HStack{
+                                VStack{
+                                    Label("Start", systemImage: "location.fill")
+                                        .labelStyle(.iconOnly)
+                                        .font(.title)
+                                    Text("Start")
+                                        .font(.callout)
                                 }
-                                Divider()
-                                HStack{
-                                    VStack{
-                                        Label("Destination", systemImage: "arrow.triangle.turn.up.right.diamond.fill")
-                                            .labelStyle(.iconOnly)
-                                            .font(.title)
-                                        Text("End")
-                                            .font(.callout)
-                                    }
-                                    VStack{
-                                        Text(destination.title)
-                                            .frame( maxWidth: .infinity ,alignment: .leading)
-                                        Text("\(destination.lat), \(destination.long)")
-                                            .frame( maxWidth: .infinity ,alignment: .leading)
-                                            .font(.caption)
-                                            .foregroundStyle(Color.gray)
-                                    }
-                                    .textSelection(.enabled)
+                                VStack{
+                                    Label("Your location", systemImage: "pin.circle")
+                                        .frame( maxWidth: .infinity ,alignment: .leading)
+                                        .foregroundStyle(Color.blue)
+                                    Text(String(format: "%.5f", locationManager.region.center.latitude)+", "+String(format: "%.5f", locationManager.region.center.longitude))
+                                        .textSelection(.enabled)
+                                        .font(.caption)
+                                        .foregroundStyle(Color.gray)
+                                        .frame( maxWidth: .infinity ,alignment: .leading)
                                 }
+                                
                             }
-                            .padding()
-                            .font(.body)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 16)
-                                    .stroke(.orange, lineWidth: 3)
-                            )
-                            .frame( maxWidth: .infinity ,alignment: .leading)
-                            .padding(.horizontal)
+                            Divider()
+                            HStack{
+                                VStack{
+                                    Label("Destination", systemImage: "arrow.triangle.turn.up.right.diamond.fill")
+                                        .labelStyle(.iconOnly)
+                                        .font(.title)
+                                    Text("End")
+                                        .font(.callout)
+                                }
+                                VStack{
+                                    Text(destination.title)
+                                        .frame( maxWidth: .infinity ,alignment: .leading)
+                                    Text("\(destination.lat), \(destination.long)")
+                                        .frame( maxWidth: .infinity ,alignment: .leading)
+                                        .font(.caption)
+                                        .foregroundStyle(Color.gray)
+                                }
+                                .textSelection(.enabled)
+                            }
                         }
+                        .padding()
+                        .font(.body)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 16)
+                                .stroke(.orange, lineWidth: 3)
+                        )
+                        .frame( maxWidth: .infinity ,alignment: .leading)
+                        .padding(.horizontal)
+                    }
+                    
+                    // route list
+                    if (!getRoutes.routes.isEmpty){
+                        Text("Results: \(getRoutes.routes.count)")
+                            .foregroundColor(Color.gray)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.horizontal)
                         
-                        // route list
-                        if (!getRoutes.routes.isEmpty){
-                            Text("Results: \(getRoutes.routes.count)")
-                                .foregroundColor(Color.gray)
-                                .frame(maxWidth: .infinity, alignment: .leading)
-                                .padding(.horizontal)
-
-                            ForEach(getRoutes.routes){ route in
+                        ForEach (getRoutes.routes){ route in                            
+                            NavigationLink {
+                                RouteDetailView()
+                            } label: {
                                 RouteRowView(route: route)
                             }
                         }
-
+                        
                     }
-
+                    
                 }
             }
         }
         .navigationTitle("Route Suggestion")
         .onAppear(){
+            // Read sample API response
             getRoutes.fetchDemo(destination: destination, origin: Origin(lat: locationManager.region.center.latitude, long: locationManager.region.center.longitude))
+            
+            // Call Direction API
+            //            getRoutes.fetch(destination: destination, origin: Origin(lat: locationManager.region.center.latitude, long: locationManager.region.center.longitude))
         }
     }
     
@@ -141,7 +146,7 @@ struct DirectionSearchView: View {
         var maxLon = pins.first!.coordinate.longitude
         var avgLat = 0.0
         var avgLon = 0.0
-
+        
         for pin in pins {
             let coordinate = pin.coordinate
             minLat = min(minLat, coordinate.latitude)
@@ -161,7 +166,7 @@ struct DirectionSearchView: View {
         let center = CLLocationCoordinate2D(latitude: avgLat , longitude: avgLon)
         
         let span = MKCoordinateSpan(latitudeDelta: (maxLat - minLat) * 1.5, longitudeDelta: (maxLon - minLon) * 1.5 )
-
+        
         return MKCoordinateRegion(center: center, span: span)
     }
 }
@@ -169,16 +174,15 @@ struct DirectionSearchView: View {
 
 
 struct DirectionSearchView_Previews: PreviewProvider {
-
+    
     static var previews: some View {
-        @State var destinationLoc : String = ""
         @State var destination : Destination = Destination(name: "貝澳泳灘", title: "Pui O Beach Lantau Island", lat: 22.2398019, long: 113.9745063)
         @State var origin : Origin = Origin(lat: 22.32481920, long: 114.16901930)
-
+        
         DirectionSearchView(destination: destination)
             .environmentObject(LocationManager())
             .environmentObject(GetRoutes(destination: destination, origin: origin))
-
+        
     }
 }
 

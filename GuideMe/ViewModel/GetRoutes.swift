@@ -13,14 +13,11 @@ class GetRoutes: ObservableObject{
     
     @Published var routes: [Route] = []
     
-    //    @Published var destination : Destination
-//    @EnvironmentObject var destination: Destination
-    
     var destination : Destination
     var origin : Origin
     
     let APIKey : String = Bundle.main.infoDictionary?["DIRECTION_API_KEY"] as! String
-
+    
     init(destination : Destination, origin : Origin){
         self.destination = destination
         self.origin = origin
@@ -29,12 +26,55 @@ class GetRoutes: ObservableObject{
     func fetchDemo(destination: Destination, origin: Origin) {
         
         let query = "https://maps.googleapis.com/maps/api/directions/json?origin=\(origin.lat),\(origin.long) &destination=\(destination.lat),\(destination.long)&mode=transit&region=HK&alternatives=true&key=\(APIKey)"
-
-        print("URL\n\(query)")
+        
+        print("[TEST] URL:\n\(query)")
+        
+        let jsonData = readLocalJSONFile(forName: "/sample_responses/response")
+        if let data = jsonData {
+            if let decodedJson = parse(jsonData: data) {
+                print("JSON read: \(decodedJson.status)")
+                
+                do {
+                    let decodedJson = try JSONDecoder().decode(Direction.self, from: data)
+                    
+                    print("API Connection: \(decodedJson.status)")
+                    self.routes = decodedJson.routes
+                    
+                } catch let error {
+                    print("Error decoding: ", error)
+                }
+            }
+        }
+        else{
+            print("File not found")
+        }
+    }
+    
+    private func readLocalJSONFile(forName name: String) -> Data? {
+        do {
+            if let filePath = Bundle.main.path(forResource: name, ofType: "json") {
+                let fileUrl = URL(fileURLWithPath: filePath)
+                let data = try Data(contentsOf: fileUrl)
+                return data
+            }
+        } catch {
+            print("error: \(error)")
+        }
+        return nil
+    }
+    
+    private func parse(jsonData: Data) -> Direction? {
+        do {
+            let decodedData = try JSONDecoder().decode(Direction.self, from: jsonData)
+            return decodedData
+        } catch {
+            print("error: \(error)")
+        }
+        return nil
     }
     
     func fetch(destination: Destination, origin: Origin) {
-
+        
         let query = "https://maps.googleapis.com/maps/api/directions/json?origin=\(origin.lat),\(origin.long) &destination=\(destination.lat),\(destination.long)&mode=transit&region=HK&alternatives=true&key=\(APIKey)"
         
         print("URL\n\(query)")
@@ -58,7 +98,7 @@ class GetRoutes: ObservableObject{
                     do {
                         let decodedJson = try JSONDecoder().decode(Direction.self, from: data)
                         
-                        //                            print("API Connection: \(decodedJson.status)")
+                        print("API Connection: \(decodedJson.status)")
                         self.routes = decodedJson.routes
                         
                     } catch let error {
@@ -70,7 +110,5 @@ class GetRoutes: ObservableObject{
         
         dataTask.resume()
     }
-    
-
     
 }

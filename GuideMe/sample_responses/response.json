@@ -1,0 +1,2453 @@
+{
+   "geocoded_waypoints" : 
+   [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJqw-z68kABDQRxI_HIVh-1n0",
+         "types" : 
+         [
+            "premise"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJBXylpTNXATQRK0KwPF0JiNs",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "tourist_attraction"
+         ]
+      }
+   ],
+   "routes" : 
+   [
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 22.3588599,
+               "lng" : 114.1690193
+            },
+            "southwest" : 
+            {
+               "lat" : 22.2375549,
+               "lng" : 113.9333436
+            }
+         },
+         "copyrights" : "Map data ©2023",
+         "legs" : 
+         [
+            {
+               "arrival_time" : 
+               {
+                  "text" : "8:06 PM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696334760
+               },
+               "departure_time" : 
+               {
+                  "text" : "6:45 PM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696329929
+               },
+               "distance" : 
+               {
+                  "text" : "38.3 km",
+                  "value" : 38327
+               },
+               "duration" : 
+               {
+                  "text" : "1 hour 21 mins",
+                  "value" : 4831
+               },
+               "end_address" : "Hong Kong, Lantau Island, Pui O Beach Lantau Island",
+               "end_location" : 
+               {
+                  "lat" : 22.2398019,
+                  "lng" : 113.9745063
+               },
+               "start_address" : "212 Tung Choi St, Prince Edward, Hong Kong",
+               "start_location" : 
+               {
+                  "lat" : 22.3248192,
+                  "lng" : 114.1690193
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "71 m",
+                        "value" : 71
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 91
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.3250797,
+                        "lng" : 114.1683841
+                     },
+                     "html_instructions" : "Walk to Prince Edward Station",
+                     "polyline" : 
+                     {
+                        "points" : "ciggCksywTs@zB?B"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3248192,
+                        "lng" : 114.1690193
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "69 m",
+                              "value" : 69
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 88
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3250835,
+                              "lng" : 114.1684033
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "ciggCksywTs@zB"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3248192,
+                              "lng" : 114.1690193
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "2 m",
+                              "value" : 2
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 3
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3250797,
+                              "lng" : 114.1683841
+                           },
+                           "html_instructions" : "Take entrance \u003cspan class=\"location\"\u003ePrince Edward Station Exit A\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "wjggCooywT?B"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3250835,
+                              "lng" : 114.1684033
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "5.7 km",
+                        "value" : 5729
+                     },
+                     "duration" : 
+                     {
+                        "text" : "10 mins",
+                        "value" : 600
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.348416,
+                        "lng" : 114.126161
+                     },
+                     "html_instructions" : "Subway towards Tsuen Wan",
+                     "polyline" : 
+                     {
+                        "points" : "wjggCkoywTDd@gCZcBTw@Te@`@sCpEoFvHcIfLeBbC{@lAk[rc@ABeC|DcFzHaB`Cc@dA[vA?~@NbB\\fBtCrOr@xCbAhEz@tEJxA?dAAxBg@|FuBpROfAqAlElAyDi@`EEV{@lG_AhAoEjEuErEeFfFmNdOgJrIuFlF_IrF"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3250797,
+                        "lng" : 114.1683841
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.348416,
+                              "lng" : 114.126161
+                           },
+                           "name" : "Lai King Station"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "6:57 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696330620
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.3250797,
+                              "lng" : 114.1683841
+                           },
+                           "name" : "Prince Edward Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "6:47 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696330020
+                        },
+                        "headsign" : "Tsuen Wan",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "MTR",
+                                 "phone" : "2881 8888",
+                                 "url" : "http://www.mtr.com.hk/"
+                              }
+                           ],
+                           "color" : "#f20000",
+                           "name" : "Tsuen Wan Line",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                              "local_icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/hk-metro.png",
+                              "name" : "Subway",
+                              "type" : "SUBWAY"
+                           }
+                        },
+                        "num_stops" : 5
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "21.6 km",
+                        "value" : 21580
+                     },
+                     "duration" : 
+                     {
+                        "text" : "21 mins",
+                        "value" : 1260
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.289255,
+                        "lng" : 113.9414358
+                     },
+                     "html_instructions" : "Subway towards Tung Chung",
+                     "polyline" : 
+                     {
+                        "points" : "s|kgCogqwT{HzFmGdEqC|DmRnd@}CpIqD`MOf@yBbMcDhQUhAu@jISrVVfHldAnnFlApFnD~HvSj_@lGdL|EvJzAlFjAjHb@zGCjDKfIBpDRfDv@rGpApEpFnMdE~IbE`J|BnCdKjNfEhFn@l@bKhJvJ~IbFfGx@pAhCnG`@tCp@~El@jHAhFa@zUR|FlB~L~Xzv@dIdLbGpFjOzKxKhMvDhE`ClFvAhFnBfErAdGlAlJlTvc@vInK`ClC|Urf@`BbE^xBj@vG@t@tCnQlBnLF|Cv@xHdAnGxBxH~BpF|KtRhB`EHPbAlEl@rFlBzX|AvEjAtCnLxOBC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.348416,
+                        "lng" : 114.126161
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.289255,
+                              "lng" : 113.9414358
+                           },
+                           "name" : "Tung Chung Station"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "7:22 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696332120
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.348416,
+                              "lng" : 114.126161
+                           },
+                           "name" : "Lai King Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "7:01 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696330860
+                        },
+                        "headsign" : "Tung Chung",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "MTR",
+                                 "phone" : "2881 8888",
+                                 "url" : "http://www.mtr.com.hk/"
+                              }
+                           ],
+                           "color" : "#f2791c",
+                           "name" : "Tung Chung Line",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                              "local_icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/hk-metro.png",
+                              "name" : "Subway",
+                              "type" : "SUBWAY"
+                           }
+                        },
+                        "num_stops" : 3
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 160
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 161
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2890204,
+                        "lng" : 113.9420793
+                     },
+                     "html_instructions" : "Walk to Fu Tung Plaza",
+                     "polyline" : 
+                     {
+                        "points" : "{j`gC_emvTfAjAWkE"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.289255,
+                        "lng" : 113.9414358
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "55 m",
+                              "value" : 55
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 56
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.288898,
+                              "lng" : 113.94106
+                           },
+                           "html_instructions" : "Take exit \u003cspan class=\"location\"\u003eTung Chung Station Exit A\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "{j`gC_emvTfAjA"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.289255,
+                              "lng" : 113.9414358
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 105
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 105
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2890204,
+                              "lng" : 113.9420793
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "sh`gCsbmvTWkE"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.288898,
+                              "lng" : 113.94106
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "10.4 km",
+                        "value" : 10364
+                     },
+                     "duration" : 
+                     {
+                        "text" : "30 mins",
+                        "value" : 1800
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.243337,
+                        "lng" : 113.976016
+                     },
+                     "html_instructions" : "Bus towards Mui Wo Ferry Pier",
+                     "polyline" : 
+                     {
+                        "points" : "ii`gCgimvTCTLBHBVNvAx@JDVPVR^RXPB@TJPJDBRNPLZTJHR@D@h@Xn@_ANS@?x@_AFILQV[V]V[PSV[X]XYX[NOf@g@^k@RLDDpAz@z@j@pCpBr@f@ZTxCtB|ApAd@d@VZBDJLf@p@VZf@a@p@o@XWJKZWp@k@TRPTf@r@Vf@@DHVDR@H@H@H?HDh@?B?VDrAD~@?ZBx@DvA?DBp@B^H|A@NNtAB`@Bd@Dh@?FFVHh@BF?@@B@B?BP\\@DLLDD@@DDFDNH\\TRLdAn@ZTFFNLZZb@`@DFj@f@DDDBDBNFRDB@TBL@@?H?JAFA@?DAFCHELGHC@AJK^c@PUBAh@s@PO^SFCNG\\GRE`@AR@Z@z@D|AFJ@TFPFHDl@^FBHBH@H@F?D?H?H?VCH?DAZ?L?H?N@JATC`@I`@IJAV?b@@T?L?B?PAJCb@Ip@O@?fASn@O?A?A?A?A@??A?A@??A@??A@?@??A@?@?@?@??@@?@??@@??@@??@?@?@@?PEJAJCD?TAD?HAF@F?D@PDLB?@~Ar@FBFBJ@LBJ?D?RAHCNGDCZQDCZWVQDCXSBAVSBCZWTQ\\a@TWBC?AXYV[RUNQ~@eAJO`@e@BCj@k@HG?ANINMLGBABCDCPI@?VKTIhA[LEr@QRGh@ODA^KZMBANG?AJEDCNKZOTG^MTIVCVCXAh@@REXE`@GZ?D?`@BlALT@@?TCb@Gz@MRCHANG^Ih@Wh@SXQPO`Ay@j@k@DEPSR[FIV[RWZONITKRIJCFCHATCVAFA^@H@H@RBN@PBT?LAJ?JAJAREPEb@Qn@WJE^It@EZ@p@Ll@XPJLFHFDBFBNFRB\\@VAXGLEHEJEFC@ADCHIPWRYVe@R_@LQDG@ABCBELILIPIJCLEH?B?HAJ?J?J@RDD@D@XLNJ\\PZNJDHBJ?H?H?N?PAJCDALEJCDEFCJGFG@AFELS@AHOJ[HUH[DIDGLS@AFGHKHEROHCLGPE@?LERCRCNCPCPE`@OFCt@_@BAXS\\UTMFGf@e@JML[DMHYDOFQHUPY@C@ATUDGXWLKRKRMBA@?HGPKn@_@\\QPQLQ?CJU@CJ]DMBMP]PU|@s@hAy@DEZUFGHKJO@EFMBKBMNe@Ri@RUVSp@YLALAj@?jBAb@?B?@?J?PAB?VAPCZGRKFENMJKRWBI@AXo@Zk@R[\\]^[DE^a@l@w@NYRe@Lc@Nw@D{@?EDe@Ji@Pc@PYFMV[LKTOd@_@f@c@FKJWHUDW@Y@_EBcA?[PsD?K@_@?G?SAI?E?IEQGQQ[a@m@IMGQM_@AI?AAK?KAK@KBYTkANq@DODQFYHYDSHe@DOR{@Le@Vg@LQLO\\[R[R_@Pk@Jm@He@FWTi@Ve@LYJ[BQB[?K?[CKEc@A[Em@C}@@i@?C@S@U@GLW@A@EPULOJI@Cb@]BGBCBCPMFC@A?A?A?A?A?A@??A@A?A@?@AGaB?G?K@GG]Ei@?EASAY@G@e@N{B@s@AKCOAKCOCOQa@CEOWo@q@OC]AK?}@Jm@DEAUGUIIESKGIACEMAI?GAC?G?ABUBSJi@@K?C@S?O?UAQGa@IWIOCGAAAAAQAK@UBQ@C?OAKAE?CACCIGKEEKEq@Kk@?cC@[DGBGDIDONEHGFGDYLWFQ?MAMC]OEECCIOEKAKCS?QCe@?KEYGe@O{@UmAGa@AOAM?O?Q?A@]@QFc@@W?E?G?ECOIMEGEECCEE_@O_@M[KMIKKUWMSKUOYGMCOCQ?S@s@F_@HS@CNU^W@CBCBIBG@M?MAWEKGMKWMa@COCOAI?IAU?W?e@?Y?s@?M?]I?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.289014,
+                        "lng" : 113.942123
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.243337,
+                              "lng" : 113.976016
+                           },
+                           "name" : "Lo Uk Tsuen"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "8:01 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696334460
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.289014,
+                              "lng" : 113.942123
+                           },
+                           "name" : "Fu Tung Plaza"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "7:31 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696332660
+                        },
+                        "headsign" : "Mui Wo Ferry Pier",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "New Lantao Bus",
+                                 "phone" : "2984 9848",
+                                 "url" : "https://www.nlb.com.hk/"
+                              }
+                           ],
+                           "name" : "Mui Wo - Tung Chung Town Centre",
+                           "short_name" : "3M",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 15
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 423
+                     },
+                     "duration" : 
+                     {
+                        "text" : "5 mins",
+                        "value" : 300
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2398019,
+                        "lng" : 113.9745063
+                     },
+                     "html_instructions" : "Walk to Hong Kong, Lantau Island, Pui O Beach Lantau Island",
+                     "polyline" : 
+                     {
+                        "points" : "}kwfCc}svTdUlH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.2433477,
+                        "lng" : 113.976016
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.4 km",
+                              "value" : 423
+                           },
+                           "duration" : 
+                           {
+                              "text" : "5 mins",
+                              "value" : 300
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2398019,
+                              "lng" : 113.9745063
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "}kwfCc}svTdUlH"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2433477,
+                              "lng" : 113.976016
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "ciggCksywTs@~BDd@gCZcBTw@Te@`@sCpEsP~UaDpEm[vc@iJxNaB`Cc@dA[vA?~@NbB\\fBtCrOr@xCbAhEz@tEJ~CAxBg@|FeCxTqAlElAyDo@xE{@lG_AhAeL~KsUlV}Q`Q{RnNmGdEqC|DmRnd@}CpIaEhN}Gl_@UhAu@jISrVVfHldAnnFlApFnD~HvSj_@lGdL|EvJzAlFjAjHb@zGCjDKfIBpDRfDv@rGpApEpFnMhK`U|BnCdKjNfEhFn@l@zVhUbFfGx@pAhCnG`@tCp@~El@jHAhFa@zUR|FlB~L~Xzv@dIdLbGpFjOzKpQrS`ClFvAhFnBfErAdGlAlJlTvc@xM|O|Urf@`BbE^xBj@vG@t@tCnQlBnLF|Cv@xHdAnGxBxH~BpF|KtRhB`ElA~El@rFlBzX|AvEjAtCnLxOBCfAjAWkE@GCTLBdCrAhBjA~BzAXBh@Xn@_APS`AiAtAgB|AgBh@k@fAsAfDzBzJdHbCvBZ`@r@~@VZf@a@jAgAf@c@p@k@TRx@hAh@xAP`ENlFPtDXlDVrBFP`@t@|CpBjD~Cn@Th@F^Cd@Sv@u@pA{Af@Wl@Ot@Gn@BdDNf@Nv@d@d@J`@?vBEdBY~A@dAOjDs@?C?ABEJEHF?BvAOf@HtB|@l@HXAXKbAq@z@k@ZWdBcBdDyDzA}Al@a@^SxBq@dEmA`@Sj@[t@Ul@Mp@E|@Cz@M`@?nBPl@A|B[n@QrAk@j@a@lBeBr@_Aj@s@j@Y|@]~@IfAHdABv@IpBu@tAOlANvAt@LFb@Jt@?f@M^Qt@_A~@_BVUx@]b@Ap@HlAl@f@TTBt@Aj@O`@YX]h@}AZg@n@i@j@QdAQlA]pBkA\\Ur@s@\\cAh@qAX[`Aw@b@WpBoAZo@f@wAnAiAnA_Ax@y@Pm@b@oAj@i@~@[x@AtCAx@Cl@KZQr@{@jAyBbBaB|@qA`@iATsBDk@\\mAXg@d@g@z@o@n@o@Tm@Fq@DcGR{FAk@E[Ym@k@{@Uq@Cc@?WXeBb@mB^cB`@aBd@y@j@k@f@{@n@wCfAeCFuAKkAIkB@m@Bi@N_@b@m@t@s@`@Y@IBEBCE}BOaBPcE?_AE[]gA_AiAm@EiAJs@BiAc@Qe@AUT_B@}@Is@Sg@I]Dw@Ce@S_@}@QoD@c@HQJe@f@q@T_@Ak@SIIO[E_@I}Am@oDKoABcAHiACUOUIIe@U{@YYUc@k@[o@K]Ce@@s@Ps@r@u@Lc@Ae@MYa@yACaA?aC?]I?bUlH"
+         },
+         "summary" : "",
+         "warnings" : 
+         [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      },
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 22.3588599,
+               "lng" : 114.169233
+            },
+            "southwest" : 
+            {
+               "lat" : 22.2375642,
+               "lng" : 113.9333483
+            }
+         },
+         "copyrights" : "Map data ©2023",
+         "legs" : 
+         [
+            {
+               "arrival_time" : 
+               {
+                  "text" : "8:06 PM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696334760
+               },
+               "departure_time" : 
+               {
+                  "text" : "6:33 PM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696329201
+               },
+               "distance" : 
+               {
+                  "text" : "39.9 km",
+                  "value" : 39887
+               },
+               "duration" : 
+               {
+                  "text" : "1 hour 33 mins",
+                  "value" : 5559
+               },
+               "end_address" : "Hong Kong, Lantau Island, Pui O Beach Lantau Island",
+               "end_location" : 
+               {
+                  "lat" : 22.2398019,
+                  "lng" : 113.9745063
+               },
+               "start_address" : "212 Tung Choi St, Prince Edward, Hong Kong",
+               "start_location" : 
+               {
+                  "lat" : 22.3248192,
+                  "lng" : 114.1690193
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "86 m",
+                        "value" : 86
+                     },
+                     "duration" : 
+                     {
+                        "text" : "5 mins",
+                        "value" : 279
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.324074,
+                        "lng" : 114.1692507
+                     },
+                     "html_instructions" : "Walk to MTR Prince Edward Station",
+                     "polyline" : 
+                     {
+                        "points" : "ciggCksywTtCm@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3248192,
+                        "lng" : 114.1690193
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "86 m",
+                              "value" : 86
+                           },
+                           "duration" : 
+                           {
+                              "text" : "5 mins",
+                              "value" : 279
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.324074,
+                              "lng" : 114.1692507
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "ciggCksywTtCm@"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3248192,
+                              "lng" : 114.1690193
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "2.0 km",
+                        "value" : 2000
+                     },
+                     "duration" : 
+                     {
+                        "text" : "8 mins",
+                        "value" : 480
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.318993,
+                        "lng" : 114.161181
+                     },
+                     "html_instructions" : "Minibus towards Island Harbourview",
+                     "polyline" : 
+                     {
+                        "points" : "gdggCutywTK@Fb@Dl@JfABVJdAFb@BT@FBRJ`AB`@BXDj@BPBXFr@RbCFd@F`@@X@P@R@f@Bn@?B?H@NALADADA@U\\[\\GHq@bAGJoAfB^^f@f@WZQR[\\BH?@@B@@@B?@BBBDJA\\?hAAhAAR?f@Al@?p@A`@?DAfAAH?J?rAAF@D?r@?n@CD?hAC`ACb@EJAJAPGJCJELIFEHELILQNONOPS\\]h@y@`ASl@pBRjALb@HNRp@Lf@J^Jb@FRFRFPBJ?@?@?B?@?@?DCBABA@ABC@C@GBGACCCACAAA?AAA?AAE?CUSGIACCEKICCA?CAKEIAIEKAMC]?u@?k@@?J"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.324044,
+                        "lng" : 114.169233
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.318993,
+                              "lng" : 114.161181
+                           },
+                           "name" : "Hoi Kong Street"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "6:46 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696329960
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.324044,
+                              "lng" : 114.169233
+                           },
+                           "name" : "MTR Prince Edward Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "6:38 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696329480
+                        },
+                        "headsign" : "Island Harbourview",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "Green Minibus",
+                                 "url" : "https://www.td.gov.hk/tc/transport_in_hong_kong/public_transport/minibuses/index.html"
+                              }
+                           ],
+                           "color" : "#42c2a6",
+                           "name" : "Diamond Hill Station - Island Harbourview",
+                           "short_name" : "70",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Minibus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 8
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 171
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 172
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.3178432,
+                        "lng" : 114.1601357
+                     },
+                     "html_instructions" : "Walk to Olympic Station",
+                     "polyline" : 
+                     {
+                        "points" : "udfgCibxwTpBt@rBvC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3189927,
+                        "lng" : 114.1611715
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "70 m",
+                              "value" : 70
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 70
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.318415,
+                              "lng" : 114.160901
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "udfgCibxwTpBt@"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3189927,
+                              "lng" : 114.1611715
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 101
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 102
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3178432,
+                              "lng" : 114.1601357
+                           },
+                           "html_instructions" : "Take entrance \u003cspan class=\"location\"\u003eOlympic Station Exit C1\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "cafgCs`xwTrBvC"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.318415,
+                              "lng" : 114.160901
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "26.7 km",
+                        "value" : 26683
+                     },
+                     "duration" : 
+                     {
+                        "text" : "28 mins",
+                        "value" : 1680
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.289255,
+                        "lng" : 113.9414358
+                     },
+                     "html_instructions" : "Subway towards Tung Chung",
+                     "polyline" : 
+                     {
+                        "points" : "o}egC{{wwTCIiEbAyC~@cKlGkCjB_P~MwIdIA@iGpLuEbKeDtIeGvVmEpPuIjYkCdHgBnCeBnCwClCuBbBmDjBkK`EcK`E}QdJ}T~M{HzFmGdEqC|DmRnd@}CpIqD`MOf@yBbMcDhQUhAu@jISrVVfHldAnnFlApFnD~HvSj_@lGdL|EvJzAlFjAjHb@zGCjDKfIBpDRfDv@rGpApEpFnMdE~IbE`J|BnCdKjNfEhFn@l@bKhJvJ~IbFfGx@pAhCnG`@tCp@~El@jHAhFa@zUR|FlB~L~Xzv@dIdLbGpFjOzKxKhMvDhE`ClFvAhFnBfErAdGlAlJlTvc@vInK`ClC|Urf@`BbE^xBj@vG@t@tCnQlBnLF|Cv@xHdAnGxBxH~BpF|KtRhB`EHPbAlEl@rFlBzX|AvEjAtCnLxOBC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3178432,
+                        "lng" : 114.1601357
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.289255,
+                              "lng" : 113.9414358
+                           },
+                           "name" : "Tung Chung Station"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "7:22 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696332120
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.3178432,
+                              "lng" : 114.1601357
+                           },
+                           "name" : "Olympic Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "6:54 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696330440
+                        },
+                        "headsign" : "Tung Chung",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "MTR",
+                                 "phone" : "2881 8888",
+                                 "url" : "http://www.mtr.com.hk/"
+                              }
+                           ],
+                           "color" : "#f2791c",
+                           "name" : "Tung Chung Line",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                              "local_icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/hk-metro.png",
+                              "name" : "Subway",
+                              "type" : "SUBWAY"
+                           }
+                        },
+                        "num_stops" : 5
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 160
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 161
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2890204,
+                        "lng" : 113.9420793
+                     },
+                     "html_instructions" : "Walk to Fu Tung Plaza",
+                     "polyline" : 
+                     {
+                        "points" : "{j`gC_emvTfAjAWkE"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.289255,
+                        "lng" : 113.9414358
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "55 m",
+                              "value" : 55
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 56
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.288898,
+                              "lng" : 113.94106
+                           },
+                           "html_instructions" : "Take exit \u003cspan class=\"location\"\u003eTung Chung Station Exit A\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "{j`gC_emvTfAjA"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.289255,
+                              "lng" : 113.9414358
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 105
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 105
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2890204,
+                              "lng" : 113.9420793
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "sh`gCsbmvTWkE"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.288898,
+                              "lng" : 113.94106
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "10.4 km",
+                        "value" : 10364
+                     },
+                     "duration" : 
+                     {
+                        "text" : "30 mins",
+                        "value" : 1800
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.243337,
+                        "lng" : 113.976016
+                     },
+                     "html_instructions" : "Bus towards Mui Wo Ferry Pier",
+                     "polyline" : 
+                     {
+                        "points" : "ii`gCgimvTCTLBHBVNvAx@JDVPVR^RXPB@TJPJDBRNPLZTJHR@D@h@Xn@_ANS@?x@_AFILQV[V]V[PSV[X]XYX[NOf@g@^k@RLDDpAz@z@j@pCpBr@f@ZTxCtB|ApAd@d@VZBDJLf@p@VZf@a@p@o@XWJKZWp@k@TRPTf@r@Vf@@DHVDR@H@H@H?HDh@?B?VDrAD~@?ZBx@DvA?DBp@B^H|A@NNtAB`@Bd@Dh@?FFVHh@BF?@@B@B?BP\\@DLLDD@@DDFDNH\\TRLdAn@ZTFFNLZZb@`@DFj@f@DDDBDBNFRDB@TBL@@?H?JAFA@?DAFCHELGHC@AJK^c@PUBAh@s@PO^SFCNG\\GRE`@AR@Z@z@D|AFJ@TFPFHDl@^FBHBH@H@F?D?H?H?VCH?DAZ?L?H?N@JATC`@I`@IJAV?b@@T?L?B?PAJCb@Ip@O@?fASn@O?A?A?A?A@??A?A@??A@??A@?@??A@?@?@?@??@@?@??@@??@@??@?@?@@?PEJAJCD?TAD?HAF@F?D@PDLB?@~Ar@FBFBJ@LBJ?D?RAHCNGDCZQDCZWVQDCXSBAVSBCZWTQ\\a@TWBC?AXYV[RUNQ~@eAJO`@e@BCj@k@HG?ANINMLGBABCDCPI@?VKTIhA[LEr@QRGh@ODA^KZMBANG?AJEDCNKZOTG^MTIVCVCXAh@@REXE`@GZ?D?`@BlALT@@?TCb@Gz@MRCHANG^Ih@Wh@SXQPO`Ay@j@k@DEPSR[FIV[RWZONITKRIJCFCHATCVAFA^@H@H@RBN@PBT?LAJ?JAJAREPEb@Qn@WJE^It@EZ@p@Ll@XPJLFHFDBFBNFRB\\@VAXGLEHEJEFC@ADCHIPWRYVe@R_@LQDG@ABCBELILIPIJCLEH?B?HAJ?J?J@RDD@D@XLNJ\\PZNJDHBJ?H?H?N?PAJCDALEJCDEFCJGFG@AFELS@AHOJ[HUH[DIDGLS@AFGHKHEROHCLGPE@?LERCRCNCPCPE`@OFCt@_@BAXS\\UTMFGf@e@JML[DMHYDOFQHUPY@C@ATUDGXWLKRKRMBA@?HGPKn@_@\\QPQLQ?CJU@CJ]DMBMP]PU|@s@hAy@DEZUFGHKJO@EFMBKBMNe@Ri@RUVSp@YLALAj@?jBAb@?B?@?J?PAB?VAPCZGRKFENMJKRWBI@AXo@Zk@R[\\]^[DE^a@l@w@NYRe@Lc@Nw@D{@?EDe@Ji@Pc@PYFMV[LKTOd@_@f@c@FKJWHUDW@Y@_EBcA?[PsD?K@_@?G?SAI?E?IEQGQQ[a@m@IMGQM_@AI?AAK?KAK@KBYTkANq@DODQFYHYDSHe@DOR{@Le@Vg@LQLO\\[R[R_@Pk@Jm@He@FWTi@Ve@LYJ[BQB[?K?[CKEc@A[Em@C}@@i@?C@S@U@GLW@A@EPULOJI@Cb@]BGBCBCPMFC@A?A?A?A?A?A@??A@A?A@?@AGaB?G?K@GG]Ei@?EASAY@G@e@N{B@s@AKCOAKCOCOQa@CEOWo@q@OC]AK?}@Jm@DEAUGUIIESKGIACEMAI?GAC?G?ABUBSJi@@K?C@S?O?UAQGa@IWIOCGAAAAAQAK@UBQ@C?OAKAE?CACCIGKEEKEq@Kk@?cC@[DGBGDIDONEHGFGDYLWFQ?MAMC]OEECCIOEKAKCS?QCe@?KEYGe@O{@UmAGa@AOAM?O?Q?A@]@QFc@@W?E?G?ECOIMEGEECCEE_@O_@M[KMIKKUWMSKUOYGMCOCQ?S@s@F_@HS@CNU^W@CBCBIBG@M?MAWEKGMKWMa@COCOAI?IAU?W?e@?Y?s@?M?]I?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.289014,
+                        "lng" : 113.942123
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.243337,
+                              "lng" : 113.976016
+                           },
+                           "name" : "Lo Uk Tsuen"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "8:01 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696334460
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.289014,
+                              "lng" : 113.942123
+                           },
+                           "name" : "Fu Tung Plaza"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "7:31 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696332660
+                        },
+                        "headsign" : "Mui Wo Ferry Pier",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "New Lantao Bus",
+                                 "phone" : "2984 9848",
+                                 "url" : "https://www.nlb.com.hk/"
+                              }
+                           ],
+                           "name" : "Mui Wo - Tung Chung Town Centre",
+                           "short_name" : "3M",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 15
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 423
+                     },
+                     "duration" : 
+                     {
+                        "text" : "5 mins",
+                        "value" : 300
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2398019,
+                        "lng" : 113.9745063
+                     },
+                     "html_instructions" : "Walk to Hong Kong, Lantau Island, Pui O Beach Lantau Island",
+                     "polyline" : 
+                     {
+                        "points" : "}kwfCc}svTdUlH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.2433477,
+                        "lng" : 113.976016
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.4 km",
+                              "value" : 423
+                           },
+                           "duration" : 
+                           {
+                              "text" : "5 mins",
+                              "value" : 300
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2398019,
+                              "lng" : 113.9745063
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "}kwfCc}svTdUlH"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2433477,
+                              "lng" : 113.976016
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "ciggCksywTzCi@K@Fb@PtBN|APtAXhDv@vIFvCyBbDoAfB^^f@f@WZm@p@BJDHBDNBdEChDCxFC`EKlAQl@Yt@q@hB{B`ASl@pB`@nBv@hCb@|A?`@IJW?MUy@w@k@OmCA?LpBt@rBvCCIiEbAyC~@cKlGkCjB_P~MyIfIiGpLuEbKeDtIeGvVmEpPuIjYkCdHgBnCeBnCwClCuBbBmDjBoWbK}QdJ}T~M{HzFmGdEqC|DmRnd@}CpIaEhN}Gl_@UhAu@jISrVVfHldAnnFlApFnD~HvSj_@lGdL|EvJzAlFjAjHb@zGCjDKfIBpDRfDv@rGpApEpFnMhK`U|BnCdKjNvFvGzVhUbFfGx@pAhCnG`@tCp@~El@jHAhFa@zUR|FlB~L~Xzv@dIdLbGpFjOzKpQrS`ClFvAhFnBfErAdGlAlJlTvc@xM|O|Urf@`BbE^xBj@vG@t@tCnQlBnLF|Cv@xHdAnGxBxH~BpF|KtRhB`ElA~El@rFlBzXhDlJrLtOfAjAWkE@GCTLB`@RrCdBrAr@|@l@f@^XBh@Xn@_APSfBwBvDmEfAsAXRrI`GtDjCbCvBnA`BVZf@a@jAgAf@c@p@k@TRx@hAXl@R~@RhGLhE^bFLxBTjATh@VZxDfCrChC|@Rd@?z@[`AgAz@cAf@Wl@Ot@GhEPr@PhAl@`@Bt@Cx@ArAMl@Kz@@x@AzEaA?GBEJCHFfBId@LzB|@r@@z@a@tB{AlBmBfE}EdA_Ad@[p@Y`D}@rC_A|@e@bBc@nBI|AMfCRtBYlAW~BmAdC_CfAyAtAo@r@MhA?~@Jz@CtA_@z@]tAOlAN~@d@d@Vb@Jt@?|@YXSpAwBX_@p@c@f@Il@?x@VtAr@h@Br@Gf@S\\Wd@aA^cA`@i@t@a@t@OfAQbBu@tA_Ar@s@L[\\iA^u@t@u@x@g@lAs@n@c@LU^eATk@nAiArB}A^o@j@iBj@i@~@[hECb@AhAMv@k@r@sAn@gA|@y@d@g@|@qA`@iATsBDk@\\mA~@oAjB_BTm@Fq@DcGPoE@gAGk@eAiBW}@Ao@n@gD\\yAp@wCd@y@j@k@f@{@\\yAP}@l@oAXu@Fm@Cs@QkDDwARg@l@s@jAcA?GDEEkBK{AA{@PaD?_AM{@Ug@_AiAm@EiAJs@Bk@Qg@_@Ic@VaCIyAYq@Cu@Bq@GWMQ}@QoD@c@Hg@d@OLq@T_@Ak@SYe@IwA}@gGAq@LkBCc@Y_@aBo@YUc@k@g@mAAyAPs@PYh@i@B{@g@sAIs@AmB?aA?]I?bUlH"
+         },
+         "summary" : "",
+         "warnings" : 
+         [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      },
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 22.3588599,
+               "lng" : 114.1690193
+            },
+            "southwest" : 
+            {
+               "lat" : 22.2375549,
+               "lng" : 113.9333436
+            }
+         },
+         "copyrights" : "Map data ©2023",
+         "legs" : 
+         [
+            {
+               "arrival_time" : 
+               {
+                  "text" : "8:26 PM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696335960
+               },
+               "departure_time" : 
+               {
+                  "text" : "7:05 PM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696331129
+               },
+               "distance" : 
+               {
+                  "text" : "38.3 km",
+                  "value" : 38327
+               },
+               "duration" : 
+               {
+                  "text" : "1 hour 21 mins",
+                  "value" : 4831
+               },
+               "end_address" : "Hong Kong, Lantau Island, Pui O Beach Lantau Island",
+               "end_location" : 
+               {
+                  "lat" : 22.2398019,
+                  "lng" : 113.9745063
+               },
+               "start_address" : "212 Tung Choi St, Prince Edward, Hong Kong",
+               "start_location" : 
+               {
+                  "lat" : 22.3248192,
+                  "lng" : 114.1690193
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "71 m",
+                        "value" : 71
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 91
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.3250797,
+                        "lng" : 114.1683841
+                     },
+                     "html_instructions" : "Walk to Prince Edward Station",
+                     "polyline" : 
+                     {
+                        "points" : "ciggCksywTs@zB?B"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3248192,
+                        "lng" : 114.1690193
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "69 m",
+                              "value" : 69
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 88
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3250835,
+                              "lng" : 114.1684033
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "ciggCksywTs@zB"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3248192,
+                              "lng" : 114.1690193
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "2 m",
+                              "value" : 2
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 3
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3250797,
+                              "lng" : 114.1683841
+                           },
+                           "html_instructions" : "Take entrance \u003cspan class=\"location\"\u003ePrince Edward Station Exit A\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "wjggCooywT?B"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3250835,
+                              "lng" : 114.1684033
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "5.7 km",
+                        "value" : 5729
+                     },
+                     "duration" : 
+                     {
+                        "text" : "10 mins",
+                        "value" : 600
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.348416,
+                        "lng" : 114.126161
+                     },
+                     "html_instructions" : "Subway towards Tsuen Wan",
+                     "polyline" : 
+                     {
+                        "points" : "wjggCkoywTDd@gCZcBTw@Te@`@sCpEoFvHcIfLeBbC{@lAk[rc@ABeC|DcFzHaB`Cc@dA[vA?~@NbB\\fBtCrOr@xCbAhEz@tEJxA?dAAxBg@|FuBpROfAqAlElAyDi@`EEV{@lG_AhAoEjEuErEeFfFmNdOgJrIuFlF_IrF"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3250797,
+                        "lng" : 114.1683841
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.348416,
+                              "lng" : 114.126161
+                           },
+                           "name" : "Lai King Station"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "7:17 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696331820
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.3250797,
+                              "lng" : 114.1683841
+                           },
+                           "name" : "Prince Edward Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "7:07 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696331220
+                        },
+                        "headsign" : "Tsuen Wan",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "MTR",
+                                 "phone" : "2881 8888",
+                                 "url" : "http://www.mtr.com.hk/"
+                              }
+                           ],
+                           "color" : "#f20000",
+                           "name" : "Tsuen Wan Line",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                              "local_icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/hk-metro.png",
+                              "name" : "Subway",
+                              "type" : "SUBWAY"
+                           }
+                        },
+                        "num_stops" : 5
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "21.6 km",
+                        "value" : 21580
+                     },
+                     "duration" : 
+                     {
+                        "text" : "21 mins",
+                        "value" : 1260
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.289255,
+                        "lng" : 113.9414358
+                     },
+                     "html_instructions" : "Subway towards Tung Chung",
+                     "polyline" : 
+                     {
+                        "points" : "s|kgCogqwT{HzFmGdEqC|DmRnd@}CpIqD`MOf@yBbMcDhQUhAu@jISrVVfHldAnnFlApFnD~HvSj_@lGdL|EvJzAlFjAjHb@zGCjDKfIBpDRfDv@rGpApEpFnMdE~IbE`J|BnCdKjNfEhFn@l@bKhJvJ~IbFfGx@pAhCnG`@tCp@~El@jHAhFa@zUR|FlB~L~Xzv@dIdLbGpFjOzKxKhMvDhE`ClFvAhFnBfErAdGlAlJlTvc@vInK`ClC|Urf@`BbE^xBj@vG@t@tCnQlBnLF|Cv@xHdAnGxBxH~BpF|KtRhB`EHPbAlEl@rFlBzX|AvEjAtCnLxOBC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.348416,
+                        "lng" : 114.126161
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.289255,
+                              "lng" : 113.9414358
+                           },
+                           "name" : "Tung Chung Station"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "7:43 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696333380
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.348416,
+                              "lng" : 114.126161
+                           },
+                           "name" : "Lai King Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "7:22 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696332120
+                        },
+                        "headsign" : "Tung Chung",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "MTR",
+                                 "phone" : "2881 8888",
+                                 "url" : "http://www.mtr.com.hk/"
+                              }
+                           ],
+                           "color" : "#f2791c",
+                           "name" : "Tung Chung Line",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                              "local_icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/hk-metro.png",
+                              "name" : "Subway",
+                              "type" : "SUBWAY"
+                           }
+                        },
+                        "num_stops" : 3
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 160
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 161
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2890204,
+                        "lng" : 113.9420793
+                     },
+                     "html_instructions" : "Walk to Fu Tung Plaza",
+                     "polyline" : 
+                     {
+                        "points" : "{j`gC_emvTfAjAWkE"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.289255,
+                        "lng" : 113.9414358
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "55 m",
+                              "value" : 55
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 56
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.288898,
+                              "lng" : 113.94106
+                           },
+                           "html_instructions" : "Take exit \u003cspan class=\"location\"\u003eTung Chung Station Exit A\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "{j`gC_emvTfAjA"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.289255,
+                              "lng" : 113.9414358
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 105
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 105
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2890204,
+                              "lng" : 113.9420793
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "sh`gCsbmvTWkE"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.288898,
+                              "lng" : 113.94106
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "10.4 km",
+                        "value" : 10364
+                     },
+                     "duration" : 
+                     {
+                        "text" : "30 mins",
+                        "value" : 1800
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.243337,
+                        "lng" : 113.976016
+                     },
+                     "html_instructions" : "Bus towards Mui Wo Ferry Pier",
+                     "polyline" : 
+                     {
+                        "points" : "ii`gCgimvTCTLBHBVNvAx@JDVPVR^RXPB@TJPJDBRNPLZTJHR@D@h@Xn@_ANS@?x@_AFILQV[V]V[PSV[X]XYX[NOf@g@^k@RLDDpAz@z@j@pCpBr@f@ZTxCtB|ApAd@d@VZBDJLf@p@VZf@a@p@o@XWJKZWp@k@TRPTf@r@Vf@@DHVDR@H@H@H?HDh@?B?VDrAD~@?ZBx@DvA?DBp@B^H|A@NNtAB`@Bd@Dh@?FFVHh@BF?@@B@B?BP\\@DLLDD@@DDFDNH\\TRLdAn@ZTFFNLZZb@`@DFj@f@DDDBDBNFRDB@TBL@@?H?JAFA@?DAFCHELGHC@AJK^c@PUBAh@s@PO^SFCNG\\GRE`@AR@Z@z@D|AFJ@TFPFHDl@^FBHBH@H@F?D?H?H?VCH?DAZ?L?H?N@JATC`@I`@IJAV?b@@T?L?B?PAJCb@Ip@O@?fASn@O?A?A?A?A@??A?A@??A@??A@?@??A@?@?@?@??@@?@??@@??@@??@?@?@@?PEJAJCD?TAD?HAF@F?D@PDLB?@~Ar@FBFBJ@LBJ?D?RAHCNGDCZQDCZWVQDCXSBAVSBCZWTQ\\a@TWBC?AXYV[RUNQ~@eAJO`@e@BCj@k@HG?ANINMLGBABCDCPI@?VKTIhA[LEr@QRGh@ODA^KZMBANG?AJEDCNKZOTG^MTIVCVCXAh@@REXE`@GZ?D?`@BlALT@@?TCb@Gz@MRCHANG^Ih@Wh@SXQPO`Ay@j@k@DEPSR[FIV[RWZONITKRIJCFCHATCVAFA^@H@H@RBN@PBT?LAJ?JAJAREPEb@Qn@WJE^It@EZ@p@Ll@XPJLFHFDBFBNFRB\\@VAXGLEHEJEFC@ADCHIPWRYVe@R_@LQDG@ABCBELILIPIJCLEH?B?HAJ?J?J@RDD@D@XLNJ\\PZNJDHBJ?H?H?N?PAJCDALEJCDEFCJGFG@AFELS@AHOJ[HUH[DIDGLS@AFGHKHEROHCLGPE@?LERCRCNCPCPE`@OFCt@_@BAXS\\UTMFGf@e@JML[DMHYDOFQHUPY@C@ATUDGXWLKRKRMBA@?HGPKn@_@\\QPQLQ?CJU@CJ]DMBMP]PU|@s@hAy@DEZUFGHKJO@EFMBKBMNe@Ri@RUVSp@YLALAj@?jBAb@?B?@?J?PAB?VAPCZGRKFENMJKRWBI@AXo@Zk@R[\\]^[DE^a@l@w@NYRe@Lc@Nw@D{@?EDe@Ji@Pc@PYFMV[LKTOd@_@f@c@FKJWHUDW@Y@_EBcA?[PsD?K@_@?G?SAI?E?IEQGQQ[a@m@IMGQM_@AI?AAK?KAK@KBYTkANq@DODQFYHYDSHe@DOR{@Le@Vg@LQLO\\[R[R_@Pk@Jm@He@FWTi@Ve@LYJ[BQB[?K?[CKEc@A[Em@C}@@i@?C@S@U@GLW@A@EPULOJI@Cb@]BGBCBCPMFC@A?A?A?A?A?A@??A@A?A@?@AGaB?G?K@GG]Ei@?EASAY@G@e@N{B@s@AKCOAKCOCOQa@CEOWo@q@OC]AK?}@Jm@DEAUGUIIESKGIACEMAI?GAC?G?ABUBSJi@@K?C@S?O?UAQGa@IWIOCGAAAAAQAK@UBQ@C?OAKAE?CACCIGKEEKEq@Kk@?cC@[DGBGDIDONEHGFGDYLWFQ?MAMC]OEECCIOEKAKCS?QCe@?KEYGe@O{@UmAGa@AOAM?O?Q?A@]@QFc@@W?E?G?ECOIMEGEECCEE_@O_@M[KMIKKUWMSKUOYGMCOCQ?S@s@F_@HS@CNU^W@CBCBIBG@M?MAWEKGMKWMa@COCOAI?IAU?W?e@?Y?s@?M?]I?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.289014,
+                        "lng" : 113.942123
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.243337,
+                              "lng" : 113.976016
+                           },
+                           "name" : "Lo Uk Tsuen"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "8:21 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696335660
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.289014,
+                              "lng" : 113.942123
+                           },
+                           "name" : "Fu Tung Plaza"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "7:51 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696333860
+                        },
+                        "headsign" : "Mui Wo Ferry Pier",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "New Lantao Bus",
+                                 "phone" : "2984 9848",
+                                 "url" : "https://www.nlb.com.hk/"
+                              }
+                           ],
+                           "name" : "Mui Wo - Tung Chung Town Centre",
+                           "short_name" : "3M",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 15
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 423
+                     },
+                     "duration" : 
+                     {
+                        "text" : "5 mins",
+                        "value" : 300
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2398019,
+                        "lng" : 113.9745063
+                     },
+                     "html_instructions" : "Walk to Hong Kong, Lantau Island, Pui O Beach Lantau Island",
+                     "polyline" : 
+                     {
+                        "points" : "}kwfCc}svTdUlH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.2433477,
+                        "lng" : 113.976016
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.4 km",
+                              "value" : 423
+                           },
+                           "duration" : 
+                           {
+                              "text" : "5 mins",
+                              "value" : 300
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2398019,
+                              "lng" : 113.9745063
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "}kwfCc}svTdUlH"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2433477,
+                              "lng" : 113.976016
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "ciggCksywTs@~BDd@gCZcBTw@Te@`@sCpEsP~UaDpEm[vc@iJxNaB`Cc@dA[vA?~@NbB\\fBtCrOr@xCbAhEz@tEJ~CAxBg@|FeCxTqAlElAyDo@xE{@lG_AhAeL~KsUlV}Q`Q{RnNmGdEqC|DmRnd@}CpIaEhN}Gl_@UhAu@jISrVVfHldAnnFlApFnD~HvSj_@lGdL|EvJzAlFjAjHb@zGCjDKfIBpDRfDv@rGpApEpFnMhK`U|BnCdKjNfEhFn@l@zVhUbFfGx@pAhCnG`@tCp@~El@jHAhFa@zUR|FlB~L~Xzv@dIdLbGpFjOzKpQrS`ClFvAhFnBfErAdGlAlJlTvc@xM|O|Urf@`BbE^xBj@vG@t@tCnQlBnLF|Cv@xHdAnGxBxH~BpF|KtRhB`ElA~El@rFlBzX|AvEjAtCnLxOBCfAjAWkE@GCTLBdCrAhBjA~BzAXBh@Xn@_APS`AiAtAgB|AgBh@k@fAsAfDzBzJdHbCvBZ`@r@~@VZf@a@jAgAf@c@p@k@TRx@hAh@xAP`ENlFPtDXlDVrBFP`@t@|CpBjD~Cn@Th@F^Cd@Sv@u@pA{Af@Wl@Ot@Gn@BdDNf@Nv@d@d@J`@?vBEdBY~A@dAOjDs@?C?ABEJEHF?BvAOf@HtB|@l@HXAXKbAq@z@k@ZWdBcBdDyDzA}Al@a@^SxBq@dEmA`@Sj@[t@Ul@Mp@E|@Cz@M`@?nBPl@A|B[n@QrAk@j@a@lBeBr@_Aj@s@j@Y|@]~@IfAHdABv@IpBu@tAOlANvAt@LFb@Jt@?f@M^Qt@_A~@_BVUx@]b@Ap@HlAl@f@TTBt@Aj@O`@YX]h@}AZg@n@i@j@QdAQlA]pBkA\\Ur@s@\\cAh@qAX[`Aw@b@WpBoAZo@f@wAnAiAnA_Ax@y@Pm@b@oAj@i@~@[x@AtCAx@Cl@KZQr@{@jAyBbBaB|@qA`@iATsBDk@\\mAXg@d@g@z@o@n@o@Tm@Fq@DcGR{FAk@E[Ym@k@{@Uq@Cc@?WXeBb@mB^cB`@aBd@y@j@k@f@{@n@wCfAeCFuAKkAIkB@m@Bi@N_@b@m@t@s@`@Y@IBEBCE}BOaBPcE?_AE[]gA_AiAm@EiAJs@BiAc@Qe@AUT_B@}@Is@Sg@I]Dw@Ce@S_@}@QoD@c@HQJe@f@q@T_@Ak@SIIO[E_@I}Am@oDKoABcAHiACUOUIIe@U{@YYUc@k@[o@K]Ce@@s@Ps@r@u@Lc@Ae@MYa@yACaA?aC?]I?bUlH"
+         },
+         "summary" : "",
+         "warnings" : 
+         [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      },
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 22.3588599,
+               "lng" : 114.1690193
+            },
+            "southwest" : 
+            {
+               "lat" : 22.2350744,
+               "lng" : 113.9333436
+            }
+         },
+         "copyrights" : "Map data ©2023",
+         "legs" : 
+         [
+            {
+               "arrival_time" : 
+               {
+                  "text" : "8:25 PM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696335900
+               },
+               "departure_time" : 
+               {
+                  "text" : "6:59 PM",
+                  "time_zone" : "Asia/Hong_Kong",
+                  "value" : 1696330769
+               },
+               "distance" : 
+               {
+                  "text" : "39.0 km",
+                  "value" : 39049
+               },
+               "duration" : 
+               {
+                  "text" : "1 hour 26 mins",
+                  "value" : 5131
+               },
+               "end_address" : "Hong Kong, Lantau Island, Pui O Beach Lantau Island",
+               "end_location" : 
+               {
+                  "lat" : 22.2398019,
+                  "lng" : 113.9745063
+               },
+               "start_address" : "212 Tung Choi St, Prince Edward, Hong Kong",
+               "start_location" : 
+               {
+                  "lat" : 22.3248192,
+                  "lng" : 114.1690193
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "71 m",
+                        "value" : 71
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 91
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.3250797,
+                        "lng" : 114.1683841
+                     },
+                     "html_instructions" : "Walk to Prince Edward Station",
+                     "polyline" : 
+                     {
+                        "points" : "ciggCksywTs@zB?B"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3248192,
+                        "lng" : 114.1690193
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "69 m",
+                              "value" : 69
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 88
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3250835,
+                              "lng" : 114.1684033
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "ciggCksywTs@zB"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3248192,
+                              "lng" : 114.1690193
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "2 m",
+                              "value" : 2
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 3
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.3250797,
+                              "lng" : 114.1683841
+                           },
+                           "html_instructions" : "Take entrance \u003cspan class=\"location\"\u003ePrince Edward Station Exit A\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "wjggCooywT?B"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.3250835,
+                              "lng" : 114.1684033
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "5.7 km",
+                        "value" : 5729
+                     },
+                     "duration" : 
+                     {
+                        "text" : "10 mins",
+                        "value" : 600
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.348416,
+                        "lng" : 114.126161
+                     },
+                     "html_instructions" : "Subway towards Tsuen Wan",
+                     "polyline" : 
+                     {
+                        "points" : "wjggCkoywTDd@gCZcBTw@Te@`@sCpEoFvHcIfLeBbC{@lAk[rc@ABeC|DcFzHaB`Cc@dA[vA?~@NbB\\fBtCrOr@xCbAhEz@tEJxA?dAAxBg@|FuBpROfAqAlElAyDi@`EEV{@lG_AhAoEjEuErEeFfFmNdOgJrIuFlF_IrF"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.3250797,
+                        "lng" : 114.1683841
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.348416,
+                              "lng" : 114.126161
+                           },
+                           "name" : "Lai King Station"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "7:11 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696331460
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.3250797,
+                              "lng" : 114.1683841
+                           },
+                           "name" : "Prince Edward Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "7:01 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696330860
+                        },
+                        "headsign" : "Tsuen Wan",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "MTR",
+                                 "phone" : "2881 8888",
+                                 "url" : "http://www.mtr.com.hk/"
+                              }
+                           ],
+                           "color" : "#f20000",
+                           "name" : "Tsuen Wan Line",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                              "local_icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/hk-metro.png",
+                              "name" : "Subway",
+                              "type" : "SUBWAY"
+                           }
+                        },
+                        "num_stops" : 5
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "21.6 km",
+                        "value" : 21580
+                     },
+                     "duration" : 
+                     {
+                        "text" : "21 mins",
+                        "value" : 1260
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.289255,
+                        "lng" : 113.9414358
+                     },
+                     "html_instructions" : "Subway towards Tung Chung",
+                     "polyline" : 
+                     {
+                        "points" : "s|kgCogqwT{HzFmGdEqC|DmRnd@}CpIqD`MOf@yBbMcDhQUhAu@jISrVVfHldAnnFlApFnD~HvSj_@lGdL|EvJzAlFjAjHb@zGCjDKfIBpDRfDv@rGpApEpFnMdE~IbE`J|BnCdKjNfEhFn@l@bKhJvJ~IbFfGx@pAhCnG`@tCp@~El@jHAhFa@zUR|FlB~L~Xzv@dIdLbGpFjOzKxKhMvDhE`ClFvAhFnBfErAdGlAlJlTvc@vInK`ClC|Urf@`BbE^xBj@vG@t@tCnQlBnLF|Cv@xHdAnGxBxH~BpF|KtRhB`EHPbAlEl@rFlBzX|AvEjAtCnLxOBC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.348416,
+                        "lng" : 114.126161
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.289255,
+                              "lng" : 113.9414358
+                           },
+                           "name" : "Tung Chung Station"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "7:36 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696332960
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.348416,
+                              "lng" : 114.126161
+                           },
+                           "name" : "Lai King Station"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "7:15 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696331700
+                        },
+                        "headsign" : "Tung Chung",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "MTR",
+                                 "phone" : "2881 8888",
+                                 "url" : "http://www.mtr.com.hk/"
+                              }
+                           ],
+                           "color" : "#f2791c",
+                           "name" : "Tung Chung Line",
+                           "text_color" : "#ffffff",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                              "local_icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/hk-metro.png",
+                              "name" : "Subway",
+                              "type" : "SUBWAY"
+                           }
+                        },
+                        "num_stops" : 3
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.2 km",
+                        "value" : 160
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 161
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2890204,
+                        "lng" : 113.9420793
+                     },
+                     "html_instructions" : "Walk to Fu Tung Plaza",
+                     "polyline" : 
+                     {
+                        "points" : "{j`gC_emvTfAjAWkE"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.289255,
+                        "lng" : 113.9414358
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "55 m",
+                              "value" : 55
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 56
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.288898,
+                              "lng" : 113.94106
+                           },
+                           "html_instructions" : "Take exit \u003cspan class=\"location\"\u003eTung Chung Station Exit A\u003c/span\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "{j`gC_emvTfAjA"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.289255,
+                              "lng" : 113.9414358
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.1 km",
+                              "value" : 105
+                           },
+                           "duration" : 
+                           {
+                              "text" : "2 mins",
+                              "value" : 105
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2890204,
+                              "lng" : 113.9420793
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "sh`gCsbmvTWkE"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.288898,
+                              "lng" : 113.94106
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "8.8 km",
+                        "value" : 8841
+                     },
+                     "duration" : 
+                     {
+                        "text" : "21 mins",
+                        "value" : 1260
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2353,
+                        "lng" : 113.961671
+                     },
+                     "html_instructions" : "Bus towards Tai O",
+                     "polyline" : 
+                     {
+                        "points" : "ii`gCgimvTCTLBHBVNvAx@JDVPVR^RXPB@TJPJDBRNPLZTJHR@D@h@Xn@_ANS@?x@_AFILQV[V]V[PSV[X]XYX[NOf@g@^k@RLDDpAz@z@j@pCpBr@f@ZTxCtB|ApAd@d@VZBDJLf@p@VZf@a@p@o@XWJKZWp@k@TRPTf@r@Vf@@DHVDR@H@H@H?HDh@?B?VDrAD~@?ZBx@DvA?DBp@B^H|A@NNtAB`@Bd@Dh@?FFVHh@BF?@@B@B?BP\\@DLLDD@@DDFDNH\\TRLdAn@ZTFFNLZZb@`@DFj@f@DDDBDBNFRDB@TBL@@?H?JAFA@?DAFCHELGHC@AJK^c@PUBAh@s@PO^SFCNG\\GRE`@AR@Z@z@D|AFJ@TFPFHDl@^FBHBH@H@F?D?H?H?VCH?DAZ?L?H?N@JATC`@I`@IJAV?b@@T?L?B?PAJCb@Ip@O@?fASn@O?A?A?A?A@??A?A@??A@??A@?@??A@?@?@?@??@@?@??@@??@@??@?@?@@?PEJAJCD?TAD?HAF@F?D@PDLB?@~Ar@FBFBJ@LBJ?D?RAHCNGDCZQDCZWVQDCXSBAVSBCZWTQ\\a@TWBC?AXYV[RUNQ~@eAJO`@e@BCj@k@HG?ANINMLGBABCDCPI@?VKTIhA[LEr@QRGh@ODA^KZMBANG?AJEDCNKZOTG^MTIVCVCXAh@@REXE`@GZ?D?`@BlALT@@?TCb@Gz@MRCHANG^Ih@Wh@SXQPO`Ay@j@k@DEPSR[FIV[RWZONITKRIJCFCHATCVAFA^@H@H@RBN@PBT?LAJ?JAJAREPEb@Qn@WJE^It@EZ@p@Ll@XPJLFHFDBFBNFRB\\@VAXGLEHEJEFC@ADCHIPWRYVe@R_@LQDG@ABCBELILIPIJCLEH?B?HAJ?J?J@RDD@D@XLNJ\\PZNJDHBJ?H?H?N?PAJCDALEJCDEFCJGFG@AFELS@AHOJ[HUH[DIDGLS@AFGHKHEROHCLGPE@?LERCRCNCPCPE`@OFCt@_@BAXS\\UTMFGf@e@JML[DMHYDOFQHUPY@C@ATUDGXWLKRKRMBA@?HGPKn@_@\\QPQLQ?CJU@CJ]DMBMP]PU|@s@hAy@DEZUFGHKJO@EFMBKBMNe@Ri@RUVSp@YLALAj@?jBAb@?B?@?J?PAB?VAPCZGRKFENMJKRWBI@AXo@Zk@R[\\]^[DE^a@l@w@NYRe@Lc@Nw@D{@?EDe@Ji@Pc@PYFMV[LKTOd@_@f@c@FKJWHUDW@Y@_EBcA?[PsD?K@_@?G?SAI?E?IEQGQQ[a@m@IMGQM_@AI?AAK?KAK@KBYTkANq@DODQFYHYDSHe@DOR{@Le@Vg@LQLO\\[R[R_@Pk@Jm@He@FWTi@Ve@LYJ[BQB[?K?[CKEc@A[Em@C}@@i@?C@S@U@GLW@A@EPULOJI@Cb@]BGBCBCPMFC@A?A?A?A?A?A@??A@A?A@?@A@A@?@A@?@?@?@?@?@?@@@?@@@@@@?@@??B@??@?@?@?@?@?@?@?@A??@?@A??@A@n@p@BBXPLJTRZ`@^f@V\\h@`@rDnABI"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.289014,
+                        "lng" : 113.942123
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.2353,
+                              "lng" : 113.961671
+                           },
+                           "name" : "Upper Cheung Sha Village"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "8:07 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696334820
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.289014,
+                              "lng" : 113.942123
+                           },
+                           "name" : "Fu Tung Plaza"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "7:46 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696333560
+                        },
+                        "headsign" : "Tai O",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "New Lantao Bus",
+                                 "phone" : "2984 9848",
+                                 "url" : "https://www.nlb.com.hk/"
+                              }
+                           ],
+                           "name" : "Tung Chung Town Centre - Tai O",
+                           "short_name" : "11",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 13
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "65 m",
+                        "value" : 65
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 63
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2353366,
+                        "lng" : 113.9615877
+                     },
+                     "html_instructions" : "Walk to Upper Cheung Sha Village",
+                     "polyline" : 
+                     {
+                        "points" : "syufCkcqvTl@RENo@U"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.235305,
+                        "lng" : 113.9616577
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "32 m",
+                              "value" : 32
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 23
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2350744,
+                              "lng" : 113.9615557
+                           },
+                           "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eS Lantau Rd\u003c/b\u003e",
+                           "polyline" : 
+                           {
+                              "points" : "syufCkcqvTl@R"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.235305,
+                              "lng" : 113.9616577
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : 
+                           {
+                              "text" : "33 m",
+                              "value" : 33
+                           },
+                           "duration" : 
+                           {
+                              "text" : "1 min",
+                              "value" : 40
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2353366,
+                              "lng" : 113.9615877
+                           },
+                           "html_instructions" : "Cross the road",
+                           "polyline" : 
+                           {
+                              "points" : "exufCwbqvTENo@U"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2350744,
+                              "lng" : 113.9615557
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "2.2 km",
+                        "value" : 2180
+                     },
+                     "duration" : 
+                     {
+                        "text" : "6 mins",
+                        "value" : 360
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.243337,
+                        "lng" : 113.976016
+                     },
+                     "html_instructions" : "Bus towards Mui Wo Ferry Pier",
+                     "polyline" : 
+                     {
+                        "points" : "yyufCacqvT@AsDoAi@a@W]QUMQ[a@USMKYQCCGAMISMWQA?AAA?AAA??AAAAA?AA??A?A?A?AA?@A?A?A?A?A?A@??A@A?A@?@AGaB?G?K@GG]Ei@?EASAY@G@e@N{B@s@AKCOAKCOCOQa@CEOWo@q@OC]AK?}@Jm@DEAUGUIIESKGIACEMAI?GAC?G?ABUBSJi@@K?C@S?O?UAQGa@IWIOCGAAAAAQAK@UBQ@C?OAKAE?CACCIGKEEKEq@Kk@?cC@[DGBGDIDONEHGFGDYLWFQ?MAMC]OEECCIOEKAKCS?QCe@?KEYGe@O{@UmAGa@AOAM?O?Q?A@]@QFc@@W?E?G?ECOIMEGEECCEE_@O_@M[KMIKKUWMSKUOYGMCOCQ?S@s@F_@HS@CNU^W@CBCBIBG@M?MAWEKGMKWMa@COCOAI?IAU?W?e@?Y?s@?M?]I?"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.235327,
+                        "lng" : 113.961613
+                     },
+                     "transit_details" : 
+                     {
+                        "arrival_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.243337,
+                              "lng" : 113.976016
+                           },
+                           "name" : "Lo Uk Tsuen"
+                        },
+                        "arrival_time" : 
+                        {
+                           "text" : "8:20 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696335600
+                        },
+                        "departure_stop" : 
+                        {
+                           "location" : 
+                           {
+                              "lat" : 22.235327,
+                              "lng" : 113.961613
+                           },
+                           "name" : "Upper Cheung Sha Village"
+                        },
+                        "departure_time" : 
+                        {
+                           "text" : "8:14 PM",
+                           "time_zone" : "Asia/Hong_Kong",
+                           "value" : 1696335240
+                        },
+                        "headsign" : "Mui Wo Ferry Pier",
+                        "line" : 
+                        {
+                           "agencies" : 
+                           [
+                              {
+                                 "name" : "New Lantao Bus",
+                                 "phone" : "2984 9848",
+                                 "url" : "https://www.nlb.com.hk/"
+                              }
+                           ],
+                           "name" : "Mui Wo - Tai O",
+                           "short_name" : "1",
+                           "vehicle" : 
+                           {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 5
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 423
+                     },
+                     "duration" : 
+                     {
+                        "text" : "5 mins",
+                        "value" : 300
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 22.2398019,
+                        "lng" : 113.9745063
+                     },
+                     "html_instructions" : "Walk to Hong Kong, Lantau Island, Pui O Beach Lantau Island",
+                     "polyline" : 
+                     {
+                        "points" : "}kwfCc}svTdUlH"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 22.2433477,
+                        "lng" : 113.976016
+                     },
+                     "steps" : 
+                     [
+                        {
+                           "distance" : 
+                           {
+                              "text" : "0.4 km",
+                              "value" : 423
+                           },
+                           "duration" : 
+                           {
+                              "text" : "5 mins",
+                              "value" : 300
+                           },
+                           "end_location" : 
+                           {
+                              "lat" : 22.2398019,
+                              "lng" : 113.9745063
+                           },
+                           "polyline" : 
+                           {
+                              "points" : "}kwfCc}svTdUlH"
+                           },
+                           "start_location" : 
+                           {
+                              "lat" : 22.2433477,
+                              "lng" : 113.976016
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "ciggCksywTs@~BDd@gCZ{Cj@e@`@sCpEsP~UaDpEm[vc@iJxNaB`Cc@dA[vA?~@NbB\\fBtCrOr@xC~B~KJ~CAxBg@|FeCxTqAlElAyDo@xE{@lG_AhAeL~KsUlV}Q`Q{RnNmGdEqC|DmRnd@}CpIaEhN}Gl_@UhAu@jISrVVfHldAnnFlApFnD~HvSj_@lGdL|EvJzAlFjAjHb@zGCjDKfIBpDRfDv@rGpApEpFnMhK`U|BnCdKjNvFvGzVhUbFfGx@pAhCnG`@tCp@~El@jHAhFa@zUR|FlB~L~Xzv@dIdLbGpFjOzKpQrS`ClFvAhFnBfErAdGlAlJlTvc@xM|O|Urf@`BbE^xBj@vG@t@tCnQlBnLF|Cv@xHdAnGxBxH~BpF|KtRhB`ElA~El@rFlBzXhDlJrLtOfAjAWkE@GCTLBdCrAhBjA~BzAXBh@Xn@_APS`AiAtAgB|AgBh@k@fAsAfDzBzJdH~CxCr@~@VZf@a@jAgAf@c@p@k@TRx@hAh@xAP`E`@bLXlDVrBFP`@t@|CpBjD~Cn@Th@F^Cd@Sv@u@pA{Af@Wl@Ot@Gn@BdDN~At@d@J`@?vBEdBY~A@dAOjDs@?C?ABEJEHF?BvAOf@HtB|@l@Hr@M~B}AZWdBcBdDyDzA}Al@a@^SxBq@dEmA`@S`Bq@l@Mp@E|@Cz@M`@?nBPl@A|B[bC}@j@a@lBeBr@_Aj@s@j@Y|@]~@IfAHdABv@IpBu@tAOlANvAt@p@Rt@?f@M^Qt@_A~@_BVUx@]b@Ap@HlAl@f@TTBt@Aj@O`@YX]h@}AZg@n@i@j@QdAQlA]pBkA\\Ur@s@\\cAh@qAX[`Aw@tCgBZo@f@wAnAiAnA_Ax@y@Pm@b@oAj@i@~@[x@AtCAx@Cl@KZQr@{@jAyBbBaB|@qA`@iAZ_D\\mAXg@`BwAn@o@Tm@Fq@DcGR{FAk@E[Ym@k@{@Uq@Cc@?WXeBb@mB^cB`@aBd@y@j@k@f@{@n@wCfAeCFuAKkAGyCBi@N_@b@m@t@s@`@Y@IHKNAJH@PCFl@r@j@`@hBzBh@`@rDnABGl@RENm@YqDqAaA_AqA}As@c@}@k@KI?QBEAaCOaBPcEE{A]gA_AiAm@E}BNiAc@Qe@AUT_B@}@Is@Sg@I]Dw@Ce@S_@}@QoD@u@Te@f@q@T_@Au@]U{@I}Am@oDKoABcAHiASk@o@_@{@YYUc@k@[o@OcA@s@Ps@r@u@Lc@Ae@MYa@yACaA?aC?]I?bUlH"
+         },
+         "summary" : "",
+         "warnings" : 
+         [
+            "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

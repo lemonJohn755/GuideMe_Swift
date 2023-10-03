@@ -23,6 +23,7 @@
 		778FD0EC2AB090A100BF12EC /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FD0EB2AB090A100BF12EC /* Destination.swift */; };
 		77941C3A2AAA11D000A4AF40 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77941C392AAA11D000A4AF40 /* Place.swift */; };
 		77941C3C2AAA152900A4AF40 /* SearchPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77941C3B2AAA152900A4AF40 /* SearchPlace.swift */; };
+		77C6F9552ACC533500DEED8E /* RouteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C6F9542ACC533500DEED8E /* RouteDetailView.swift */; };
 		77E400792ABF40D600E12253 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E400782ABF40D600E12253 /* Color.swift */; };
 		77E4007B2ABF434100E12253 /* RouteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4007A2ABF434100E12253 /* RouteRowView.swift */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,7 @@
 		77941C392AAA11D000A4AF40 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		77941C3B2AAA152900A4AF40 /* SearchPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlace.swift; sourceTree = "<group>"; };
 		77941C3D2AAA21BA00A4AF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		77C6F9542ACC533500DEED8E /* RouteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailView.swift; sourceTree = "<group>"; };
 		77E400782ABF40D600E12253 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		77E4007A2ABF434100E12253 /* RouteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +104,7 @@
 				774C1E6C2AAB52EF00FC75F3 /* DirectionSearchView.swift */,
 				77E4007A2ABF434100E12253 /* RouteRowView.swift */,
 				77E400782ABF40D600E12253 /* Color.swift */,
+				77C6F9542ACC533500DEED8E /* RouteDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				77941C3A2AAA11D000A4AF40 /* Place.swift in Sources */,
 				77941C3C2AAA152900A4AF40 /* SearchPlace.swift in Sources */,
 				778FD0EC2AB090A100BF12EC /* Destination.swift in Sources */,
+				77C6F9552ACC533500DEED8E /* RouteDetailView.swift in Sources */,
 				77123F622AB49EB6006926A7 /* GetRoutes.swift in Sources */,
 				77123F602AB49E86006926A7 /* Direction.swift in Sources */,
 			);
