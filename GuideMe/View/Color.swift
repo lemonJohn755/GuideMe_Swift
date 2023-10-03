@@ -5,17 +5,21 @@
 //  Created by John Chan on 23/9/2023.
 //
 
-import Foundation
 import SwiftUI
 
 extension Color {
-    init(hex: UInt, alpha: Double = 1.0) {
-        self.init(
-            .sRGB,
-            red: Double((hex >> 16) & 0xff) / 255,
-            green: Double((hex >> 8) & 0xff) / 255,
-            blue: Double(hex & 0xff) / 255,
-            opacity: alpha
-        )
+    init(hex: String) {
+        var cleanHexCode = hex.trimmingCharacters(in: .whitespacesAndNewlines)
+        cleanHexCode = cleanHexCode.replacingOccurrences(of: "#", with: "")
+//        print(cleanHexCode)
+        
+        var rgb: UInt64 = 0
+        
+        Scanner(string: cleanHexCode).scanHexInt64(&rgb)
+        
+        let redValue = Double((rgb >> 16) & 0xFF) / 255.0
+        let greenValue = Double((rgb >> 8) & 0xFF) / 255.0
+        let blueValue = Double(rgb & 0xFF) / 255.0
+        self.init(red: redValue, green: greenValue, blue: blueValue)
     }
 }
