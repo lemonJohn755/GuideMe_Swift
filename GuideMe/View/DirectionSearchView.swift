@@ -21,7 +21,7 @@ struct DirectionSearchView: View {
     
     var body: some View {
         
-        NavigationView{
+//        NavigationView{
             GeometryReader { proxy in
                 ScrollView{
                     ZStack (alignment: .topTrailing){
@@ -114,19 +114,19 @@ struct DirectionSearchView: View {
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(.horizontal)
                         
-                        ForEach (getRoutes.routes){ route in                            
-                            NavigationLink {
-                                RouteDetailView()
-                            } label: {
+                        ForEach (getRoutes.routes){ route in  
+                            NavigationLink(destination: RouteDetailView(route: route)) {
                                 RouteRowView(route: route)
                             }
+                            
                         }
                         
                     }
                     
                 }
             }
-        }
+//            .ignoresSafeArea()
+//        }
         .navigationTitle("Route Suggestion")
         .onAppear(){
             // Read sample API response

@@ -23,7 +23,7 @@ class GetRoutes: ObservableObject{
         self.origin = origin
     }
     
-    func fetchDemo(destination: Destination, origin: Origin) {
+    func fetchDemo(destination: Destination, origin: Origin) -> [Route] {
         
         let query = "https://maps.googleapis.com/maps/api/directions/json?origin=\(origin.lat),\(origin.long) &destination=\(destination.lat),\(destination.long)&mode=transit&region=HK&alternatives=true&key=\(APIKey)"
         
@@ -37,8 +37,10 @@ class GetRoutes: ObservableObject{
                 do {
                     let decodedJson = try JSONDecoder().decode(Direction.self, from: data)
                     
-                    print("API Connection: \(decodedJson.status)")
+//                    print("API Connection: \(decodedJson.status)")
                     self.routes = decodedJson.routes
+                    
+                    return self.routes
                     
                 } catch let error {
                     print("Error decoding: ", error)
@@ -48,6 +50,7 @@ class GetRoutes: ObservableObject{
         else{
             print("File not found")
         }
+        return self.routes
     }
     
     private func readLocalJSONFile(forName name: String) -> Data? {
