@@ -24,6 +24,7 @@
 		77941C3A2AAA11D000A4AF40 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77941C392AAA11D000A4AF40 /* Place.swift */; };
 		77941C3C2AAA152900A4AF40 /* SearchPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77941C3B2AAA152900A4AF40 /* SearchPlace.swift */; };
 		77A2BDE12ACF19270086B25E /* RouteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A2BDE02ACF19270086B25E /* RouteDetailView.swift */; };
+		77CDE6112AD54A8F00884F09 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CDE6102AD54A8F00884F09 /* MapView.swift */; };
 		77E400792ABF40D600E12253 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E400782ABF40D600E12253 /* Color.swift */; };
 		77E4007B2ABF434100E12253 /* RouteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4007A2ABF434100E12253 /* RouteRowView.swift */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,7 @@
 		77941C3B2AAA152900A4AF40 /* SearchPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlace.swift; sourceTree = "<group>"; };
 		77941C3D2AAA21BA00A4AF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		77A2BDE02ACF19270086B25E /* RouteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailView.swift; sourceTree = "<group>"; };
+		77CDE6102AD54A8F00884F09 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		77E400782ABF40D600E12253 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		77E4007A2ABF434100E12253 /* RouteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +107,7 @@
 				77E4007A2ABF434100E12253 /* RouteRowView.swift */,
 				77E400782ABF40D600E12253 /* Color.swift */,
 				77A2BDE02ACF19270086B25E /* RouteDetailView.swift */,
+				77CDE6102AD54A8F00884F09 /* MapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				7742278A2AC1E8FC0025D6FE /* Pin.swift in Sources */,
 				774C1E6D2AAB52EF00FC75F3 /* DirectionSearchView.swift in Sources */,
 				77E4007B2ABF434100E12253 /* RouteRowView.swift in Sources */,
+				77CDE6112AD54A8F00884F09 /* MapView.swift in Sources */,
 				778B6BD12AA9FD4D00260C8F /* LocationManager.swift in Sources */,
 				77941C3A2AAA11D000A4AF40 /* Place.swift in Sources */,
 				77941C3C2AAA152900A4AF40 /* SearchPlace.swift in Sources */,
