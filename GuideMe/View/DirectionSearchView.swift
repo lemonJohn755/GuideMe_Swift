@@ -24,7 +24,7 @@ struct DirectionSearchView: View {
 //        NavigationView{
             GeometryReader { proxy in
                 ScrollView{
-                    ZStack (alignment: .topTrailing){
+                    ZStack (alignment: .top){
                         Map(coordinateRegion: $region, showsUserLocation: true, annotationItems: pins){
                             MapMarker(coordinate: $0.coordinate)
                         }
@@ -44,16 +44,17 @@ struct DirectionSearchView: View {
                             locationManager.requestAllowOnceLocationPermission()
                             region = locationManager.region
                         }
-                        .font(.title2)
+                        .font(.title3)
                         .cornerRadius(8)
                         .labelStyle(.iconOnly)
                         .symbolVariant(.circle)
                         .foregroundColor(Color.white)
                         .tint(Color.orange)
+                        .frame(maxWidth: .infinity, alignment: .trailing)
+                        .padding(.horizontal, 20)
                         .padding(.vertical, 10)
-                        .padding(.horizontal, 10)
                     }
-                    .frame(height: proxy.size.height * 0.4)
+                    .frame(height: proxy.size.height * 0.4, alignment: .leading)
                     
                     VStack{
                         VStack{
@@ -77,7 +78,8 @@ struct DirectionSearchView: View {
                                 }
                                 
                             }
-                            Divider()
+//                            Divider()
+                            Spacer()
                             HStack{
                                 VStack{
                                     Label("Destination", systemImage: "arrow.triangle.turn.up.right.diamond.fill")
@@ -99,12 +101,12 @@ struct DirectionSearchView: View {
                         }
                         .padding()
                         .font(.body)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 16)
-                                .stroke(.orange, lineWidth: 3)
-                        )
+//                        .overlay(
+//                            RoundedRectangle(cornerRadius: 16)
+//                                .stroke(.orange, lineWidth: 3)
+//                        )
                         .frame( maxWidth: .infinity ,alignment: .leading)
-                        .padding(.horizontal)
+//                        .padding(.horizontal)
                     }
                     
                     // route list
