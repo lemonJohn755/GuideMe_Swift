@@ -12,30 +12,61 @@ import _CoreLocationUI_SwiftUI
 struct RouteDetailView: View {
     
     var route : Route
+    @State private var showSheet = true
+    @State private var selectedDetent = PresentationDetent.medium
+
     
     var body: some View {
         GeometryReader { proxy in
+            
             VStack{
                 MapView()
-                    .frame(height: proxy.size.height * 0.4)
-                StepView(route: route)
-                
+                    .frame(height: UIScreen.main.bounds.height)
+                    .sheet(isPresented: $showSheet) {
+                        StepView(selectedDetent: $selectedDetent, route: route)
+                            .presentationDetents([.fraction(0.3), .medium, .large],
+                                                 selection: $selectedDetent)
+                            .interactiveDismissDisabled(true)
+                            .presentationBackgroundInteraction(.enabled(upThrough: .medium))
+                    }
+            }
+            .onAppear(){
+                // 1. Show route overview on map
             }
         }
         .navigationTitle("Route Detail")
+        
     }
 }
 
 
 
+
 struct StepView: View{
+    @Binding var selectedDetent: PresentationDetent
     var route : Route
     
     var body: some View {
         ScrollView{
+            Spacer()
+            HStack{
+                routeSummary(route: route)
+                VStack{
+                    Text("\(route.legs[0].duration.text)")
+                        .fontWeight(.semibold)
+                    Text("ETA: \(route.legs[0].arrival_time.text)")
+                        .foregroundStyle(Color(.gray))
+                }
+                .font(.body)
+            }
+            .font(.body)
+            .padding(.horizontal)
+            
+            Divider()
+            
             ForEach(route.legs[0].steps){ step in
                 VStack(alignment: .leading){
-                    Spacer()
+//                    Spacer()
                     if (step.travel_mode == .WALKING){
                         HStack{
                             Label(step.travel_mode.rawValue.capitalized, systemImage: "figure.walk")
@@ -65,60 +96,15 @@ struct StepView: View{
                     }
                     else{   // TRANSIT
                         HStack{
-                            switch step.transit_details?.line?.vehicle?.type{
-                            case .BUS, .INTERCITY_BUS, .OTHER, .TROLLEYBUS:
-                                Label(step.transit_details?.line?.vehicle?.name ?? "", systemImage: "bus.doubledecker")
-                                    .font(.title2)
-                                    .labelStyle(.titleAndIcon)
+                            AsyncImage(url: URL(string: "https:\(step.transit_details?.line?.vehicle?.local_icon ?? step.transit_details?.line?.vehicle?.icon ?? "")")) { image in
+                                image
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fill)
                                 
-                            case .CABLE_CAR, .FUNICULAR, .GONDOLA_LIFT:
-                                Label(step.transit_details?.line?.vehicle?.name ?? "", systemImage: "cablecar")
-                                    .font(.title2)
-                                    .labelStyle(.titleAndIcon)
-                                
-                            case .COMMUTER_TRAIN, .HEAVY_RAIL, .HIGH_SPEED_TRAIN, .LONG_DISTANCE_TRAIN:
-                                Label(step.transit_details?.line?.vehicle?.name ?? "", systemImage: "train.side.front.car")
-                                    .font(.title2)
-                                    .labelStyle(.titleAndIcon)
-                                
-                            case .FERRY:
-                                Label(step.transit_details?.line?.vehicle?.name ?? "", systemImage: "ferry")
-                                    .font(.title2)
-                                    .labelStyle(.titleAndIcon)
-                                
-                            case .RAIL, .TRAM, .METRO_RAIL:
-                                Label(step.transit_details?.line?.vehicle?.name ?? "", systemImage: "tram")
-                                    .font(.title2)
-                                    .labelStyle(.titleAndIcon)
-                                
-                            case .SHARE_TAXI:
-                                Label(step.transit_details?.line?.vehicle?.name ?? "", systemImage: "car")
-                                    .font(.title2)
-                                    .labelStyle(.titleAndIcon)
-                                
-                            case .SUBWAY:
-                                Label(step.transit_details?.line?.vehicle?.name ?? "", systemImage: "tram.fill.tunnel")
-                                    .font(.title2)
-                                    .labelStyle(.titleAndIcon)
-                                
-                            case .none:
-                                Label(step.transit_details?.line?.vehicle?.name ?? "", systemImage: "questionmark.circle")
-                                    .font(.title2)
-                                    .labelStyle(.titleAndIcon)
+                            } placeholder: {
+                                Color.gray
                             }
-                            
-                            VStack(alignment: .trailing){
-                                Label(step.duration.text, systemImage: "clock")
-                                Text(step.distance.text)
-                            }
-                            .foregroundColor(.gray)
-                            .frame(maxWidth: .infinity, alignment: .trailing)
-                        }
-
-                        
-                        Text("\(step.transit_details?.departure_stop.name ?? "")")
-                            .font(.headline)
-                        HStack{
+                            .frame(width: 20, height: 20)
                             Text((step.transit_details?.line?.short_name ?? step.transit_details?.line?.name) ?? "")
                                 .padding(8)
                                 .background(Color(hex: step.transit_details?.line?.color ?? ""))
@@ -127,38 +113,62 @@ struct StepView: View{
                             Text(step.transit_details?.headsign ?? "")
                         }
                         .font(.subheadline)
-
-                        Text("Ride \(step.transit_details?.num_stops ?? 0) stops")
-                        Text("\(step.transit_details?.arrival_stop.name ?? "")")
-                            .font(.headline)
+                        
+                        HStack{
+                            RoundedRectangle(cornerRadius: 25)
+                                .fill(Color(hex: step.transit_details?.line?.color ?? ""))
+                                .frame(width: 8, height: .infinity)
+                            
+                            VStack(alignment: .leading){
+                                HStack{
+                                    Text("\(step.transit_details?.departure_stop.name ?? "")")
+                                        .font(.headline)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
+                                    Text("\(step.transit_details?.departure_time.text ?? "")")
+                                        .font(.subheadline)
+                                        .frame(maxWidth: 100, alignment: .trailing)
+                                }
+                                HStack{
+                                    Text("Ride \(step.transit_details?.num_stops ?? 0) stops")
+                                        .fontWeight(.light)
+                                        .padding()
+                                    VStack(alignment: .trailing){
+                                        Label(step.duration.text, systemImage: "clock")
+                                        Text(step.distance.text)
+                                    }
+                                    .foregroundColor(.gray)
+                                    .frame(maxWidth: .infinity, alignment: .trailing)
+                                }
+                                HStack{
+                                    Text("\(step.transit_details?.arrival_stop.name ?? "")")
+                                        .font(.headline)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
+                                    Text("\(step.transit_details?.arrival_time.text ?? "")")
+                                        .font(.subheadline)
+                                        .frame(maxWidth: 100, alignment: .trailing)
+                                }
+                            }
+                        }
                     }
-                    
                     Divider()
                     Spacer()
-                    
                 }
                 .padding(.horizontal)
-                
+                .onTapGesture {
+                    // 1. Move map camera
+                    // 2. Add markers & draw polyline on map
+                    print("tapped \(step.travel_mode)")
+                    selectedDetent = PresentationDetent.fraction(0.3)
+                }
             }
             
             Text(route.copyrights)
                 .font(.caption)
                 .foregroundStyle(Color(.gray))
         }
-        VStack{
-            HStack{
-                Text("\(route.legs[0].arrival_time.text)")
-                    .font(.subheadline)
-                    .foregroundStyle(Color(.gray))
-                Text("\(route.legs[0].duration.text)")
-                    .font(.body)
-                    .fontWeight(.semibold)
-            }
-            .frame(maxWidth: .infinity, alignment: .trailing)
-
-        }
-        .padding(.horizontal)
     }
+    
+    
 }
 
 struct RouteDetailView_Previews: PreviewProvider {

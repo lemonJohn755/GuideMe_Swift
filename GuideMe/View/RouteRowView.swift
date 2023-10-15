@@ -11,87 +11,92 @@ struct RouteRowView: View{
     
     @State var route: Route
     
+    
     var body: some View {
-        
         HStack{
-            // Summary
-//            let rows = [
-//                GridItem(.fixed(50)),
-//                GridItem(.fixed(50))
-//            ]
-//            
-//            LazyHGrid(rows: rows, alignment: .center) {
-//            }
-            
-            ForEach(route.legs[0].steps){step in
-                VStack{
-                    if (step.travel_mode == TravelMode.TRANSIT){
-                        switch step.transit_details?.line?.vehicle?.type{
-                        case .BUS, .INTERCITY_BUS, .OTHER, .TROLLEYBUS:
-                            Image(systemName: "bus")
-                            Text(step.transit_details?.line?.short_name ?? "")
-                                .padding(8)
-                                .background(Color(hex: step.transit_details?.line?.color ?? ""))
-                                .cornerRadius(8)
-                                .foregroundStyle(Color(.white))
-                                .font(.caption)
-                        case .COMMUTER_TRAIN, .HEAVY_RAIL, .HIGH_SPEED_TRAIN, .LONG_DISTANCE_TRAIN:
-                            Image(systemName: "train.side.front.car")
-                        case .FERRY:
-                            Image(systemName: "ferry")
-                        case .CABLE_CAR, .FUNICULAR, .GONDOLA_LIFT:
-                            Image(systemName: "cablecar")
-                        case .RAIL, .TRAM, .METRO_RAIL:
-                            Image(systemName: "tram")
-                        case .SHARE_TAXI:
-                            Image(systemName: "car")
-                        case .SUBWAY:
-                            Image(systemName: "tram.fill.tunnel")
-                                .foregroundColor(Color(hex: step.transit_details?.line?.color ?? ""))
-                            Text(step.transit_details?.line?.name ?? "")
-                                .padding(3)
-                                .background(Color(hex: step.transit_details?.line?.color ?? ""))
-                                .cornerRadius(8)
-                                .foregroundStyle(Color(.white))
-                                .font(.caption)
-                                .frame(maxWidth: 50)
-                        case .none:
-                            Image(systemName: "questionmark.circle")
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack{
+                    ForEach(route.legs[0].steps){step in
+                        VStack{
+                            if (step.travel_mode == TravelMode.TRANSIT){
+                                switch step.transit_details?.line?.vehicle?.type{
+                                case .BUS, .INTERCITY_BUS, .OTHER, .TROLLEYBUS:
+                                    Image(systemName: "bus")
+                                case .COMMUTER_TRAIN, .HEAVY_RAIL, .HIGH_SPEED_TRAIN, .LONG_DISTANCE_TRAIN:
+                                    Image(systemName: "train.side.front.car")
+                                case .FERRY:
+                                    Image(systemName: "ferry")
+                                case .CABLE_CAR, .FUNICULAR, .GONDOLA_LIFT:
+                                    Image(systemName: "cablecar")
+                                case .RAIL, .TRAM, .METRO_RAIL:
+                                    Image(systemName: "tram")
+                                case .SHARE_TAXI:
+                                    Image(systemName: "car")
+                                case .SUBWAY:
+                                    Image(systemName: "tram.fill.tunnel")
+                                        .foregroundColor(Color(hex: step.transit_details?.line?.color ?? ""))
+                                case .none:
+                                    Image(systemName: "questionmark.circle")
+                                }
+                                
+                                Text(step.transit_details?.line?.short_name ?? step.transit_details?.line?.name ?? "")
+                                    .padding(5)
+                                    .background(Color(hex: step.transit_details?.line?.color ?? ""))
+                                    .cornerRadius(3)
+                                    .foregroundStyle(Color(.white))
+                                    .font(.caption2)
+                                    .fontWeight(.semibold)
+                                    .lineLimit(3)
+                                
+                            }else if (step.travel_mode == TravelMode.BICLYING){
+                                Image(systemName: "bicycle")
+                            }
+                            else if (step.travel_mode == TravelMode.DRIVING){
+                                Image(systemName: "car")
+                            }
+                            else{
+                                VStack{
+                                    Image(systemName: "figure.walk")
+                                    Text(String(Int(ceil(Double(step.duration.value/60)))))
+                                        .font(.caption2)
+                                        .fontWeight(.light)
+                                }
+                            }
                         }
-                        
-                    }else if (step.travel_mode == TravelMode.BICLYING){
-                        Image(systemName: "bicycle")
+//                        .frame(maxWidth: 60)
+                        .padding(.vertical)
                     }
-                    else if (step.travel_mode == TravelMode.DRIVING){
-                        Image(systemName: "car")
-                    }
-                    else{
-                        Image(systemName: "figure.walk")
-                    }
-                    
                 }
-                .frame(alignment: .leading)
+                
+
             }
             
-            // Time and distance
-            VStack{
+            // Time
+            VStack(alignment: .trailing){
                 Image(systemName: "clock")
-                Text("\(String(route.legs[0].duration.value/60)) min")
-                Text(String(route.legs[0].distance.text))
+                    .fontWeight(.semibold)
+                    .foregroundStyle(Color(.orange))
+                HStack{
+                    Text("\(String(Int(ceil(Double(route.legs[0].duration.value/60)))))")
+                        .fontWeight(.bold)
+                        .font(.title2)
+                    Text("min")
+                        .font(.caption)
+                        .foregroundStyle(Color(.gray))
+                }
+                
             }
-            .frame(maxWidth: .infinity, alignment: .trailing)
+            .frame(alignment: .trailing)
             .font(.callout)
             .lineLimit(1)
             
-            //            Image(systemName: "chevron.right")
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
+        .frame(alignment: .leading)
         .font(.title2)
-        .padding()
+        .padding(.horizontal)
         .foregroundColor(Color(.black))
-
-        Divider()
         
+        Divider()
     }
 }
 
