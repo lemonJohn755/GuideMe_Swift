@@ -2,7 +2,7 @@ import SwiftUI
 import MapKit
 import _CoreLocationUI_SwiftUI
 
-struct MapView: View{
+struct ItineraryMapView: View{
     @EnvironmentObject var locationManager: LocationManager
     //    @State var region : MKCoordinateRegion = MKCoordinateRegion()
     @State private var region : MKCoordinateRegion = MKCoordinateRegion()
