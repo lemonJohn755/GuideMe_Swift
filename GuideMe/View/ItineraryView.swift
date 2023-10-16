@@ -19,16 +19,17 @@ struct ItinteryView: View {
     @EnvironmentObject var locationManager: LocationManager
     @State var region = MKCoordinateRegion()
     @State var colorHex = "#1F51FF"
+    @State var position : MapCameraPosition = .automatic
     
     var body: some View {
         GeometryReader { proxy in
             
             VStack{
-                MapView(colorHex: $colorHex, points: decodedCoordinates)
+                MapView(colorHex: $colorHex, position: $position, points: decodedCoordinates)
                     .frame(maxHeight: proxy.size.height * 0.7)
             }
             .sheet(isPresented: $showSheet) {
-                StepView(selectedDetent: $selectedDetent, decodedCoordinates: $decodedCoordinates, colorHex: $colorHex, route: route)
+                StepView(selectedDetent: $selectedDetent, decodedCoordinates: $decodedCoordinates, colorHex: $colorHex, position: $position, route: route)
                     .presentationDetents([.fraction(0.3), .medium, .large],
                                          selection: $selectedDetent)
                     .interactiveDismissDisabled(true)
@@ -50,6 +51,10 @@ struct StepView: View{
     @Binding var selectedDetent: PresentationDetent
     @Binding var decodedCoordinates : [CLLocationCoordinate2D]
     @Binding var colorHex : String
+    @Binding var position : MapCameraPosition
+    
+    @State var fitPolylineRegion = MKCoordinateRegion()
+    @State var calculateFitRegion = CalculateFitRegion()
 
     var route : Route
     
@@ -67,9 +72,13 @@ struct StepView: View{
                 .font(.callout)
                 .frame(maxWidth: 80, alignment: .trailing)
             }
+            .contentShape(Rectangle())
             .onTapGesture {
                 decodedCoordinates = decodePolyline(route.overview_polyline.points) ?? []
                 colorHex = "#1F51FF"
+                fitPolylineRegion = calculateFitRegion.fitPolyline(decodedCoordinates: decodedCoordinates)
+                position = MapCameraPosition.region(fitPolylineRegion)
+                    
             }
             .font(.body)
             .padding(.horizontal)
@@ -119,6 +128,7 @@ struct StepView: View{
                             .frame(width: 20, height: 20)
                             Text((step.transit_details?.line?.short_name ?? step.transit_details?.line?.name) ?? "")
                                 .padding(8)
+                                .foregroundStyle(Color(hex: step.transit_details?.line?.text_color ?? "#FFFFFF"))
                                 .background(Color(hex: step.transit_details?.line?.color ?? ""))
                                 .cornerRadius(8)
                                 .foregroundStyle(Color(.white))
@@ -166,6 +176,7 @@ struct StepView: View{
                     Spacer()
                 }
                 .padding(.horizontal)
+                .contentShape(Rectangle())
                 .onTapGesture {
                     // 1. Move map camera
                     // 2. Add markers & draw polyline on map
@@ -173,6 +184,9 @@ struct StepView: View{
                     selectedDetent = PresentationDetent.fraction(0.3)
                     decodedCoordinates = decodePolyline(step.polyline.points) ?? []
                     colorHex = step.transit_details?.line?.color ?? ""
+                    
+                    fitPolylineRegion = calculateFitRegion.fitPolyline(decodedCoordinates: decodedCoordinates)
+                    position = MapCameraPosition.region(fitPolylineRegion)
 
                 }
             }

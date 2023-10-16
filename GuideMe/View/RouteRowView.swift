@@ -41,9 +41,9 @@ struct RouteRowView: View{
                                 
                                 Text(step.transit_details?.line?.short_name ?? step.transit_details?.line?.name ?? "")
                                     .padding(5)
+                                    .foregroundStyle(Color(hex: step.transit_details?.line?.text_color ?? "#FFFFFF"))
                                     .background(Color(hex: step.transit_details?.line?.color ?? ""))
                                     .cornerRadius(3)
-                                    .foregroundStyle(Color(.white))
                                     .font(.caption2)
                                     .fontWeight(.semibold)
                                     .frame(maxWidth: 100)
@@ -77,14 +77,13 @@ struct RouteRowView: View{
             VStack(alignment: .trailing){
                 Image(systemName: "clock")
                     .fontWeight(.semibold)
-                    .foregroundStyle(Color(.orange))
+                    .foregroundStyle(Color.orange)
                 HStack{
                     Text("\(String(Int(ceil(Double(route.legs[0].duration.value/60)))))")
                         .fontWeight(.bold)
                         .font(.title2)
                     Text("min")
                         .font(.caption)
-                        .foregroundStyle(Color(.gray))
                 }
                 
             }

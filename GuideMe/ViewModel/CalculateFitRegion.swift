@@ -13,37 +13,20 @@ struct CalculateFitRegion{
     func fitPolyline(decodedCoordinates: [CLLocationCoordinate2D]) -> MKCoordinateRegion{
         guard !decodedCoordinates.isEmpty else { return MKCoordinateRegion()}
                 
-//        var minLat = decodedCoordinates.first!.latitude
-//        var maxLat = decodedCoordinates.first!.latitude
-//        var minLon = decodedCoordinates.first!.longitude
-//        var maxLon = decodedCoordinates.first!.longitude
-        var avgLat = 0.0
-        var avgLon = 0.0
-//                
-//        for pin in decodedCoordinates {
-//            minLat = min(minLat, pin.latitude)
-//            maxLat = max(maxLat, pin.latitude)
-//            minLon = min(minLon, pin.longitude)
-//            maxLon = max(maxLon, pin.longitude)
-//            avgLat += pin.latitude
-//            avgLon += pin.longitude
-//            print("[\(pin.latitude),\(pin.longitude)],")
-//        }
-//        
-//        avgLat = avgLat / Double(decodedCoordinates.count)
-//        avgLon = avgLon / Double(decodedCoordinates.count)
-        
-        let minLat = min(decodedCoordinates.first!.latitude, decodedCoordinates.last!.latitude)
-        let maxLat = max(decodedCoordinates.first!.latitude, decodedCoordinates.last!.latitude)
-        let minLon = min(decodedCoordinates.first!.longitude, decodedCoordinates.last!.longitude)
-        let maxLon = max(decodedCoordinates.first!.longitude, decodedCoordinates.last!.longitude)
-        
-        avgLat = (decodedCoordinates.first!.latitude + decodedCoordinates.last!.latitude) / 2.0
-        avgLon = (decodedCoordinates.first!.longitude + decodedCoordinates.last!.longitude) / 2.0
-        
-        print("center \(avgLat),\(avgLon)")
-        
-        let center = CLLocationCoordinate2D(latitude: avgLat , longitude: avgLon)
+        var minLat = decodedCoordinates.first!.latitude
+        var maxLat = decodedCoordinates.first!.latitude
+        var minLon = decodedCoordinates.first!.longitude
+        var maxLon = decodedCoordinates.first!.longitude
+                
+        for pin in decodedCoordinates {
+            minLat = min(minLat, pin.latitude)
+            maxLat = max(maxLat, pin.latitude)
+            minLon = min(minLon, pin.longitude)
+            maxLon = max(maxLon, pin.longitude)
+            print("[\(pin.latitude),\(pin.longitude)],")
+        }
+                    
+        let center = CLLocationCoordinate2D(latitude: (minLat + maxLat) / 2.0 , longitude: (minLon + maxLon) / 2.0)
         
         let span = MKCoordinateSpan(latitudeDelta: (maxLat - minLat) * 1.5, longitudeDelta: (maxLon - minLon) * 1.5 )
         
