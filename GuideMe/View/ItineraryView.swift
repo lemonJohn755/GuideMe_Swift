@@ -15,31 +15,31 @@ struct ItinteryView: View {
     var route : Route
     @State private var showSheet = true
     @State private var selectedDetent = PresentationDetent.fraction(0.3)
-    @State var decodedCoordinates : [CLLocationCoordinate2D]?
-
+    @State var decodedCoordinates : [CLLocationCoordinate2D] = []
+    @EnvironmentObject var locationManager: LocationManager
+    @State var region = MKCoordinateRegion()
     
     var body: some View {
         GeometryReader { proxy in
             
             VStack{
-                MapView()
-                    .frame(height: UIScreen.main.bounds.height)
-                    .sheet(isPresented: $showSheet) {
-                        StepView(selectedDetent: $selectedDetent, route: route)
-                            .presentationDetents([.fraction(0.3), .medium, .large],
-                                                 selection: $selectedDetent)
-                            .interactiveDismissDisabled(true)
-                            .presentationBackgroundInteraction(.enabled(upThrough: .medium))
-                    }
+                MapView(points: decodedCoordinates)
+                    .frame(maxHeight: proxy.size.height * 0.7)
+            }
+            .sheet(isPresented: $showSheet) {
+                StepView(selectedDetent: $selectedDetent, route: route)
+                    .presentationDetents([.fraction(0.3), .medium, .large],
+                                         selection: $selectedDetent)
+                    .interactiveDismissDisabled(true)
+                    .presentationBackgroundInteraction(.enabled(upThrough: .medium))
             }
             .onAppear(){
                 // Decode polyline string into a array of coodinates
-                decodedCoordinates = decodePolyline(route.overview_polyline.points)
-                print("Decoded coordinates: \(decodedCoordinates!.count)")
-                
+                decodedCoordinates = decodePolyline(route.overview_polyline.points) ?? []
+                print("Decoded coordinates: \(decodedCoordinates.count) points")
             }
         }
-        .navigationTitle("Route Detail")
+        .navigationTitle("Itinerary")
         
     }
 }
@@ -57,10 +57,11 @@ struct StepView: View{
                 VStack{
                     Text("\(route.legs[0].duration.text)")
                         .fontWeight(.semibold)
-                    Text("ETA: \(route.legs[0].arrival_time.text)")
+                    Text("\(route.legs[0].arrival_time.text)")
                         .foregroundStyle(Color(.gray))
                 }
-                .font(.body)
+                .font(.callout)
+                .frame(maxWidth: 80, alignment: .trailing)
             }
             .font(.body)
             .padding(.horizontal)
@@ -174,7 +175,7 @@ struct StepView: View{
     
 }
 
-struct RouteDetailView_Previews: PreviewProvider {
+struct ItinteryView_Previews: PreviewProvider {
     static var previews: some View {
         
         @State var destination : Destination = Destination(name: "貝澳泳灘", title: "Pui O Beach Lantau Island", lat: 22.2398019, long: 113.9745063)

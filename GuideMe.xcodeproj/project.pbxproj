@@ -26,7 +26,7 @@
 		77941C3C2AAA152900A4AF40 /* SearchPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77941C3B2AAA152900A4AF40 /* SearchPlace.swift */; };
 		77A1F3352ADD1AA40028A140 /* Polyline in Frameworks */ = {isa = PBXBuildFile; productRef = 77A1F3342ADD1AA40028A140 /* Polyline */; };
 		77A2BDE12ACF19270086B25E /* ItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A2BDE02ACF19270086B25E /* ItineraryView.swift */; };
-		77CDE6112AD54A8F00884F09 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CDE6102AD54A8F00884F09 /* MapView.swift */; };
+		77B5C67C2ADD2BA600BCDA2A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5C67B2ADD2BA600BCDA2A /* MapView.swift */; };
 		77E400792ABF40D600E12253 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E400782ABF40D600E12253 /* Color.swift */; };
 		77E4007B2ABF434100E12253 /* RouteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4007A2ABF434100E12253 /* RouteRowView.swift */; };
 /* End PBXBuildFile section */
@@ -72,7 +72,7 @@
 		77941C3B2AAA152900A4AF40 /* SearchPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlace.swift; sourceTree = "<group>"; };
 		77941C3D2AAA21BA00A4AF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		77A2BDE02ACF19270086B25E /* ItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryView.swift; sourceTree = "<group>"; };
-		77CDE6102AD54A8F00884F09 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		77B5C67B2ADD2BA600BCDA2A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		77E400782ABF40D600E12253 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		77E4007A2ABF434100E12253 /* RouteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,7 +111,7 @@
 				77E4007A2ABF434100E12253 /* RouteRowView.swift */,
 				77E400782ABF40D600E12253 /* Color.swift */,
 				77A2BDE02ACF19270086B25E /* ItineraryView.swift */,
-				77CDE6102AD54A8F00884F09 /* MapView.swift */,
+				77B5C67B2ADD2BA600BCDA2A /* MapView.swift */,
 				7769ECB82ADC596C003B850C /* ItinerarySummary.swift */,
 			);
 			path = View;
@@ -340,11 +340,11 @@
 				77A2BDE12ACF19270086B25E /* ItineraryView.swift in Sources */,
 				778B6BA72AA9F39600260C8F /* GuideMeApp.swift in Sources */,
 				77E400792ABF40D600E12253 /* Color.swift in Sources */,
+				77B5C67C2ADD2BA600BCDA2A /* MapView.swift in Sources */,
 				7742278A2AC1E8FC0025D6FE /* Pin.swift in Sources */,
 				7769ECB92ADC596C003B850C /* ItinerarySummary.swift in Sources */,
 				774C1E6D2AAB52EF00FC75F3 /* DirectionSearchView.swift in Sources */,
 				77E4007B2ABF434100E12253 /* RouteRowView.swift in Sources */,
-				77CDE6112AD54A8F00884F09 /* MapView.swift in Sources */,
 				778B6BD12AA9FD4D00260C8F /* LocationManager.swift in Sources */,
 				77941C3A2AAA11D000A4AF40 /* Place.swift in Sources */,
 				77941C3C2AAA152900A4AF40 /* SearchPlace.swift in Sources */,
@@ -521,7 +521,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -554,7 +554,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
