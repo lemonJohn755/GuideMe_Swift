@@ -18,16 +18,17 @@ struct ItinteryView: View {
     @State var decodedCoordinates : [CLLocationCoordinate2D] = []
     @EnvironmentObject var locationManager: LocationManager
     @State var region = MKCoordinateRegion()
+    @State var colorHex = "#1F51FF"
     
     var body: some View {
         GeometryReader { proxy in
             
             VStack{
-                MapView(points: decodedCoordinates)
+                MapView(colorHex: $colorHex, points: decodedCoordinates)
                     .frame(maxHeight: proxy.size.height * 0.7)
             }
             .sheet(isPresented: $showSheet) {
-                StepView(selectedDetent: $selectedDetent, route: route)
+                StepView(selectedDetent: $selectedDetent, decodedCoordinates: $decodedCoordinates, colorHex: $colorHex, route: route)
                     .presentationDetents([.fraction(0.3), .medium, .large],
                                          selection: $selectedDetent)
                     .interactiveDismissDisabled(true)
@@ -36,7 +37,7 @@ struct ItinteryView: View {
             .onAppear(){
                 // Decode polyline string into a array of coodinates
                 decodedCoordinates = decodePolyline(route.overview_polyline.points) ?? []
-                print("Decoded coordinates: \(decodedCoordinates.count) points")
+//                print("Decoded coordinates: \(decodedCoordinates.count) points")
             }
         }
         .navigationTitle("Itinerary")
@@ -47,6 +48,9 @@ struct ItinteryView: View {
 
 struct StepView: View{
     @Binding var selectedDetent: PresentationDetent
+    @Binding var decodedCoordinates : [CLLocationCoordinate2D]
+    @Binding var colorHex : String
+
     var route : Route
     
     var body: some View {
@@ -62,6 +66,10 @@ struct StepView: View{
                 }
                 .font(.callout)
                 .frame(maxWidth: 80, alignment: .trailing)
+            }
+            .onTapGesture {
+                decodedCoordinates = decodePolyline(route.overview_polyline.points) ?? []
+                colorHex = "#1F51FF"
             }
             .font(.body)
             .padding(.horizontal)
@@ -163,6 +171,9 @@ struct StepView: View{
                     // 2. Add markers & draw polyline on map
                     print("tapped \(step.travel_mode)")
                     selectedDetent = PresentationDetent.fraction(0.3)
+                    decodedCoordinates = decodePolyline(step.polyline.points) ?? []
+                    colorHex = step.transit_details?.line?.color ?? ""
+
                 }
             }
             
