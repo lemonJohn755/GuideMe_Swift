@@ -109,7 +109,7 @@ struct DirectionSearchView: View {
                         .padding(.horizontal)
                     
                     ForEach (getRoutes.routes){ route in
-                        NavigationLink(destination: RouteDetailView(route: route)) {
+                        NavigationLink(destination: ItinteryView(route: route)) {
                             RouteRowView(route: route)
                         }
                         Divider()

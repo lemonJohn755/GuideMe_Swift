@@ -8,12 +8,14 @@
 import SwiftUI
 import MapKit
 import _CoreLocationUI_SwiftUI
+import Polyline
 
-struct RouteDetailView: View {
+struct ItinteryView: View {
     
     var route : Route
     @State private var showSheet = true
-    @State private var selectedDetent = PresentationDetent.medium
+    @State private var selectedDetent = PresentationDetent.fraction(0.3)
+    @State var decodedCoordinates : [CLLocationCoordinate2D]?
 
     
     var body: some View {
@@ -31,15 +33,16 @@ struct RouteDetailView: View {
                     }
             }
             .onAppear(){
-                // 1. Show route overview on map
+                // Decode polyline string into a array of coodinates
+                decodedCoordinates = decodePolyline(route.overview_polyline.points)
+                print("Decoded coordinates: \(decodedCoordinates!.count)")
+                
             }
         }
         .navigationTitle("Route Detail")
         
     }
 }
-
-
 
 
 struct StepView: View{
@@ -50,7 +53,7 @@ struct StepView: View{
         ScrollView{
             Spacer()
             HStack{
-                routeSummary(route: route)
+                ItinerarySummary(route: route)
                 VStack{
                     Text("\(route.legs[0].duration.text)")
                         .fontWeight(.semibold)
@@ -180,7 +183,7 @@ struct RouteDetailView_Previews: PreviewProvider {
         let getRoutes: GetRoutes = GetRoutes(destination: destination, origin: origin)
         let route = getRoutes.fetchDemo(destination: destination, origin: origin)
         
-        RouteDetailView(route: route[0])
+        ItinteryView(route: route[0])
             .environmentObject(LocationManager())
     }
 }

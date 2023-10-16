@@ -17,7 +17,7 @@ struct RouteRowView: View{
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack{
                     ForEach(route.legs[0].steps){step in
-                        VStack{
+                        HStack{
                             if (step.travel_mode == TravelMode.TRANSIT){
                                 switch step.transit_details?.line?.vehicle?.type{
                                 case .BUS, .INTERCITY_BUS, .OTHER, .TROLLEYBUS:
@@ -46,6 +46,7 @@ struct RouteRowView: View{
                                     .foregroundStyle(Color(.white))
                                     .font(.caption2)
                                     .fontWeight(.semibold)
+                                    .frame(maxWidth: 100)
                                     .lineLimit(3)
                                 
                             }else if (step.travel_mode == TravelMode.BICLYING){
@@ -63,8 +64,9 @@ struct RouteRowView: View{
                                 }
                             }
                         }
-//                        .frame(maxWidth: 60)
                         .padding(.vertical)
+//                        .frame(maxWidth: 80)
+
                     }
                 }
                 

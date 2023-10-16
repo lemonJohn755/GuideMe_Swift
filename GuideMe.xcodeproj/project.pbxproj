@@ -12,7 +12,7 @@
 		7742278A2AC1E8FC0025D6FE /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774227892AC1E8FC0025D6FE /* Pin.swift */; };
 		774C1E6D2AAB52EF00FC75F3 /* DirectionSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774C1E6C2AAB52EF00FC75F3 /* DirectionSearchView.swift */; };
 		776568BD2ACB1A20003587D8 /* sample_responses in Resources */ = {isa = PBXBuildFile; fileRef = 776568BC2ACB1A20003587D8 /* sample_responses */; };
-		7769ECB92ADC596C003B850C /* RouteSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7769ECB82ADC596C003B850C /* RouteSummary.swift */; };
+		7769ECB92ADC596C003B850C /* ItinerarySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7769ECB82ADC596C003B850C /* ItinerarySummary.swift */; };
 		778B6BA72AA9F39600260C8F /* GuideMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B6BA62AA9F39600260C8F /* GuideMeApp.swift */; };
 		778B6BA92AA9F39600260C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778B6BA82AA9F39600260C8F /* ContentView.swift */; };
 		778B6BAB2AA9F39700260C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778B6BAA2AA9F39700260C8F /* Assets.xcassets */; };
@@ -24,7 +24,8 @@
 		778FD0EC2AB090A100BF12EC /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FD0EB2AB090A100BF12EC /* Destination.swift */; };
 		77941C3A2AAA11D000A4AF40 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77941C392AAA11D000A4AF40 /* Place.swift */; };
 		77941C3C2AAA152900A4AF40 /* SearchPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77941C3B2AAA152900A4AF40 /* SearchPlace.swift */; };
-		77A2BDE12ACF19270086B25E /* RouteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A2BDE02ACF19270086B25E /* RouteDetailView.swift */; };
+		77A1F3352ADD1AA40028A140 /* Polyline in Frameworks */ = {isa = PBXBuildFile; productRef = 77A1F3342ADD1AA40028A140 /* Polyline */; };
+		77A2BDE12ACF19270086B25E /* ItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A2BDE02ACF19270086B25E /* ItineraryView.swift */; };
 		77CDE6112AD54A8F00884F09 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CDE6102AD54A8F00884F09 /* MapView.swift */; };
 		77E400792ABF40D600E12253 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E400782ABF40D600E12253 /* Color.swift */; };
 		77E4007B2ABF434100E12253 /* RouteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E4007A2ABF434100E12253 /* RouteRowView.swift */; };
@@ -54,7 +55,7 @@
 		774C1E6C2AAB52EF00FC75F3 /* DirectionSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionSearchView.swift; sourceTree = "<group>"; };
 		776568BC2ACB1A20003587D8 /* sample_responses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sample_responses; sourceTree = "<group>"; };
 		776568C32ACB2BEF003587D8 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
-		7769ECB82ADC596C003B850C /* RouteSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSummary.swift; sourceTree = "<group>"; };
+		7769ECB82ADC596C003B850C /* ItinerarySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItinerarySummary.swift; sourceTree = "<group>"; };
 		778B6BA32AA9F39600260C8F /* GuideMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuideMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778B6BA62AA9F39600260C8F /* GuideMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideMeApp.swift; sourceTree = "<group>"; };
 		778B6BA82AA9F39600260C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,7 +71,7 @@
 		77941C392AAA11D000A4AF40 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		77941C3B2AAA152900A4AF40 /* SearchPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlace.swift; sourceTree = "<group>"; };
 		77941C3D2AAA21BA00A4AF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		77A2BDE02ACF19270086B25E /* RouteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailView.swift; sourceTree = "<group>"; };
+		77A2BDE02ACF19270086B25E /* ItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryView.swift; sourceTree = "<group>"; };
 		77CDE6102AD54A8F00884F09 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		77E400782ABF40D600E12253 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		77E4007A2ABF434100E12253 /* RouteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteRowView.swift; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A1F3352ADD1AA40028A140 /* Polyline in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,9 +110,9 @@
 				774C1E6C2AAB52EF00FC75F3 /* DirectionSearchView.swift */,
 				77E4007A2ABF434100E12253 /* RouteRowView.swift */,
 				77E400782ABF40D600E12253 /* Color.swift */,
-				77A2BDE02ACF19270086B25E /* RouteDetailView.swift */,
+				77A2BDE02ACF19270086B25E /* ItineraryView.swift */,
 				77CDE6102AD54A8F00884F09 /* MapView.swift */,
-				7769ECB82ADC596C003B850C /* RouteSummary.swift */,
+				7769ECB82ADC596C003B850C /* ItinerarySummary.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -141,9 +143,9 @@
 			children = (
 				776568BC2ACB1A20003587D8 /* sample_responses */,
 				77941C3D2AAA21BA00A4AF40 /* Info.plist */,
+				778B6BA62AA9F39600260C8F /* GuideMeApp.swift */,
 				77941C382AAA11BD00A4AF40 /* Model */,
 				77941C372AAA0A5200A4AF40 /* ViewModel */,
-				778B6BA62AA9F39600260C8F /* GuideMeApp.swift */,
 				774C1E6B2AAB528200FC75F3 /* View */,
 				778B6BAA2AA9F39700260C8F /* Assets.xcassets */,
 				778B6BAC2AA9F39700260C8F /* Preview Content */,
@@ -213,6 +215,9 @@
 			dependencies = (
 			);
 			name = GuideMe;
+			packageProductDependencies = (
+				77A1F3342ADD1AA40028A140 /* Polyline */,
+			);
 			productName = GuideMe;
 			productReference = 778B6BA32AA9F39600260C8F /* GuideMe.app */;
 			productType = "com.apple.product-type.application";
@@ -285,6 +290,9 @@
 				Base,
 			);
 			mainGroup = 778B6B9A2AA9F39600260C8F;
+			packageReferences = (
+				77A1F3332ADD1AA40028A140 /* XCRemoteSwiftPackageReference "Polyline" */,
+			);
 			productRefGroup = 778B6BA42AA9F39600260C8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -329,11 +337,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				778B6BA92AA9F39600260C8F /* ContentView.swift in Sources */,
-				77A2BDE12ACF19270086B25E /* RouteDetailView.swift in Sources */,
+				77A2BDE12ACF19270086B25E /* ItineraryView.swift in Sources */,
 				778B6BA72AA9F39600260C8F /* GuideMeApp.swift in Sources */,
 				77E400792ABF40D600E12253 /* Color.swift in Sources */,
 				7742278A2AC1E8FC0025D6FE /* Pin.swift in Sources */,
-				7769ECB92ADC596C003B850C /* RouteSummary.swift in Sources */,
+				7769ECB92ADC596C003B850C /* ItinerarySummary.swift in Sources */,
 				774C1E6D2AAB52EF00FC75F3 /* DirectionSearchView.swift in Sources */,
 				77E4007B2ABF434100E12253 /* RouteRowView.swift in Sources */,
 				77CDE6112AD54A8F00884F09 /* MapView.swift in Sources */,
@@ -678,6 +686,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		77A1F3332ADD1AA40028A140 /* XCRemoteSwiftPackageReference "Polyline" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raphaelmor/Polyline.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		77A1F3342ADD1AA40028A140 /* Polyline */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77A1F3332ADD1AA40028A140 /* XCRemoteSwiftPackageReference "Polyline" */;
+			productName = Polyline;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 778B6B9B2AA9F39600260C8F /* Project object */;
 }
