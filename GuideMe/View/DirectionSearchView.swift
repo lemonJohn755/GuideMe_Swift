@@ -111,24 +111,25 @@ struct DirectionSearchView: View {
                     ForEach (getRoutes.routes){ route in
                         NavigationLink(destination: ItinteryView(route: route)) {
                             RouteRowView(route: route)
+                                .foregroundStyle(Color.primary)
                         }
                         Divider()
 
                     }
+                    
                     Text(getRoutes.routes.first?.copyrights ?? "")
                         .font(.caption)
-                        .foregroundStyle(Color(.gray))
+                        .foregroundStyle(Color.gray)
                 }
                 
             }
-
             .navigationTitle("Route Suggestion")
             .onAppear(){
                 // Read sample API response
-                getRoutes.fetchDemo(destination: destination, origin: Origin(lat: locationManager.region.center.latitude, long: locationManager.region.center.longitude))
+//                getRoutes.fetchDemo(destination: destination, origin: Origin(lat: locationManager.region.center.latitude, long: locationManager.region.center.longitude))
                 
                 // Call Direction API
-                //            getRoutes.fetch(destination: destination, origin: Origin(lat: locationManager.region.center.latitude, long: locationManager.region.center.longitude))
+                getRoutes.fetch(destination: destination, origin: Origin(lat: locationManager.region.center.latitude, long: locationManager.region.center.longitude))
             }
         }
         

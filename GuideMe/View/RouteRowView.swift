@@ -11,7 +11,6 @@ struct RouteRowView: View{
     
     @State var route: Route
     
-    
     var body: some View {
         HStack{
             ScrollView(.horizontal, showsIndicators: false) {
@@ -61,7 +60,8 @@ struct RouteRowView: View{
                                     Text(String(Int(ceil(Double(step.duration.value/60)))))
                                         .font(.caption2)
                                         .fontWeight(.light)
-                                }
+                                }                                        
+
                             }
                         }
                         .padding(.vertical)
@@ -69,7 +69,6 @@ struct RouteRowView: View{
 
                     }
                 }
-                
 
             }
             
@@ -87,6 +86,7 @@ struct RouteRowView: View{
                 }
                 
             }
+//            .foregroundStyle(Color.black)
             .frame(alignment: .trailing)
             .font(.callout)
             .lineLimit(1)
@@ -95,9 +95,7 @@ struct RouteRowView: View{
         .frame(alignment: .leading)
         .font(.title2)
         .padding(.horizontal)
-        .foregroundColor(Color(.black))
         
-        Divider()
     }
 }
 

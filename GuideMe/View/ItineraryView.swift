@@ -25,7 +25,7 @@ struct ItinteryView: View {
         GeometryReader { proxy in
             
             VStack{
-                MapView(colorHex: $colorHex, position: $position, points: decodedCoordinates)
+                ItineraryMapView(colorHex: $colorHex, position: $position, points: decodedCoordinates)
                     .frame(maxHeight: proxy.size.height * 0.7)
             }
             .sheet(isPresented: $showSheet) {
@@ -121,11 +121,11 @@ struct StepView: View{
                                 image
                                     .resizable()
                                     .aspectRatio(contentMode: .fill)
-                                
                             } placeholder: {
                                 Color.gray
                             }
                             .frame(width: 20, height: 20)
+                            
                             Text((step.transit_details?.line?.short_name ?? step.transit_details?.line?.name) ?? "")
                                 .padding(8)
                                 .foregroundStyle(Color(hex: step.transit_details?.line?.text_color ?? "#FFFFFF"))
@@ -133,6 +133,10 @@ struct StepView: View{
                                 .cornerRadius(8)
                                 .foregroundStyle(Color(.white))
                             Text(step.transit_details?.headsign ?? "")
+                            
+//                            Label("Info", systemImage: "info.circle")
+//                                .labelStyle(.iconOnly)
+//                                .frame(maxWidth: 30, alignment: .center)
                         }
                         .font(.subheadline)
                         
