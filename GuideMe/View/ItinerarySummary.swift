@@ -38,6 +38,7 @@ struct ItinerarySummary: View{
                             
                             Text(step.transit_details?.line?.short_name ?? step.transit_details?.line?.name ?? "")
                                 .padding(5)
+                                .foregroundStyle(Color(hex: step.transit_details?.line?.text_color ?? "#FFFFFF"))
                                 .background(Color(hex: step.transit_details?.line?.color ?? ""))
                                 .cornerRadius(3)
                                 .foregroundStyle(Color(.white))
